@@ -26,11 +26,11 @@ Useage: java -Xmx5g -cp dalipipeline.jar dali.main.Pipeline [Options]
 | -g,-w | The type of the input document, -g: Gutenberg; -w: Wikipedia; |-g |
 | -mate,-dozat | The parser you would like to use for parsing, -mate: Bohnet and Nivre (2012) -dozat: Dozat and Manning (2016); | -mate|
 |-startFile|If you use the Dozat parser, you could specify the location of the main file; |DozatParser/P27/network.py|
-|-input <dir>|The directory that contains the documents to be processed; |input/|
-|-output <dir>	|The directory to output the processed documents; |output/| 
-|-tmodel <file>	|The location of the model for part-of-speech; |models/english-bidirectional-distsim.tagger| 
-|-pmodel <dir> |The location of the parsing model of the Mate parser or (-save_dir) of the Dozat parser; |models/chen-indomain-mate-Baseline-rescore-model-joint|
-|-xsl <file> |The location of the xsl file required by the sgf converter; |models/MASXML2SGF.xsl|
+|-input \<dir\>|The directory that contains the documents to be processed; |input/|
+|-output \<dir\>	|The directory to output the processed documents; |output/| 
+|-tmodel \<file\>	|The location of the model for part-of-speech; |models/english-bidirectional-distsim.tagger| 
+|-pmodel \<dir\> |The location of the parsing model of the Mate parser or (-save_dir) of the Dozat parser; |models/chen-indomain-mate-Baseline-rescore-model-joint|
+|-xsl \<file\> |The location of the xsl file required by the sgf converter; |models/MASXML2SGF.xsl|
 |-dali -masxml -sgf -conll -mmax		|The output format of the documents; |-dali -masxml -sgf|
 
 
@@ -47,9 +47,9 @@ Useage: java -cp dalipipeline.jar dali.main.Converter [Options]
 | Options | Descriptions |Default|
 | :--- | :--- | :---|
 |--help, -h|Help||
-|-inFormat [dali\|masxml\|conll\|mmax]|The input file format;| dali|
-|-input <dir>	|The directory that contains the documents to be converted; |input/|  
-|-output <dir>|The directory to output the converted documents; |output/|
-|-xsl <file> 	|The location of the xsl file required by the sgf converter; |models/MASXML2SGF.xsl|
+|-inFormat [dali \| masxml \| conll \| mmax]|The input file format;| dali|
+|-input \<dir\>	|The directory that contains the documents to be converted; |input/|  
+|-output \<dir\>|The directory to output the converted documents; |output/|
+|-xsl \<file\> 	|The location of the xsl file required by the sgf converter; |models/MASXML2SGF.xsl|
 |-dali -masxml -sgf -conll -mmax|The output format of the documents; |-dali -masxml -sgf|
 
