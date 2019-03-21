@@ -23,8 +23,8 @@ Useage: java -Xmx5g -cp dalipipeline.jar dali.main.Pipeline [Options]
 | Options | Descriptions |Default|
 | :--- | :--- | :---|
 | --help,-h | Help ||
-| -g,-w | The type of the input document, -g: Gutenberg; -w: Wikipedia; |-g |
-| -mate,-dozat | The parser you would like to use for parsing, -mate: Bohnet and Nivre (2012) -dozat: Dozat and Manning (2016); | -mate|
+| -g \| -w | The type of the input document, -g: Gutenberg; -w: Wikipedia; |-g |
+| -mate \| -dozat | The parser you would like to use for parsing, -mate: Bohnet and Nivre (2012) -dozat: Dozat and Manning (2016); | -mate|
 |-startFile|If you use the Dozat parser, you could specify the location of the main file; |DozatParser/P27/network.py|
 |-input \<dir\>|The directory that contains the documents to be processed; |input/|
 |-output \<dir\>	|The directory to output the processed documents; |output/| 
