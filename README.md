@@ -31,7 +31,7 @@ Useage: java -Xmx5g -cp dalipipeline.jar dali.main.Pipeline [Options]
 |-tmodel <file>	|The location of the model for part-of-speech; |models/english-bidirectional-distsim.tagger| 
 |-pmodel <dir> |The location of the parsing model of the Mate parser or (-save_dir) of the Dozat parser; |models/chen-indomain-mate-Baseline-rescore-model-joint|
 |-xsl <file> |The location of the xsl file required by the sgf converter; |models/MASXML2SGF.xsl|
-|-dali -masxml -sgf -conll -mmax		|The output format of the documents; |-dali-masxml-sgf|
+|-dali -masxml -sgf -conll -mmax		|The output format of the documents; |-dali -masxml -sgf|
 
 
 ## Converter
@@ -47,9 +47,9 @@ Useage: java -cp dalipipeline.jar dali.main.Converter [Options]
 | Options | Descriptions |Default|
 | :--- | :--- | :---|
 |--help, -h|Help||
-|-inFormat [dali or masxml or conll or mmax]|The input file format;| dali|
+|-inFormat [dali\|masxml\|conll\|mmax]|The input file format;| dali|
 |-input <dir>	|The directory that contains the documents to be converted; |input/|  
 |-output <dir>|The directory to output the converted documents; |output/|
 |-xsl <file> 	|The location of the xsl file required by the sgf converter; |models/MASXML2SGF.xsl|
-|-dali -masxml -sgf -conll -mmax|The output format of the documents; |-dali-masxml-sgf|
+|-dali -masxml -sgf -conll -mmax|The output format of the documents; |-dali -masxml -sgf|
 
