@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_2" sentenceid="0" min_ids="word_1..word_2" head_ids="word_2" gram_fnc="nsubj" head_words="Wolf" lemmata="a wolf" pos="dt nnp" mmax_level="markable" />
+<markable id="markable_1" span="word_7..word_30" sentenceid="0" min_ids="word_7..word_30" head_ids="word_8" gram_fnc="pobj" head_words="animal" lemmata="an animal he had killed , when suddenly a small bone in the meat stuck in his throat and he could not swallow it" pos="dt nn prp vbd vbn , wrb rb dt jj nn in dt nn vbn in prp$ nn cc prp md rb vb prp" mmax_level="markable" />
+<markable id="markable_2" span="word_9" sentenceid="0" min_ids="word_9..word_9" head_ids="word_9" gram_fnc="nsubj" head_words="he" lemmata="he" pos="prp" mmax_level="markable" />
+<markable id="markable_3" span="word_15..word_20" sentenceid="0" min_ids="word_15..word_20" head_ids="word_17" gram_fnc="nsubj" head_words="bone" lemmata="a small bone in the meat" pos="dt jj nn in dt nn" mmax_level="markable" />
+<markable id="markable_4" span="word_19..word_20" sentenceid="0" min_ids="word_19..word_20" head_ids="word_20" gram_fnc="pobj" head_words="meat" lemmata="the meat" pos="dt nn" mmax_level="markable" />
+<markable id="markable_5" span="word_23" sentenceid="0" min_ids="word_23..word_23" head_ids="word_23" gram_fnc="poss" head_words="his" lemmata="his" pos="prp$" mmax_level="markable" />
+<markable id="markable_6" span="word_23..word_24" sentenceid="0" min_ids="word_23..word_24" head_ids="word_24" gram_fnc="pobj" head_words="throat" lemmata="his throat" pos="prp$ nn" mmax_level="markable" />
+<markable id="markable_7" span="word_26" sentenceid="0" min_ids="word_26..word_26" head_ids="word_26" gram_fnc="nsubj" head_words="he" lemmata="he" pos="prp" mmax_level="markable" />
+<markable id="markable_8" span="word_30" sentenceid="0" min_ids="word_30..word_30" head_ids="word_30" gram_fnc="dobj" head_words="it" lemmata="it" pos="prp" mmax_level="markable" />
+<markable id="markable_9" span="word_32" sentenceid="1" min_ids="word_32..word_32" head_ids="word_32" gram_fnc="nsubj" head_words="He" lemmata="he" pos="prp" mmax_level="markable" />
+<markable id="markable_10" span="word_35..word_36" sentenceid="1" min_ids="word_35..word_36" head_ids="word_36" gram_fnc="dobj" head_words="pain" lemmata="terrible pain" pos="jj nn" mmax_level="markable" />
+<markable id="markable_11" span="word_38" sentenceid="1" min_ids="word_38..word_38" head_ids="word_38" gram_fnc="poss" head_words="his" lemmata="his" pos="prp$" mmax_level="markable" />
+<markable id="markable_12" span="word_38..word_39" sentenceid="1" min_ids="word_38..word_39" head_ids="word_39" gram_fnc="pobj" head_words="throat" lemmata="his throat" pos="prp$ nn" mmax_level="markable" />
+<markable id="markable_13" span="word_52..word_56" sentenceid="1" min_ids="word_52..word_56" head_ids="word_52" gram_fnc="pobj" head_words="something" lemmata="something to relieve the pain" pos="nn to vb dt nn" mmax_level="markable" />
+<markable id="markable_14" span="word_55..word_56" sentenceid="1" min_ids="word_55..word_56" head_ids="word_56" gram_fnc="dobj" head_words="pain" lemmata="the pain" pos="dt nn" mmax_level="markable" />
+<markable id="markable_15" span="word_58" sentenceid="2" min_ids="word_58..word_58" head_ids="word_58" gram_fnc="nsubj" head_words="He" lemmata="he" pos="prp" mmax_level="markable" />
+<markable id="markable_16" span="word_62..word_69" sentenceid="2" min_ids="word_62..word_69" head_ids="word_63" gram_fnc="dobj" head_words="one" lemmata="every one he met to remove the bone" pos="dt nn prp vbd to vb dt nn" mmax_level="markable" />
+<markable id="markable_17" span="word_64" sentenceid="2" min_ids="word_64..word_64" head_ids="word_64" gram_fnc="nsubj" head_words="he" lemmata="he" pos="prp" mmax_level="markable" />
+<markable id="markable_18" span="word_68..word_69" sentenceid="2" min_ids="word_68..word_69" head_ids="word_69" gram_fnc="dobj" head_words="bone" lemmata="the bone" pos="dt nn" mmax_level="markable" />
+<markable id="markable_19" span="word_72" sentenceid="3" min_ids="word_72..word_72" head_ids="word_72" gram_fnc="nsubj" head_words="I" lemmata="i" pos="prp" mmax_level="markable" />
+<markable id="markable_20" span="word_75" sentenceid="3" min_ids="word_75..word_75" head_ids="word_75" gram_fnc="dobj" head_words="anything" lemmata="anything" pos="nn" mmax_level="markable" />
+<markable id="markable_21" span="word_79" sentenceid="3" min_ids="word_79..word_79" head_ids="word_79" gram_fnc="nsubj" head_words="he" lemmata="he" pos="prp" mmax_level="markable" />
+<markable id="markable_22" span="word_83" sentenceid="3" min_ids="word_83..word_83" head_ids="word_83" gram_fnc="nsubj" head_words="you" lemmata="you" pos="prp" mmax_level="markable" />
+<markable id="markable_23" span="word_86" sentenceid="3" min_ids="word_86..word_86" head_ids="word_86" gram_fnc="dobj" head_words="it" lemmata="it" pos="prp" mmax_level="markable" />
+<markable id="markable_24" span="word_92..word_93" sentenceid="4" min_ids="word_92..word_93" head_ids="word_93" gram_fnc="nsubj" head_words="Crane" lemmata="the crane" pos="dt nnp" mmax_level="markable" />
+<markable id="markable_25" span="word_100..word_101" sentenceid="4" min_ids="word_100..word_101" head_ids="word_101" gram_fnc="dobj" head_words="Wolf" lemmata="the wolf" pos="dt nnp" mmax_level="markable" />
+<markable id="markable_26" span="word_105" sentenceid="4" min_ids="word_105..word_105" head_ids="word_105" gram_fnc="poss" head_words="his" lemmata="his" pos="prp$" mmax_level="markable" />
+<markable id="markable_27" span="word_105..word_106" sentenceid="4" min_ids="word_105..word_106" head_ids="word_106" gram_fnc="pobj" head_words="side" lemmata="his side" pos="prp$ nn" mmax_level="markable" />
+<markable id="markable_28" span="word_109" sentenceid="4" min_ids="word_109..word_109" head_ids="word_109" gram_fnc="poss" head_words="his" lemmata="his" pos="prp$" mmax_level="markable" />
+<markable id="markable_29" span="word_109..word_110" sentenceid="4" min_ids="word_109..word_110" head_ids="word_110" gram_fnc="dobj" head_words="jaws" lemmata="his jaws" pos="prp$ nns" mmax_level="markable" />
+<markable id="markable_30" span="word_114" sentenceid="4" min_ids="word_114..word_114" head_ids="word_114" gram_fnc="nsubj" head_words="he" lemmata="he" pos="prp" mmax_level="markable" />
+<markable id="markable_31" span="word_118..word_119" sentenceid="5" min_ids="word_118..word_119" head_ids="word_119" gram_fnc="nsubj" head_words="Crane" lemmata="the crane" pos="dt nnp" mmax_level="markable" />
+<markable id="markable_32" span="word_121" sentenceid="5" min_ids="word_121..word_121" head_ids="word_121" gram_fnc="poss" head_words="its" lemmata="its" pos="prp$" mmax_level="markable" />
+<markable id="markable_33" span="word_121..word_123" sentenceid="5" min_ids="word_121..word_123" head_ids="word_123" gram_fnc="dobj" head_words="neck" lemmata="its long neck" pos="prp$ jj nn" mmax_level="markable" />
+<markable id="markable_34" span="word_125..word_127" sentenceid="5" min_ids="word_125..word_127" head_ids="word_126" gram_fnc="poss" head_words="Wolf" lemmata="the wolf &apos;s" pos="dt nnp pos" mmax_level="markable" />
+<markable id="markable_35" span="word_125..word_128" sentenceid="5" min_ids="word_125..word_128" head_ids="word_128" gram_fnc="pobj" head_words="throat" lemmata="the wolf &apos;s throat" pos="dt nnp pos nn" mmax_level="markable" />
+<markable id="markable_36" span="word_132" sentenceid="5" min_ids="word_132..word_132" head_ids="word_132" gram_fnc="poss" head_words="its" lemmata="its" pos="prp$" mmax_level="markable" />
+<markable id="markable_37" span="word_132..word_133" sentenceid="5" min_ids="word_132..word_133" head_ids="word_133" gram_fnc="pobj" head_words="beak" lemmata="its beak" pos="prp$ nn" mmax_level="markable" />
+<markable id="markable_38" span="word_135..word_136" sentenceid="5" min_ids="word_135..word_136" head_ids="word_136" gram_fnc="dobj" head_words="bone" lemmata="the bone" pos="dt nn" mmax_level="markable" />
+<markable id="markable_39" span="word_141" sentenceid="5" min_ids="word_141..word_141" head_ids="word_141" gram_fnc="nsubj" head_words="it" lemmata="it" pos="prp" mmax_level="markable" />
+<markable id="markable_40" span="word_143" sentenceid="5" min_ids="word_143..word_143" head_ids="word_143" gram_fnc="dobj" head_words="it" lemmata="it" pos="prp" mmax_level="markable" />
+<markable id="markable_41" span="word_148" sentenceid="6" min_ids="word_148..word_148" head_ids="word_148" gram_fnc="nsubj" head_words="you" lemmata="you" pos="prp" mmax_level="markable" />
+<markable id="markable_42" span="word_151" sentenceid="6" min_ids="word_151..word_151" head_ids="word_151" gram_fnc="iobj" head_words="me" lemmata="me" pos="prp" mmax_level="markable" />
+<markable id="markable_43" span="word_152..word_155" sentenceid="6" min_ids="word_152..word_155" head_ids="word_153" gram_fnc="dobj" head_words="reward" lemmata="the reward you promised" pos="dt nn prp vbd" mmax_level="markable" />
+<markable id="markable_44" span="word_154" sentenceid="6" min_ids="word_154..word_154" head_ids="word_154" gram_fnc="nsubj" head_words="you" lemmata="you" pos="prp" mmax_level="markable" />
+<markable id="markable_45" span="word_159..word_160" sentenceid="7" min_ids="word_159..word_160" head_ids="word_160" gram_fnc="nsubj" head_words="Crane" lemmata="the crane" pos="dt nnp" mmax_level="markable" />
+<markable id="markable_46" span="word_162..word_163" sentenceid="8" min_ids="word_162..word_163" head_ids="word_163" gram_fnc="nsubj" head_words="Wolf" lemmata="the wolf" pos="dt nnp" mmax_level="markable" />
+<markable id="markable_47" span="word_167" sentenceid="8" min_ids="word_167..word_167" head_ids="word_167" gram_fnc="poss" head_words="his" lemmata="his" pos="prp$" mmax_level="markable" />
+<markable id="markable_48" span="word_167..word_168" sentenceid="8" min_ids="word_167..word_168" head_ids="word_168" gram_fnc="dobj" head_words="teeth" lemmata="his teeth" pos="prp$ nns" mmax_level="markable" />
+<markable id="markable_49" span="word_174" sentenceid="8" min_ids="word_174..word_174" head_ids="word_174" gram_fnc="ccomp" head_words="content" lemmata="content" pos="nn" mmax_level="markable" />
+<markable id="markable_50" span="word_176" sentenceid="9" min_ids="word_176..word_176" head_ids="word_176" gram_fnc="nsubj" head_words="You" lemmata="you" pos="prp" mmax_level="markable" />
+<markable id="markable_51" span="word_179" sentenceid="9" min_ids="word_179..word_179" head_ids="word_179" gram_fnc="poss" head_words="your" lemmata="your" pos="prp$" mmax_level="markable" />
+<markable id="markable_52" span="word_179..word_180" sentenceid="9" min_ids="word_179..word_180" head_ids="word_180" gram_fnc="dobj" head_words="head" lemmata="your head" pos="prp$ nn" mmax_level="markable" />
+<markable id="markable_53" span="word_182..word_184" sentenceid="9" min_ids="word_182..word_184" head_ids="word_183" gram_fnc="poss" head_words="Wolf" lemmata="a wolf &apos;s" pos="dt nnp pos" mmax_level="markable" />
+<markable id="markable_54" span="word_182..word_185" sentenceid="9" min_ids="word_182..word_185" head_ids="word_185" gram_fnc="pobj" head_words="mouth" lemmata="a wolf &apos;s mouth" pos="dt nnp pos nn" mmax_level="markable" />
+<markable id="markable_55" span="word_188" sentenceid="9" min_ids="word_188..word_188" head_ids="word_188" gram_fnc="dobj" head_words="it" lemmata="it" pos="prp" mmax_level="markable" />
+<markable id="markable_56" span="word_192" sentenceid="9" min_ids="word_192..word_192" head_ids="word_192" gram_fnc="pobj" head_words="safety" lemmata="safety" pos="nn" mmax_level="markable" />
+<markable id="markable_57" span="word_198..word_201" sentenceid="9" min_ids="word_198..word_201" head_ids="word_198" gram_fnc="xcomp" head_words="reward" lemmata="reward enough for you" pos="nn rb in prp" mmax_level="markable" />
+<markable id="markable_58" span="word_201" sentenceid="9" min_ids="word_201..word_201" head_ids="word_201" gram_fnc="pobj" head_words="you" lemmata="you" pos="prp" mmax_level="markable" />
+<markable id="markable_59" span="word_204..word_206" sentenceid="10" min_ids="word_204..word_206" head_ids="word_204" gram_fnc="nsubj" head_words="Gratitude" lemmata="gratitude and greed" pos="nn cc nn" mmax_level="markable" />
+</markables>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE header SYSTEM "arrau_header.dtd">
+<header>
+ <fileDesc>
+  <titleStmt>
+   <title>Fairy Tales - King Grisly-Beard</title>
+   <author>The Brothers Grimm</author>
+  </titleStmt>
+  <publicationStmt>
+   <web>
+    <publisher>Gutenberg Project</publisher>
+    <url>http://www.gutenberg.org/files/grimm10/grimm10.txt</url>
+   </web>
+   <availability>This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org</availability>
+   <date>April, 2001</date>
+  </publicationStmt>
+  <sourceDesc>
+   <filename>data\game\gutenberg\grimm10cg.txt</filename>
+   <date>October 2008</date>
+  </sourceDesc>
+ </fileDesc>
+ <revisionDesc>
+  <change>
+   <date>25 July 2017</date>
+   <respStmt>
+    <name>Juntao Yu</name>
+    <resp>Automatic Processing</resp>
+   </respStmt>
+   <TEIitem>Mentions extracted from dependency parser</TEIitem>
+  </change>
+  <change>
+   <date>27 October 2008</date>
+   <respStmt>
+    <name>Jon Chamberlain</name>
+    <resp>Annotator</resp>
+   </respStmt>
+   <TEIitem>File prepared for processing and added header</TEIitem>
+  </change>
+ </revisionDesc>
+</header>

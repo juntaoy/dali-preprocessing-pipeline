@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/layout">
+<markable id="markable_0" span="word_1..word_78" mmax_level="layout" type="paragraph" />
+<markable id="markable_1" span="word_79..word_197" mmax_level="layout" type="paragraph" />
+<markable id="markable_2" span="word_198..word_219" mmax_level="layout" type="paragraph" />
+<markable id="markable_3" span="word_220..word_268" mmax_level="layout" type="paragraph" />
+<markable id="markable_4" span="word_269..word_279" mmax_level="layout" type="paragraph" />
+<markable id="markable_5" span="word_280..word_287" mmax_level="layout" type="paragraph" />
+<markable id="markable_6" span="word_288..word_297" mmax_level="layout" type="paragraph" />
+<markable id="markable_7" span="word_298..word_304" mmax_level="layout" type="paragraph" />
+<markable id="markable_8" span="word_305..word_314" mmax_level="layout" type="paragraph" />
+<markable id="markable_9" span="word_315..word_339" mmax_level="layout" type="paragraph" />
+<markable id="markable_10" span="word_340..word_350" mmax_level="layout" type="paragraph" />
+<markable id="markable_11" span="word_351..word_389" mmax_level="layout" type="paragraph" />
+<markable id="markable_12" span="word_390..word_513" mmax_level="layout" type="paragraph" />
+<markable id="markable_13" span="word_514..word_624" mmax_level="layout" type="paragraph" />
+<markable id="markable_14" span="word_625..word_640" mmax_level="layout" type="paragraph" />
+<markable id="markable_15" span="word_641..word_646" mmax_level="layout" type="paragraph" />
+<markable id="markable_16" span="word_647..word_668" mmax_level="layout" type="paragraph" />
+<markable id="markable_17" span="word_669..word_692" mmax_level="layout" type="paragraph" />
+<markable id="markable_18" span="word_693..word_742" mmax_level="layout" type="paragraph" />
+<markable id="markable_19" span="word_743..word_782" mmax_level="layout" type="paragraph" />
+<markable id="markable_20" span="word_783..word_879" mmax_level="layout" type="paragraph" />
+<markable id="markable_21" span="word_880..word_896" mmax_level="layout" type="paragraph" />
+<markable id="markable_22" span="word_897..word_912" mmax_level="layout" type="paragraph" />
+<markable id="markable_23" span="word_913..word_927" mmax_level="layout" type="paragraph" />
+<markable id="markable_24" span="word_928..word_939" mmax_level="layout" type="paragraph" />
+<markable id="markable_25" span="word_940..word_951" mmax_level="layout" type="paragraph" />
+<markable id="markable_26" span="word_952..word_960" mmax_level="layout" type="paragraph" />
+<markable id="markable_27" span="word_961..word_976" mmax_level="layout" type="paragraph" />
+<markable id="markable_28" span="word_977..word_985" mmax_level="layout" type="paragraph" />
+<markable id="markable_29" span="word_986..word_1007" mmax_level="layout" type="paragraph" />
+<markable id="markable_30" span="word_1008..word_1278" mmax_level="layout" type="paragraph" />
+<markable id="markable_31" span="word_1279..word_1354" mmax_level="layout" type="paragraph" />
+<markable id="markable_32" span="word_1355..word_1698" mmax_level="layout" type="paragraph" />
+</markables>

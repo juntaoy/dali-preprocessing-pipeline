@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/layout">
+<markable id="markable_0" span="word_1..word_254" mmax_level="layout" type="paragraph" />
+<markable id="markable_1" span="word_255..word_411" mmax_level="layout" type="paragraph" />
+<markable id="markable_2" span="word_412..word_431" mmax_level="layout" type="paragraph" />
+<markable id="markable_3" span="word_432..word_456" mmax_level="layout" type="paragraph" />
+<markable id="markable_4" span="word_457..word_476" mmax_level="layout" type="paragraph" />
+<markable id="markable_5" span="word_477..word_550" mmax_level="layout" type="paragraph" />
+<markable id="markable_6" span="word_551..word_676" mmax_level="layout" type="paragraph" />
+<markable id="markable_7" span="word_677..word_748" mmax_level="layout" type="paragraph" />
+<markable id="markable_8" span="word_749..word_849" mmax_level="layout" type="paragraph" />
+<markable id="markable_9" span="word_850..word_1004" mmax_level="layout" type="paragraph" />
+<markable id="markable_10" span="word_1005..word_1027" mmax_level="layout" type="paragraph" />
+<markable id="markable_11" span="word_1028..word_1209" mmax_level="layout" type="paragraph" />
+<markable id="markable_12" span="word_1210..word_1274" mmax_level="layout" type="paragraph" />
+<markable id="markable_13" span="word_1275..word_1303" mmax_level="layout" type="paragraph" />
+<markable id="markable_14" span="word_1304..word_1355" mmax_level="layout" type="paragraph" />
+<markable id="markable_15" span="word_1356..word_1375" mmax_level="layout" type="paragraph" />
+<markable id="markable_16" span="word_1376..word_1386" mmax_level="layout" type="paragraph" />
+<markable id="markable_17" span="word_1387..word_1397" mmax_level="layout" type="paragraph" />
+<markable id="markable_18" span="word_1398..word_1502" mmax_level="layout" type="paragraph" />
+<markable id="markable_19" span="word_1503..word_1513" mmax_level="layout" type="paragraph" />
+<markable id="markable_20" span="word_1514..word_1568" mmax_level="layout" type="paragraph" />
+<markable id="markable_21" span="word_1569..word_1579" mmax_level="layout" type="paragraph" />
+<markable id="markable_22" span="word_1580..word_1602" mmax_level="layout" type="paragraph" />
+<markable id="markable_23" span="word_1603..word_1613" mmax_level="layout" type="paragraph" />
+<markable id="markable_24" span="word_1614..word_1696" mmax_level="layout" type="paragraph" />
+<markable id="markable_25" span="word_1697..word_1747" mmax_level="layout" type="paragraph" />
+</markables>

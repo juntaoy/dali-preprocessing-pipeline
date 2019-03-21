@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/layout">
+<markable id="markable_0" span="word_1..word_145" mmax_level="layout" type="paragraph" />
+<markable id="markable_1" span="word_146..word_161" mmax_level="layout" type="paragraph" />
+<markable id="markable_2" span="word_162..word_203" mmax_level="layout" type="paragraph" />
+<markable id="markable_3" span="word_204..word_210" mmax_level="layout" type="paragraph" />
+</markables>

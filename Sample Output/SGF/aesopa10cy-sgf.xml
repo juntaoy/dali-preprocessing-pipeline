@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sgf:corpusData xmlns="http://www.text-technology.de/sekimo"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns:sgf="http://www.text-technology.de/sekimo"
+                xsi:schemaLocation="http://www.text-technology.de/sekimo http://coli.lili.uni-bielefeld.de/Texttechnologie/Forschergruppe/sekimo/sgf/sgf.xsd"
+                sgfVersion="1.0"
+                type="text"
+                xml:id="aesopa10cy-masxml">
+   <sgf:meta>
+      <header xmlns="http://www.text-technology.de/anawiki/meta">
+         <fileDesc>
+            <titleStmt>
+               <title>The Wolf and the Crane</title>
+               <author>Aesop</author>
+            </titleStmt>
+            <publicationStmt>
+               <web>
+                  <publisher>Gutenberg Project</publisher>
+                  <url>http://www.gutenberg.org/files/aesopa10/aesopa10.txt</url>
+               </web>
+               <availability>This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org</availability>
+               <date>March 8, 1992</date>
+            </publicationStmt>
+            <sourceDesc>
+               <filename>data\game\gutenberg\aesopa10cy.txt</filename>
+               <date>October 2008</date>
+            </sourceDesc>
+         </fileDesc>
+         <revisionDesc>
+            <change>
+               <date>25 July 2017</date>
+               <respStmt>
+                  <name>Juntao Yu</name>
+                  <resp>Automatic Processing</resp>
+               </respStmt>
+               <TEIitem>Mentions extracted from dependency parser</TEIitem>
+            </change>
+            <change>
+               <date>28 October 2008</date>
+               <respStmt>
+                  <name>Jon Chamberlain</name>
+                  <resp>Annotator</resp>
+               </respStmt>
+               <TEIitem>File prepared for processing and added header</TEIitem>
+            </change>
+         </revisionDesc>
+      </header>
+   </sgf:meta>
+   <sgf:primaryData start="0" end="935">
+      <textualContent>A Wolf had been gorging on an animal he had killed , when suddenly a small bone in the meat stuck in his throat and he could not swallow it . He soon felt terrible pain in his throat , and ran up and down groaning and groaning and seeking for something to relieve the pain . He tried to induce every one he met to remove the bone . " I would give anything , " said he , " if you would take it out . " At last the Crane agreed to try , and told the Wolf to lie on his side and open his jaws as wide as he could . Then the Crane put its long neck down the Wolf 's throat , and with its beak loosened the bone , till at last it got it out .
+
+" Will you kindly give me the reward you promised ? " said the Crane . The Wolf grinned and showed his teeth and said : " Be content . You have put your head inside a Wolf 's mouth and taken it out again in safety ; that ought to be reward enough for you . " Gratitude and greed go not together .</textualContent>
+   </sgf:primaryData>
+   <sgf:segments>
+      <sgf:segment xml:id="seg1" type="char" start="0" end="935"/>
+      <sgf:segment xml:id="seg2" type="char" start="0" end="637"/>
+      <sgf:segment xml:id="seg3" type="char" start="0" end="141"/>
+      <sgf:segment xml:id="seg4" type="char" start="0" end="6"/>
+      <sgf:segment xml:id="seg5" type="char" start="0" end="1"/>
+      <sgf:segment xml:id="seg6" charref="32" type="ws" start="1" end="2"/>
+      <sgf:segment xml:id="seg7" type="char" start="2" end="6"/>
+      <sgf:segment xml:id="seg8" charref="32" type="ws" start="6" end="7"/>
+      <sgf:segment xml:id="seg9" type="char" start="7" end="10"/>
+      <sgf:segment xml:id="seg10" charref="32" type="ws" start="10" end="11"/>
+      <sgf:segment xml:id="seg11" type="char" start="11" end="15"/>
+      <sgf:segment xml:id="seg12" charref="32" type="ws" start="15" end="16"/>
+      <sgf:segment xml:id="seg13" type="char" start="16" end="23"/>
+      <sgf:segment xml:id="seg14" charref="32" type="ws" start="23" end="24"/>
+      <sgf:segment xml:id="seg15" type="char" start="24" end="26"/>
+      <sgf:segment xml:id="seg16" charref="32" type="ws" start="26" end="27"/>
+      <sgf:segment xml:id="seg17" type="char" start="27" end="139"/>
+      <sgf:segment xml:id="seg18" type="char" start="27" end="29"/>
+      <sgf:segment xml:id="seg19" charref="32" type="ws" start="29" end="30"/>
+      <sgf:segment xml:id="seg20" type="char" start="30" end="36"/>
+      <sgf:segment xml:id="seg21" charref="32" type="ws" start="36" end="37"/>
+      <sgf:segment xml:id="seg22" type="char" start="37" end="39"/>
+      <sgf:segment xml:id="seg23" charref="32" type="ws" start="39" end="40"/>
+      <sgf:segment xml:id="seg24" type="char" start="40" end="43"/>
+      <sgf:segment xml:id="seg25" charref="32" type="ws" start="43" end="44"/>
+      <sgf:segment xml:id="seg26" type="char" start="44" end="50"/>
+      <sgf:segment xml:id="seg27" charref="32" type="ws" start="50" end="51"/>
+      <sgf:segment xml:id="seg28" type="char" start="51" end="52"/>
+      <sgf:segment xml:id="seg29" charref="32" type="ws" start="52" end="53"/>
+      <sgf:segment xml:id="seg30" type="char" start="53" end="57"/>
+      <sgf:segment xml:id="seg31" charref="32" type="ws" start="57" end="58"/>
+      <sgf:segment xml:id="seg32" type="char" start="58" end="66"/>
+      <sgf:segment xml:id="seg33" charref="32" type="ws" start="66" end="67"/>
+      <sgf:segment xml:id="seg34" type="char" start="67" end="91"/>
+      <sgf:segment xml:id="seg35" type="char" start="67" end="68"/>
+      <sgf:segment xml:id="seg36" charref="32" type="ws" start="68" end="69"/>
+      <sgf:segment xml:id="seg37" type="char" start="69" end="74"/>
+      <sgf:segment xml:id="seg38" charref="32" type="ws" start="74" end="75"/>
+      <sgf:segment xml:id="seg39" type="char" start="75" end="79"/>
+      <sgf:segment xml:id="seg40" charref="32" type="ws" start="79" end="80"/>
+      <sgf:segment xml:id="seg41" type="char" start="80" end="82"/>
+      <sgf:segment xml:id="seg42" charref="32" type="ws" start="82" end="83"/>
+      <sgf:segment xml:id="seg43" type="char" start="83" end="91"/>
+      <sgf:segment xml:id="seg44" type="char" start="83" end="86"/>
+      <sgf:segment xml:id="seg45" charref="32" type="ws" start="86" end="87"/>
+      <sgf:segment xml:id="seg46" type="char" start="87" end="91"/>
+      <sgf:segment xml:id="seg47" charref="32" type="ws" start="91" end="92"/>
+      <sgf:segment xml:id="seg48" type="char" start="92" end="97"/>
+      <sgf:segment xml:id="seg49" charref="32" type="ws" start="97" end="98"/>
+      <sgf:segment xml:id="seg50" type="char" start="98" end="100"/>
+      <sgf:segment xml:id="seg51" charref="32" type="ws" start="100" end="101"/>
+      <sgf:segment xml:id="seg52" type="char" start="101" end="111"/>
+      <sgf:segment xml:id="seg53" type="char" start="101" end="104"/>
+      <sgf:segment xml:id="seg54" charref="32" type="ws" start="104" end="105"/>
+      <sgf:segment xml:id="seg55" type="char" start="105" end="111"/>
+      <sgf:segment xml:id="seg56" charref="32" type="ws" start="111" end="112"/>
+      <sgf:segment xml:id="seg57" type="char" start="112" end="115"/>
+      <sgf:segment xml:id="seg58" charref="32" type="ws" start="115" end="116"/>
+      <sgf:segment xml:id="seg59" type="char" start="116" end="118"/>
+      <sgf:segment xml:id="seg60" charref="32" type="ws" start="118" end="119"/>
+      <sgf:segment xml:id="seg61" type="char" start="119" end="124"/>
+      <sgf:segment xml:id="seg62" charref="32" type="ws" start="124" end="125"/>
+      <sgf:segment xml:id="seg63" type="char" start="125" end="128"/>
+      <sgf:segment xml:id="seg64" charref="32" type="ws" start="128" end="129"/>
+      <sgf:segment xml:id="seg65" type="char" start="129" end="136"/>
+      <sgf:segment xml:id="seg66" charref="32" type="ws" start="136" end="137"/>
+      <sgf:segment xml:id="seg67" type="char" start="137" end="139"/>
+      <sgf:segment xml:id="seg68" charref="32" type="ws" start="139" end="140"/>
+      <sgf:segment xml:id="seg69" type="char" start="140" end="141"/>
+      <sgf:segment xml:id="seg70" charref="32" type="ws" start="141" end="142"/>
+      <sgf:segment xml:id="seg71" type="char" start="142" end="274"/>
+      <sgf:segment xml:id="seg72" type="char" start="142" end="144"/>
+      <sgf:segment xml:id="seg73" charref="32" type="ws" start="144" end="145"/>
+      <sgf:segment xml:id="seg74" type="char" start="145" end="149"/>
+      <sgf:segment xml:id="seg75" charref="32" type="ws" start="149" end="150"/>
+      <sgf:segment xml:id="seg76" type="char" start="150" end="154"/>
+      <sgf:segment xml:id="seg77" charref="32" type="ws" start="154" end="155"/>
+      <sgf:segment xml:id="seg78" type="char" start="155" end="168"/>
+      <sgf:segment xml:id="seg79" type="char" start="155" end="163"/>
+      <sgf:segment xml:id="seg80" charref="32" type="ws" start="163" end="164"/>
+      <sgf:segment xml:id="seg81" type="char" start="164" end="168"/>
+      <sgf:segment xml:id="seg82" charref="32" type="ws" start="168" end="169"/>
+      <sgf:segment xml:id="seg83" type="char" start="169" end="171"/>
+      <sgf:segment xml:id="seg84" charref="32" type="ws" start="171" end="172"/>
+      <sgf:segment xml:id="seg85" type="char" start="172" end="182"/>
+      <sgf:segment xml:id="seg86" type="char" start="172" end="175"/>
+      <sgf:segment xml:id="seg87" charref="32" type="ws" start="175" end="176"/>
+      <sgf:segment xml:id="seg88" type="char" start="176" end="182"/>
+      <sgf:segment xml:id="seg89" charref="32" type="ws" start="182" end="183"/>
+      <sgf:segment xml:id="seg90" type="char" start="183" end="184"/>
+      <sgf:segment xml:id="seg91" charref="32" type="ws" start="184" end="185"/>
+      <sgf:segment xml:id="seg92" type="char" start="185" end="188"/>
+      <sgf:segment xml:id="seg93" charref="32" type="ws" start="188" end="189"/>
+      <sgf:segment xml:id="seg94" type="char" start="189" end="192"/>
+      <sgf:segment xml:id="seg95" charref="32" type="ws" start="192" end="193"/>
+      <sgf:segment xml:id="seg96" type="char" start="193" end="195"/>
+      <sgf:segment xml:id="seg97" charref="32" type="ws" start="195" end="196"/>
+      <sgf:segment xml:id="seg98" type="char" start="196" end="199"/>
+      <sgf:segment xml:id="seg99" charref="32" type="ws" start="199" end="200"/>
+      <sgf:segment xml:id="seg100" type="char" start="200" end="204"/>
+      <sgf:segment xml:id="seg101" charref="32" type="ws" start="204" end="205"/>
+      <sgf:segment xml:id="seg102" type="char" start="205" end="213"/>
+      <sgf:segment xml:id="seg103" charref="32" type="ws" start="213" end="214"/>
+      <sgf:segment xml:id="seg104" type="char" start="214" end="217"/>
+      <sgf:segment xml:id="seg105" charref="32" type="ws" start="217" end="218"/>
+      <sgf:segment xml:id="seg106" type="char" start="218" end="226"/>
+      <sgf:segment xml:id="seg107" charref="32" type="ws" start="226" end="227"/>
+      <sgf:segment xml:id="seg108" type="char" start="227" end="230"/>
+      <sgf:segment xml:id="seg109" charref="32" type="ws" start="230" end="231"/>
+      <sgf:segment xml:id="seg110" type="char" start="231" end="238"/>
+      <sgf:segment xml:id="seg111" charref="32" type="ws" start="238" end="239"/>
+      <sgf:segment xml:id="seg112" type="char" start="239" end="242"/>
+      <sgf:segment xml:id="seg113" charref="32" type="ws" start="242" end="243"/>
+      <sgf:segment xml:id="seg114" type="char" start="243" end="272"/>
+      <sgf:segment xml:id="seg115" type="char" start="243" end="252"/>
+      <sgf:segment xml:id="seg116" charref="32" type="ws" start="252" end="253"/>
+      <sgf:segment xml:id="seg117" type="char" start="253" end="255"/>
+      <sgf:segment xml:id="seg118" charref="32" type="ws" start="255" end="256"/>
+      <sgf:segment xml:id="seg119" type="char" start="256" end="263"/>
+      <sgf:segment xml:id="seg120" charref="32" type="ws" start="263" end="264"/>
+      <sgf:segment xml:id="seg121" type="char" start="264" end="272"/>
+      <sgf:segment xml:id="seg122" type="char" start="264" end="267"/>
+      <sgf:segment xml:id="seg123" charref="32" type="ws" start="267" end="268"/>
+      <sgf:segment xml:id="seg124" type="char" start="268" end="272"/>
+      <sgf:segment xml:id="seg125" charref="32" type="ws" start="272" end="273"/>
+      <sgf:segment xml:id="seg126" type="char" start="273" end="274"/>
+      <sgf:segment xml:id="seg127" charref="32" type="ws" start="274" end="275"/>
+      <sgf:segment xml:id="seg128" type="char" start="275" end="331"/>
+      <sgf:segment xml:id="seg129" type="char" start="275" end="277"/>
+      <sgf:segment xml:id="seg130" charref="32" type="ws" start="277" end="278"/>
+      <sgf:segment xml:id="seg131" type="char" start="278" end="283"/>
+      <sgf:segment xml:id="seg132" charref="32" type="ws" start="283" end="284"/>
+      <sgf:segment xml:id="seg133" type="char" start="284" end="286"/>
+      <sgf:segment xml:id="seg134" charref="32" type="ws" start="286" end="287"/>
+      <sgf:segment xml:id="seg135" type="char" start="287" end="293"/>
+      <sgf:segment xml:id="seg136" charref="32" type="ws" start="293" end="294"/>
+      <sgf:segment xml:id="seg137" type="char" start="294" end="329"/>
+      <sgf:segment xml:id="seg138" type="char" start="294" end="299"/>
+      <sgf:segment xml:id="seg139" charref="32" type="ws" start="299" end="300"/>
+      <sgf:segment xml:id="seg140" type="char" start="300" end="303"/>
+      <sgf:segment xml:id="seg141" charref="32" type="ws" start="303" end="304"/>
+      <sgf:segment xml:id="seg142" type="char" start="304" end="306"/>
+      <sgf:segment xml:id="seg143" charref="32" type="ws" start="306" end="307"/>
+      <sgf:segment xml:id="seg144" type="char" start="307" end="310"/>
+      <sgf:segment xml:id="seg145" charref="32" type="ws" start="310" end="311"/>
+      <sgf:segment xml:id="seg146" type="char" start="311" end="313"/>
+      <sgf:segment xml:id="seg147" charref="32" type="ws" start="313" end="314"/>
+      <sgf:segment xml:id="seg148" type="char" start="314" end="320"/>
+      <sgf:segment xml:id="seg149" charref="32" type="ws" start="320" end="321"/>
+      <sgf:segment xml:id="seg150" type="char" start="321" end="329"/>
+      <sgf:segment xml:id="seg151" type="char" start="321" end="324"/>
+      <sgf:segment xml:id="seg152" charref="32" type="ws" start="324" end="325"/>
+      <sgf:segment xml:id="seg153" type="char" start="325" end="329"/>
+      <sgf:segment xml:id="seg154" charref="32" type="ws" start="329" end="330"/>
+      <sgf:segment xml:id="seg155" type="char" start="330" end="331"/>
+      <sgf:segment xml:id="seg156" charref="32" type="ws" start="331" end="332"/>
+      <sgf:segment xml:id="seg157" type="char" start="332" end="400"/>
+      <sgf:segment xml:id="seg158" type="char" start="332" end="333"/>
+      <sgf:segment xml:id="seg159" charref="32" type="ws" start="333" end="334"/>
+      <sgf:segment xml:id="seg160" type="char" start="334" end="335"/>
+      <sgf:segment xml:id="seg161" charref="32" type="ws" start="335" end="336"/>
+      <sgf:segment xml:id="seg162" type="char" start="336" end="341"/>
+      <sgf:segment xml:id="seg163" charref="32" type="ws" start="341" end="342"/>
+      <sgf:segment xml:id="seg164" type="char" start="342" end="346"/>
+      <sgf:segment xml:id="seg165" charref="32" type="ws" start="346" end="347"/>
+      <sgf:segment xml:id="seg166" type="char" start="347" end="355"/>
+      <sgf:segment xml:id="seg167" charref="32" type="ws" start="355" end="356"/>
+      <sgf:segment xml:id="seg168" type="char" start="356" end="357"/>
+      <sgf:segment xml:id="seg169" charref="32" type="ws" start="357" end="358"/>
+      <sgf:segment xml:id="seg170" type="char" start="358" end="359"/>
+      <sgf:segment xml:id="seg171" charref="32" type="ws" start="359" end="360"/>
+      <sgf:segment xml:id="seg172" type="char" start="360" end="364"/>
+      <sgf:segment xml:id="seg173" charref="32" type="ws" start="364" end="365"/>
+      <sgf:segment xml:id="seg174" type="char" start="365" end="367"/>
+      <sgf:segment xml:id="seg175" charref="32" type="ws" start="367" end="368"/>
+      <sgf:segment xml:id="seg176" type="char" start="368" end="369"/>
+      <sgf:segment xml:id="seg177" charref="32" type="ws" start="369" end="370"/>
+      <sgf:segment xml:id="seg178" type="char" start="370" end="371"/>
+      <sgf:segment xml:id="seg179" charref="32" type="ws" start="371" end="372"/>
+      <sgf:segment xml:id="seg180" type="char" start="372" end="374"/>
+      <sgf:segment xml:id="seg181" charref="32" type="ws" start="374" end="375"/>
+      <sgf:segment xml:id="seg182" type="char" start="375" end="378"/>
+      <sgf:segment xml:id="seg183" charref="32" type="ws" start="378" end="379"/>
+      <sgf:segment xml:id="seg184" type="char" start="379" end="384"/>
+      <sgf:segment xml:id="seg185" charref="32" type="ws" start="384" end="385"/>
+      <sgf:segment xml:id="seg186" type="char" start="385" end="389"/>
+      <sgf:segment xml:id="seg187" charref="32" type="ws" start="389" end="390"/>
+      <sgf:segment xml:id="seg188" type="char" start="390" end="392"/>
+      <sgf:segment xml:id="seg189" charref="32" type="ws" start="392" end="393"/>
+      <sgf:segment xml:id="seg190" type="char" start="393" end="396"/>
+      <sgf:segment xml:id="seg191" charref="32" type="ws" start="396" end="397"/>
+      <sgf:segment xml:id="seg192" type="char" start="397" end="398"/>
+      <sgf:segment xml:id="seg193" charref="32" type="ws" start="398" end="399"/>
+      <sgf:segment xml:id="seg194" type="char" start="399" end="400"/>
+      <sgf:segment xml:id="seg195" charref="32" type="ws" start="400" end="401"/>
+      <sgf:segment xml:id="seg196" type="char" start="401" end="511"/>
+      <sgf:segment xml:id="seg197" type="char" start="401" end="403"/>
+      <sgf:segment xml:id="seg198" charref="32" type="ws" start="403" end="404"/>
+      <sgf:segment xml:id="seg199" type="char" start="404" end="408"/>
+      <sgf:segment xml:id="seg200" charref="32" type="ws" start="408" end="409"/>
+      <sgf:segment xml:id="seg201" type="char" start="409" end="418"/>
+      <sgf:segment xml:id="seg202" type="char" start="409" end="412"/>
+      <sgf:segment xml:id="seg203" charref="32" type="ws" start="412" end="413"/>
+      <sgf:segment xml:id="seg204" type="char" start="413" end="418"/>
+      <sgf:segment xml:id="seg205" charref="32" type="ws" start="418" end="419"/>
+      <sgf:segment xml:id="seg206" type="char" start="419" end="425"/>
+      <sgf:segment xml:id="seg207" charref="32" type="ws" start="425" end="426"/>
+      <sgf:segment xml:id="seg208" type="char" start="426" end="428"/>
+      <sgf:segment xml:id="seg209" charref="32" type="ws" start="428" end="429"/>
+      <sgf:segment xml:id="seg210" type="char" start="429" end="432"/>
+      <sgf:segment xml:id="seg211" charref="32" type="ws" start="432" end="433"/>
+      <sgf:segment xml:id="seg212" type="char" start="433" end="434"/>
+      <sgf:segment xml:id="seg213" charref="32" type="ws" start="434" end="435"/>
+      <sgf:segment xml:id="seg214" type="char" start="435" end="438"/>
+      <sgf:segment xml:id="seg215" charref="32" type="ws" start="438" end="439"/>
+      <sgf:segment xml:id="seg216" type="char" start="439" end="443"/>
+      <sgf:segment xml:id="seg217" charref="32" type="ws" start="443" end="444"/>
+      <sgf:segment xml:id="seg218" type="char" start="444" end="452"/>
+      <sgf:segment xml:id="seg219" type="char" start="444" end="447"/>
+      <sgf:segment xml:id="seg220" charref="32" type="ws" start="447" end="448"/>
+      <sgf:segment xml:id="seg221" type="char" start="448" end="452"/>
+      <sgf:segment xml:id="seg222" charref="32" type="ws" start="452" end="453"/>
+      <sgf:segment xml:id="seg223" type="char" start="453" end="455"/>
+      <sgf:segment xml:id="seg224" charref="32" type="ws" start="455" end="456"/>
+      <sgf:segment xml:id="seg225" type="char" start="456" end="459"/>
+      <sgf:segment xml:id="seg226" charref="32" type="ws" start="459" end="460"/>
+      <sgf:segment xml:id="seg227" type="char" start="460" end="462"/>
+      <sgf:segment xml:id="seg228" charref="32" type="ws" start="462" end="463"/>
+      <sgf:segment xml:id="seg229" type="char" start="463" end="471"/>
+      <sgf:segment xml:id="seg230" type="char" start="463" end="466"/>
+      <sgf:segment xml:id="seg231" charref="32" type="ws" start="466" end="467"/>
+      <sgf:segment xml:id="seg232" type="char" start="467" end="471"/>
+      <sgf:segment xml:id="seg233" charref="32" type="ws" start="471" end="472"/>
+      <sgf:segment xml:id="seg234" type="char" start="472" end="475"/>
+      <sgf:segment xml:id="seg235" charref="32" type="ws" start="475" end="476"/>
+      <sgf:segment xml:id="seg236" type="char" start="476" end="480"/>
+      <sgf:segment xml:id="seg237" charref="32" type="ws" start="480" end="481"/>
+      <sgf:segment xml:id="seg238" type="char" start="481" end="489"/>
+      <sgf:segment xml:id="seg239" type="char" start="481" end="484"/>
+      <sgf:segment xml:id="seg240" charref="32" type="ws" start="484" end="485"/>
+      <sgf:segment xml:id="seg241" type="char" start="485" end="489"/>
+      <sgf:segment xml:id="seg242" charref="32" type="ws" start="489" end="490"/>
+      <sgf:segment xml:id="seg243" type="char" start="490" end="492"/>
+      <sgf:segment xml:id="seg244" charref="32" type="ws" start="492" end="493"/>
+      <sgf:segment xml:id="seg245" type="char" start="493" end="497"/>
+      <sgf:segment xml:id="seg246" charref="32" type="ws" start="497" end="498"/>
+      <sgf:segment xml:id="seg247" type="char" start="498" end="500"/>
+      <sgf:segment xml:id="seg248" charref="32" type="ws" start="500" end="501"/>
+      <sgf:segment xml:id="seg249" type="char" start="501" end="503"/>
+      <sgf:segment xml:id="seg250" charref="32" type="ws" start="503" end="504"/>
+      <sgf:segment xml:id="seg251" type="char" start="504" end="509"/>
+      <sgf:segment xml:id="seg252" charref="32" type="ws" start="509" end="510"/>
+      <sgf:segment xml:id="seg253" type="char" start="510" end="511"/>
+      <sgf:segment xml:id="seg254" charref="32" type="ws" start="511" end="512"/>
+      <sgf:segment xml:id="seg255" type="char" start="512" end="637"/>
+      <sgf:segment xml:id="seg256" type="char" start="512" end="516"/>
+      <sgf:segment xml:id="seg257" charref="32" type="ws" start="516" end="517"/>
+      <sgf:segment xml:id="seg258" type="char" start="517" end="526"/>
+      <sgf:segment xml:id="seg259" type="char" start="517" end="520"/>
+      <sgf:segment xml:id="seg260" charref="32" type="ws" start="520" end="521"/>
+      <sgf:segment xml:id="seg261" type="char" start="521" end="526"/>
+      <sgf:segment xml:id="seg262" charref="32" type="ws" start="526" end="527"/>
+      <sgf:segment xml:id="seg263" type="char" start="527" end="530"/>
+      <sgf:segment xml:id="seg264" charref="32" type="ws" start="530" end="531"/>
+      <sgf:segment xml:id="seg265" type="char" start="531" end="544"/>
+      <sgf:segment xml:id="seg266" type="char" start="531" end="534"/>
+      <sgf:segment xml:id="seg267" charref="32" type="ws" start="534" end="535"/>
+      <sgf:segment xml:id="seg268" type="char" start="535" end="539"/>
+      <sgf:segment xml:id="seg269" charref="32" type="ws" start="539" end="540"/>
+      <sgf:segment xml:id="seg270" type="char" start="540" end="544"/>
+      <sgf:segment xml:id="seg271" charref="32" type="ws" start="544" end="545"/>
+      <sgf:segment xml:id="seg272" type="char" start="545" end="549"/>
+      <sgf:segment xml:id="seg273" charref="32" type="ws" start="549" end="550"/>
+      <sgf:segment xml:id="seg274" type="char" start="550" end="568"/>
+      <sgf:segment xml:id="seg275" type="char" start="550" end="561"/>
+      <sgf:segment xml:id="seg276" type="char" start="550" end="553"/>
+      <sgf:segment xml:id="seg277" charref="32" type="ws" start="553" end="554"/>
+      <sgf:segment xml:id="seg278" type="char" start="554" end="558"/>
+      <sgf:segment xml:id="seg279" charref="32" type="ws" start="558" end="559"/>
+      <sgf:segment xml:id="seg280" type="char" start="559" end="561"/>
+      <sgf:segment xml:id="seg281" charref="32" type="ws" start="561" end="562"/>
+      <sgf:segment xml:id="seg282" type="char" start="562" end="568"/>
+      <sgf:segment xml:id="seg283" charref="32" type="ws" start="568" end="569"/>
+      <sgf:segment xml:id="seg284" type="char" start="569" end="570"/>
+      <sgf:segment xml:id="seg285" charref="32" type="ws" start="570" end="571"/>
+      <sgf:segment xml:id="seg286" type="char" start="571" end="574"/>
+      <sgf:segment xml:id="seg287" charref="32" type="ws" start="574" end="575"/>
+      <sgf:segment xml:id="seg288" type="char" start="575" end="579"/>
+      <sgf:segment xml:id="seg289" charref="32" type="ws" start="579" end="580"/>
+      <sgf:segment xml:id="seg290" type="char" start="580" end="588"/>
+      <sgf:segment xml:id="seg291" type="char" start="580" end="583"/>
+      <sgf:segment xml:id="seg292" charref="32" type="ws" start="583" end="584"/>
+      <sgf:segment xml:id="seg293" type="char" start="584" end="588"/>
+      <sgf:segment xml:id="seg294" charref="32" type="ws" start="588" end="589"/>
+      <sgf:segment xml:id="seg295" type="char" start="589" end="597"/>
+      <sgf:segment xml:id="seg296" charref="32" type="ws" start="597" end="598"/>
+      <sgf:segment xml:id="seg297" type="char" start="598" end="606"/>
+      <sgf:segment xml:id="seg298" type="char" start="598" end="601"/>
+      <sgf:segment xml:id="seg299" charref="32" type="ws" start="601" end="602"/>
+      <sgf:segment xml:id="seg300" type="char" start="602" end="606"/>
+      <sgf:segment xml:id="seg301" charref="32" type="ws" start="606" end="607"/>
+      <sgf:segment xml:id="seg302" type="char" start="607" end="608"/>
+      <sgf:segment xml:id="seg303" charref="32" type="ws" start="608" end="609"/>
+      <sgf:segment xml:id="seg304" type="char" start="609" end="613"/>
+      <sgf:segment xml:id="seg305" charref="32" type="ws" start="613" end="614"/>
+      <sgf:segment xml:id="seg306" type="char" start="614" end="616"/>
+      <sgf:segment xml:id="seg307" charref="32" type="ws" start="616" end="617"/>
+      <sgf:segment xml:id="seg308" type="char" start="617" end="621"/>
+      <sgf:segment xml:id="seg309" charref="32" type="ws" start="621" end="622"/>
+      <sgf:segment xml:id="seg310" type="char" start="622" end="624"/>
+      <sgf:segment xml:id="seg311" charref="32" type="ws" start="624" end="625"/>
+      <sgf:segment xml:id="seg312" type="char" start="625" end="628"/>
+      <sgf:segment xml:id="seg313" charref="32" type="ws" start="628" end="629"/>
+      <sgf:segment xml:id="seg314" type="char" start="629" end="631"/>
+      <sgf:segment xml:id="seg315" charref="32" type="ws" start="631" end="632"/>
+      <sgf:segment xml:id="seg316" type="char" start="632" end="635"/>
+      <sgf:segment xml:id="seg317" charref="32" type="ws" start="635" end="636"/>
+      <sgf:segment xml:id="seg318" type="char" start="636" end="637"/>
+      <sgf:segment xml:id="seg319" charref="10" type="ws" start="637" end="638"/>
+      <sgf:segment xml:id="seg320" charref="10" type="ws" start="638" end="639"/>
+      <sgf:segment xml:id="seg321" type="char" start="639" end="709"/>
+      <sgf:segment xml:id="seg322" type="char" start="639" end="692"/>
+      <sgf:segment xml:id="seg323" type="char" start="639" end="640"/>
+      <sgf:segment xml:id="seg324" charref="32" type="ws" start="640" end="641"/>
+      <sgf:segment xml:id="seg325" type="char" start="641" end="645"/>
+      <sgf:segment xml:id="seg326" charref="32" type="ws" start="645" end="646"/>
+      <sgf:segment xml:id="seg327" type="char" start="646" end="649"/>
+      <sgf:segment xml:id="seg328" charref="32" type="ws" start="649" end="650"/>
+      <sgf:segment xml:id="seg329" type="char" start="650" end="656"/>
+      <sgf:segment xml:id="seg330" charref="32" type="ws" start="656" end="657"/>
+      <sgf:segment xml:id="seg331" type="char" start="657" end="661"/>
+      <sgf:segment xml:id="seg332" charref="32" type="ws" start="661" end="662"/>
+      <sgf:segment xml:id="seg333" type="char" start="662" end="664"/>
+      <sgf:segment xml:id="seg334" charref="32" type="ws" start="664" end="665"/>
+      <sgf:segment xml:id="seg335" type="char" start="665" end="688"/>
+      <sgf:segment xml:id="seg336" type="char" start="665" end="668"/>
+      <sgf:segment xml:id="seg337" charref="32" type="ws" start="668" end="669"/>
+      <sgf:segment xml:id="seg338" type="char" start="669" end="675"/>
+      <sgf:segment xml:id="seg339" charref="32" type="ws" start="675" end="676"/>
+      <sgf:segment xml:id="seg340" type="char" start="676" end="679"/>
+      <sgf:segment xml:id="seg341" charref="32" type="ws" start="679" end="680"/>
+      <sgf:segment xml:id="seg342" type="char" start="680" end="688"/>
+      <sgf:segment xml:id="seg343" charref="32" type="ws" start="688" end="689"/>
+      <sgf:segment xml:id="seg344" type="char" start="689" end="690"/>
+      <sgf:segment xml:id="seg345" charref="32" type="ws" start="690" end="691"/>
+      <sgf:segment xml:id="seg346" type="char" start="691" end="692"/>
+      <sgf:segment xml:id="seg347" charref="32" type="ws" start="692" end="693"/>
+      <sgf:segment xml:id="seg348" type="char" start="693" end="709"/>
+      <sgf:segment xml:id="seg349" type="char" start="693" end="697"/>
+      <sgf:segment xml:id="seg350" charref="32" type="ws" start="697" end="698"/>
+      <sgf:segment xml:id="seg351" type="char" start="698" end="707"/>
+      <sgf:segment xml:id="seg352" type="char" start="698" end="701"/>
+      <sgf:segment xml:id="seg353" charref="32" type="ws" start="701" end="702"/>
+      <sgf:segment xml:id="seg354" type="char" start="702" end="707"/>
+      <sgf:segment xml:id="seg355" charref="32" type="ws" start="707" end="708"/>
+      <sgf:segment xml:id="seg356" type="char" start="708" end="709"/>
+      <sgf:segment xml:id="seg357" charref="32" type="ws" start="709" end="710"/>
+      <sgf:segment xml:id="seg358" type="char" start="710" end="897"/>
+      <sgf:segment xml:id="seg359" type="char" start="710" end="773"/>
+      <sgf:segment xml:id="seg360" type="char" start="710" end="718"/>
+      <sgf:segment xml:id="seg361" type="char" start="710" end="713"/>
+      <sgf:segment xml:id="seg362" charref="32" type="ws" start="713" end="714"/>
+      <sgf:segment xml:id="seg363" type="char" start="714" end="718"/>
+      <sgf:segment xml:id="seg364" charref="32" type="ws" start="718" end="719"/>
+      <sgf:segment xml:id="seg365" type="char" start="719" end="726"/>
+      <sgf:segment xml:id="seg366" charref="32" type="ws" start="726" end="727"/>
+      <sgf:segment xml:id="seg367" type="char" start="727" end="730"/>
+      <sgf:segment xml:id="seg368" charref="32" type="ws" start="730" end="731"/>
+      <sgf:segment xml:id="seg369" type="char" start="731" end="737"/>
+      <sgf:segment xml:id="seg370" charref="32" type="ws" start="737" end="738"/>
+      <sgf:segment xml:id="seg371" type="char" start="738" end="747"/>
+      <sgf:segment xml:id="seg372" type="char" start="738" end="741"/>
+      <sgf:segment xml:id="seg373" charref="32" type="ws" start="741" end="742"/>
+      <sgf:segment xml:id="seg374" type="char" start="742" end="747"/>
+      <sgf:segment xml:id="seg375" charref="32" type="ws" start="747" end="748"/>
+      <sgf:segment xml:id="seg376" type="char" start="748" end="751"/>
+      <sgf:segment xml:id="seg377" charref="32" type="ws" start="751" end="752"/>
+      <sgf:segment xml:id="seg378" type="char" start="752" end="756"/>
+      <sgf:segment xml:id="seg379" charref="32" type="ws" start="756" end="757"/>
+      <sgf:segment xml:id="seg380" type="char" start="757" end="758"/>
+      <sgf:segment xml:id="seg381" charref="32" type="ws" start="758" end="759"/>
+      <sgf:segment xml:id="seg382" type="char" start="759" end="760"/>
+      <sgf:segment xml:id="seg383" charref="32" type="ws" start="760" end="761"/>
+      <sgf:segment xml:id="seg384" type="char" start="761" end="763"/>
+      <sgf:segment xml:id="seg385" charref="32" type="ws" start="763" end="764"/>
+      <sgf:segment xml:id="seg386" type="char" start="764" end="771"/>
+      <sgf:segment xml:id="seg387" charref="32" type="ws" start="771" end="772"/>
+      <sgf:segment xml:id="seg388" type="char" start="772" end="773"/>
+      <sgf:segment xml:id="seg389" charref="32" type="ws" start="773" end="774"/>
+      <sgf:segment xml:id="seg390" type="char" start="774" end="897"/>
+      <sgf:segment xml:id="seg391" type="char" start="774" end="777"/>
+      <sgf:segment xml:id="seg392" charref="32" type="ws" start="777" end="778"/>
+      <sgf:segment xml:id="seg393" type="char" start="778" end="782"/>
+      <sgf:segment xml:id="seg394" charref="32" type="ws" start="782" end="783"/>
+      <sgf:segment xml:id="seg395" type="char" start="783" end="786"/>
+      <sgf:segment xml:id="seg396" charref="32" type="ws" start="786" end="787"/>
+      <sgf:segment xml:id="seg397" type="char" start="787" end="796"/>
+      <sgf:segment xml:id="seg398" type="char" start="787" end="791"/>
+      <sgf:segment xml:id="seg399" charref="32" type="ws" start="791" end="792"/>
+      <sgf:segment xml:id="seg400" type="char" start="792" end="796"/>
+      <sgf:segment xml:id="seg401" charref="32" type="ws" start="796" end="797"/>
+      <sgf:segment xml:id="seg402" type="char" start="797" end="803"/>
+      <sgf:segment xml:id="seg403" charref="32" type="ws" start="803" end="804"/>
+      <sgf:segment xml:id="seg404" type="char" start="804" end="819"/>
+      <sgf:segment xml:id="seg405" type="char" start="804" end="813"/>
+      <sgf:segment xml:id="seg406" type="char" start="804" end="805"/>
+      <sgf:segment xml:id="seg407" charref="32" type="ws" start="805" end="806"/>
+      <sgf:segment xml:id="seg408" type="char" start="806" end="810"/>
+      <sgf:segment xml:id="seg409" charref="32" type="ws" start="810" end="811"/>
+      <sgf:segment xml:id="seg410" type="char" start="811" end="813"/>
+      <sgf:segment xml:id="seg411" charref="32" type="ws" start="813" end="814"/>
+      <sgf:segment xml:id="seg412" type="char" start="814" end="819"/>
+      <sgf:segment xml:id="seg413" charref="32" type="ws" start="819" end="820"/>
+      <sgf:segment xml:id="seg414" type="char" start="820" end="823"/>
+      <sgf:segment xml:id="seg415" charref="32" type="ws" start="823" end="824"/>
+      <sgf:segment xml:id="seg416" type="char" start="824" end="829"/>
+      <sgf:segment xml:id="seg417" charref="32" type="ws" start="829" end="830"/>
+      <sgf:segment xml:id="seg418" type="char" start="830" end="832"/>
+      <sgf:segment xml:id="seg419" charref="32" type="ws" start="832" end="833"/>
+      <sgf:segment xml:id="seg420" type="char" start="833" end="836"/>
+      <sgf:segment xml:id="seg421" charref="32" type="ws" start="836" end="837"/>
+      <sgf:segment xml:id="seg422" type="char" start="837" end="842"/>
+      <sgf:segment xml:id="seg423" charref="32" type="ws" start="842" end="843"/>
+      <sgf:segment xml:id="seg424" type="char" start="843" end="845"/>
+      <sgf:segment xml:id="seg425" charref="32" type="ws" start="845" end="846"/>
+      <sgf:segment xml:id="seg426" type="char" start="846" end="852"/>
+      <sgf:segment xml:id="seg427" charref="32" type="ws" start="852" end="853"/>
+      <sgf:segment xml:id="seg428" type="char" start="853" end="854"/>
+      <sgf:segment xml:id="seg429" charref="32" type="ws" start="854" end="855"/>
+      <sgf:segment xml:id="seg430" type="char" start="855" end="859"/>
+      <sgf:segment xml:id="seg431" charref="32" type="ws" start="859" end="860"/>
+      <sgf:segment xml:id="seg432" type="char" start="860" end="865"/>
+      <sgf:segment xml:id="seg433" charref="32" type="ws" start="865" end="866"/>
+      <sgf:segment xml:id="seg434" type="char" start="866" end="868"/>
+      <sgf:segment xml:id="seg435" charref="32" type="ws" start="868" end="869"/>
+      <sgf:segment xml:id="seg436" type="char" start="869" end="871"/>
+      <sgf:segment xml:id="seg437" charref="32" type="ws" start="871" end="872"/>
+      <sgf:segment xml:id="seg438" type="char" start="872" end="893"/>
+      <sgf:segment xml:id="seg439" type="char" start="872" end="878"/>
+      <sgf:segment xml:id="seg440" charref="32" type="ws" start="878" end="879"/>
+      <sgf:segment xml:id="seg441" type="char" start="879" end="885"/>
+      <sgf:segment xml:id="seg442" charref="32" type="ws" start="885" end="886"/>
+      <sgf:segment xml:id="seg443" type="char" start="886" end="889"/>
+      <sgf:segment xml:id="seg444" charref="32" type="ws" start="889" end="890"/>
+      <sgf:segment xml:id="seg445" type="char" start="890" end="893"/>
+      <sgf:segment xml:id="seg446" charref="32" type="ws" start="893" end="894"/>
+      <sgf:segment xml:id="seg447" type="char" start="894" end="895"/>
+      <sgf:segment xml:id="seg448" charref="32" type="ws" start="895" end="896"/>
+      <sgf:segment xml:id="seg449" type="char" start="896" end="897"/>
+      <sgf:segment xml:id="seg450" charref="32" type="ws" start="897" end="898"/>
+      <sgf:segment xml:id="seg451" type="char" start="898" end="935"/>
+      <sgf:segment xml:id="seg452" type="char" start="898" end="917"/>
+      <sgf:segment xml:id="seg453" type="char" start="898" end="907"/>
+      <sgf:segment xml:id="seg454" charref="32" type="ws" start="907" end="908"/>
+      <sgf:segment xml:id="seg455" type="char" start="908" end="911"/>
+      <sgf:segment xml:id="seg456" charref="32" type="ws" start="911" end="912"/>
+      <sgf:segment xml:id="seg457" type="char" start="912" end="917"/>
+      <sgf:segment xml:id="seg458" charref="32" type="ws" start="917" end="918"/>
+      <sgf:segment xml:id="seg459" type="char" start="918" end="920"/>
+      <sgf:segment xml:id="seg460" charref="32" type="ws" start="920" end="921"/>
+      <sgf:segment xml:id="seg461" type="char" start="921" end="924"/>
+      <sgf:segment xml:id="seg462" charref="32" type="ws" start="924" end="925"/>
+      <sgf:segment xml:id="seg463" type="char" start="925" end="933"/>
+      <sgf:segment xml:id="seg464" charref="32" type="ws" start="933" end="934"/>
+      <sgf:segment xml:id="seg465" type="char" start="934" end="935"/>
+   </sgf:segments>
+   <sgf:annotation xml:id="aesopa10cy-masxml_d3">
+      <sgf:level xml:id="aesopa10cy-masxml_info">
+         <sgf:layer xmlns:info="http://www.text-technology.de/anawiki/info"
+                    xsi:schemaLocation="http://www.text-technology.de/anawiki/info http://coli.lili.uni-bielefeld.de/Texttechnologie/Forschergruppe/sekimo/sgf/ana_info.xsd">
+            <info:title>The Wolf and the Crane</info:title>
+            <info:author>Aesop</info:author>
+         </sgf:layer>
+      </sgf:level>
+   </sgf:annotation>
+   <sgf:annotation xml:id="aesopa10cy-masxml_d5e0">
+      <sgf:level xml:id="aesopa10cy-masxml_masxml">
+         <sgf:layer xmlns:masxml="http://www.text-technology.de/anawiki/masxml"
+                    xsi:schemaLocation="http://www.text-technology.de/anawiki/masxml http://coli.lili.uni-bielefeld.de/Texttechnologie/Forschergruppe/sekimo/sgf/ana_masxml.xsd">
+            <masxml:body sgf:segment="seg1" xml:id="body1">
+               <masxml:section sgf:segment="seg1" xml:id="section1">
+                  <masxml:p sgf:segment="seg2" xml:id="p1">
+                     <masxml:s sgf:segment="seg3" xml:id="s1">
+                        <masxml:ne sgf:segment="seg4" xml:id="ne1" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:W sgf:segment="seg5" xml:id="W1" Lpos="DT" Lhead="2" Lrel="det" Xpos="" lemma=""/>
+                           <masxml:nphead sgf:segment="seg7" xml:id="AAh1" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg7" xml:id="W2" Lpos="NNP" Lhead="5" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg9" xml:id="W3" Lpos="VBD" Lhead="5" Lrel="aux" Xpos="" lemma=""/>
+                        <masxml:W sgf:segment="seg11" xml:id="W4" Lpos="VBN" Lhead="5" Lrel="aux" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg13" xml:id="W5" Lpos="VBG" Lhead="0" Lrel="root" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg15" xml:id="W6" Lpos="IN" Lhead="5" Lrel="prep" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg17" xml:id="ne2" AAgf="pobj" gf="unsure-gf">
+                           <masxml:W sgf:segment="seg18" xml:id="W7" Lpos="DT" Lhead="8" Lrel="det" Xpos="" lemma=""/>
+                           <masxml:nphead sgf:segment="seg20" xml:id="AAh2" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg20" xml:id="W8" Lpos="NN" Lhead="6" Lrel="pobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                           <masxml:ne sgf:segment="seg22" xml:id="ne3" AAgf="nsubj" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg22" xml:id="AAh3" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg22" xml:id="W9" Lpos="PRP" Lhead="11" Lrel="nsubj" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                           <masxml:W sgf:segment="seg24" xml:id="W10" Lpos="VBD" Lhead="11" Lrel="aux" Xpos=""
+                                     lemma=""/>
+                           <masxml:W sgf:segment="seg26" xml:id="W11" Lpos="VBN" Lhead="8" Lrel="rcmod" Xpos=""
+                                     lemma=""/>
+                           <masxml:W sgf:segment="seg28" xml:id="W12" Lpos="," Lhead="8" Lrel="punct" Xpos=""
+                                     lemma=""/>
+                           <masxml:W sgf:segment="seg30" xml:id="W13" Lpos="WRB" Lhead="21" Lrel="advmod" Xpos=""
+                                     lemma=""/>
+                           <masxml:W sgf:segment="seg32" xml:id="W14" Lpos="RB" Lhead="21" Lrel="advmod" Xpos=""
+                                     lemma=""/>
+                           <masxml:ne sgf:segment="seg34" xml:id="ne4" AAgf="nsubj" gf="unsure-gf">
+                              <masxml:W sgf:segment="seg35" xml:id="W15" Lpos="DT" Lhead="17" Lrel="det" Xpos=""
+                                        lemma=""/>
+                              <masxml:W sgf:segment="seg37" xml:id="W16" Lpos="JJ" Lhead="17" Lrel="amod" Xpos=""
+                                        lemma=""/>
+                              <masxml:nphead sgf:segment="seg39" xml:id="AAh4" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg39" xml:id="W17" Lpos="NN" Lhead="21" Lrel="nsubj" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                              <masxml:W sgf:segment="seg41" xml:id="W18" Lpos="IN" Lhead="17" Lrel="prep" Xpos=""
+                                        lemma=""/>
+                              <masxml:ne sgf:segment="seg43" xml:id="ne5" AAgf="pobj" gf="unsure-gf">
+                                 <masxml:W sgf:segment="seg44" xml:id="W19" Lpos="DT" Lhead="20" Lrel="det" Xpos=""
+                                           lemma=""/>
+                                 <masxml:nphead sgf:segment="seg46" xml:id="AAh5" sem="unsureSEM">
+                                    <masxml:W sgf:segment="seg46" xml:id="W20" Lpos="NN" Lhead="18" Lrel="pobj" Xpos=""
+                                              lemma=""/>
+                                 </masxml:nphead>
+                              </masxml:ne>
+                           </masxml:ne>
+                           <masxml:W sgf:segment="seg48" xml:id="W21" Lpos="VBN" Lhead="8" Lrel="rcmod" Xpos=""
+                                     lemma=""/>
+                           <masxml:W sgf:segment="seg50" xml:id="W22" Lpos="IN" Lhead="21" Lrel="prep" Xpos=""
+                                     lemma=""/>
+                           <masxml:ne sgf:segment="seg52" xml:id="ne6" AAgf="pobj" gf="unsure-gf">
+                              <masxml:ne sgf:segment="seg53" xml:id="ne7" AAgf="poss" gf="unsure-gf">
+                                 <masxml:nphead sgf:segment="seg53" xml:id="AAh6" sem="unsureSEM">
+                                    <masxml:W sgf:segment="seg53" xml:id="W23" Lpos="PRP$" Lhead="24" Lrel="poss" Xpos=""
+                                              lemma=""/>
+                                 </masxml:nphead>
+                              </masxml:ne>
+                              <masxml:nphead sgf:segment="seg55" xml:id="AAh7" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg55" xml:id="W24" Lpos="NN" Lhead="22" Lrel="pobj" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                           <masxml:W sgf:segment="seg57" xml:id="W25" Lpos="CC" Lhead="21" Lrel="cc" Xpos=""
+                                     lemma=""/>
+                           <masxml:ne sgf:segment="seg59" xml:id="ne8" AAgf="nsubj" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg59" xml:id="AAh8" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg59" xml:id="W26" Lpos="PRP" Lhead="29" Lrel="nsubj" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                           <masxml:W sgf:segment="seg61" xml:id="W27" Lpos="MD" Lhead="29" Lrel="aux" Xpos=""
+                                     lemma=""/>
+                           <masxml:W sgf:segment="seg63" xml:id="W28" Lpos="RB" Lhead="29" Lrel="neg" Xpos=""
+                                     lemma=""/>
+                           <masxml:W sgf:segment="seg65" xml:id="W29" Lpos="VB" Lhead="21" Lrel="conj" Xpos=""
+                                     lemma=""/>
+                           <masxml:ne sgf:segment="seg67" xml:id="ne9" AAgf="dobj" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg67" xml:id="AAh9" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg67" xml:id="W30" Lpos="PRP" Lhead="29" Lrel="dobj" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg69" xml:id="W31" Lpos="." Lhead="5" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                     </masxml:s>
+                     <masxml:s sgf:segment="seg71" xml:id="s2">
+                        <masxml:ne sgf:segment="seg72" xml:id="ne10" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg72" xml:id="AAh10" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg72" xml:id="W32" Lpos="PRP" Lhead="3" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg74" xml:id="W33" Lpos="RB" Lhead="3" Lrel="advmod" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg76" xml:id="W34" Lpos="VBD" Lhead="0" Lrel="root" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg78" xml:id="ne11" AAgf="dobj" gf="unsure-gf">
+                           <masxml:W sgf:segment="seg79" xml:id="W35" Lpos="JJ" Lhead="5" Lrel="amod" Xpos=""
+                                     lemma=""/>
+                           <masxml:nphead sgf:segment="seg81" xml:id="AAh11" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg81" xml:id="W36" Lpos="NN" Lhead="3" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg83" xml:id="W37" Lpos="IN" Lhead="3" Lrel="prep" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg85" xml:id="ne12" AAgf="pobj" gf="unsure-gf">
+                           <masxml:ne sgf:segment="seg86" xml:id="ne13" AAgf="poss" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg86" xml:id="AAh12" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg86" xml:id="W38" Lpos="PRP$" Lhead="8" Lrel="poss" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                           <masxml:nphead sgf:segment="seg88" xml:id="AAh13" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg88" xml:id="W39" Lpos="NN" Lhead="6" Lrel="pobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg90" xml:id="W40" Lpos="," Lhead="3" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg92" xml:id="W41" Lpos="CC" Lhead="3" Lrel="cc" Xpos="" lemma=""/>
+                        <masxml:W sgf:segment="seg94" xml:id="W42" Lpos="VBD" Lhead="3" Lrel="conj" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg96" xml:id="W43" Lpos="RB" Lhead="11" Lrel="advmod" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg98" xml:id="W44" Lpos="CC" Lhead="12" Lrel="cc" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg100" xml:id="W45" Lpos="RB" Lhead="12" Lrel="conj" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg102" xml:id="W46" Lpos="VBG" Lhead="11" Lrel="dep" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg104" xml:id="W47" Lpos="CC" Lhead="15" Lrel="cc" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg106" xml:id="W48" Lpos="VBG" Lhead="15" Lrel="conj" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg108" xml:id="W49" Lpos="CC" Lhead="15" Lrel="cc" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg110" xml:id="W50" Lpos="VBG" Lhead="15" Lrel="conj" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg112" xml:id="W51" Lpos="IN" Lhead="19" Lrel="prep" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg114" xml:id="ne14" AAgf="pobj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg115" xml:id="AAh14" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg115" xml:id="W52" Lpos="NN" Lhead="20" Lrel="pobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                           <masxml:W sgf:segment="seg117" xml:id="W53" Lpos="TO" Lhead="23" Lrel="aux" Xpos=""
+                                     lemma=""/>
+                           <masxml:W sgf:segment="seg119" xml:id="W54" Lpos="VB" Lhead="21" Lrel="infmod" Xpos=""
+                                     lemma=""/>
+                           <masxml:ne sgf:segment="seg121" xml:id="ne15" AAgf="dobj" gf="unsure-gf">
+                              <masxml:W sgf:segment="seg122" xml:id="W55" Lpos="DT" Lhead="25" Lrel="det" Xpos=""
+                                        lemma=""/>
+                              <masxml:nphead sgf:segment="seg124" xml:id="AAh15" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg124" xml:id="W56" Lpos="NN" Lhead="23" Lrel="dobj" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg126" xml:id="W57" Lpos="." Lhead="3" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                     </masxml:s>
+                     <masxml:s sgf:segment="seg128" xml:id="s3">
+                        <masxml:ne sgf:segment="seg129" xml:id="ne16" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg129" xml:id="AAh16" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg129" xml:id="W58" Lpos="PRP" Lhead="2" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg131" xml:id="W59" Lpos="VBD" Lhead="0" Lrel="root" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg133" xml:id="W60" Lpos="TO" Lhead="4" Lrel="aux" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg135" xml:id="W61" Lpos="VB" Lhead="2" Lrel="xcomp" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg137" xml:id="ne17" AAgf="dobj" gf="unsure-gf">
+                           <masxml:W sgf:segment="seg138" xml:id="W62" Lpos="DT" Lhead="6" Lrel="det" Xpos=""
+                                     lemma=""/>
+                           <masxml:nphead sgf:segment="seg140" xml:id="AAh17" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg140" xml:id="W63" Lpos="NN" Lhead="4" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                           <masxml:ne sgf:segment="seg142" xml:id="ne18" AAgf="nsubj" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg142" xml:id="AAh18" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg142" xml:id="W64" Lpos="PRP" Lhead="8" Lrel="nsubj" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                           <masxml:W sgf:segment="seg144" xml:id="W65" Lpos="VBD" Lhead="6" Lrel="rcmod" Xpos=""
+                                     lemma=""/>
+                           <masxml:W sgf:segment="seg146" xml:id="W66" Lpos="TO" Lhead="10" Lrel="aux" Xpos=""
+                                     lemma=""/>
+                           <masxml:W sgf:segment="seg148" xml:id="W67" Lpos="VB" Lhead="8" Lrel="xcomp" Xpos=""
+                                     lemma=""/>
+                           <masxml:ne sgf:segment="seg150" xml:id="ne19" AAgf="dobj" gf="unsure-gf">
+                              <masxml:W sgf:segment="seg151" xml:id="W68" Lpos="DT" Lhead="12" Lrel="det" Xpos=""
+                                        lemma=""/>
+                              <masxml:nphead sgf:segment="seg153" xml:id="AAh19" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg153" xml:id="W69" Lpos="NN" Lhead="10" Lrel="dobj" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg155" xml:id="W70" Lpos="." Lhead="2" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                     </masxml:s>
+                     <masxml:s sgf:segment="seg157" xml:id="s4">
+                        <masxml:W sgf:segment="seg158" xml:id="W71" Lpos="``" Lhead="4" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg160" xml:id="ne20" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg160" xml:id="AAh20" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg160" xml:id="W72" Lpos="PRP" Lhead="4" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg162" xml:id="W73" Lpos="MD" Lhead="4" Lrel="aux" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg164" xml:id="W74" Lpos="VB" Lhead="0" Lrel="root" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg166" xml:id="ne21" AAgf="dobj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg166" xml:id="AAh21" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg166" xml:id="W75" Lpos="NN" Lhead="4" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg168" xml:id="W76" Lpos="," Lhead="8" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg170" xml:id="W77" Lpos="''" Lhead="8" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg172" xml:id="W78" Lpos="VBD" Lhead="4" Lrel="dep" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg174" xml:id="ne22" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg174" xml:id="AAh22" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg174" xml:id="W79" Lpos="PRP" Lhead="8" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg176" xml:id="W80" Lpos="," Lhead="8" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg178" xml:id="W81" Lpos="``" Lhead="4" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg180" xml:id="W82" Lpos="IN" Lhead="15" Lrel="mark" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg182" xml:id="ne23" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg182" xml:id="AAh23" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg182" xml:id="W83" Lpos="PRP" Lhead="15" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg184" xml:id="W84" Lpos="MD" Lhead="15" Lrel="aux" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg186" xml:id="W85" Lpos="VB" Lhead="4" Lrel="advcl" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg188" xml:id="ne24" AAgf="dobj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg188" xml:id="AAh24" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg188" xml:id="W86" Lpos="PRP" Lhead="15" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg190" xml:id="W87" Lpos="RP" Lhead="15" Lrel="prt" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg192" xml:id="W88" Lpos="." Lhead="4" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg194" xml:id="W89" Lpos="''" Lhead="4" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                     </masxml:s>
+                     <masxml:s sgf:segment="seg196" xml:id="s5">
+                        <masxml:W sgf:segment="seg197" xml:id="W90" Lpos="IN" Lhead="5" Lrel="prep" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg199" xml:id="W91" Lpos="JJ" Lhead="1" Lrel="pobj" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg201" xml:id="ne25" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:W sgf:segment="seg202" xml:id="W92" Lpos="DT" Lhead="4" Lrel="det" Xpos=""
+                                     lemma=""/>
+                           <masxml:nphead sgf:segment="seg204" xml:id="AAh25" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg204" xml:id="W93" Lpos="NNP" Lhead="5" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg206" xml:id="W94" Lpos="VBD" Lhead="0" Lrel="root" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg208" xml:id="W95" Lpos="TO" Lhead="7" Lrel="aux" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg210" xml:id="W96" Lpos="VB" Lhead="5" Lrel="xcomp" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg212" xml:id="W97" Lpos="," Lhead="5" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg214" xml:id="W98" Lpos="CC" Lhead="5" Lrel="cc" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg216" xml:id="W99" Lpos="VBD" Lhead="5" Lrel="conj" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg218" xml:id="ne26" AAgf="dobj" gf="unsure-gf">
+                           <masxml:W sgf:segment="seg219" xml:id="W100" Lpos="DT" Lhead="12" Lrel="det" Xpos=""
+                                     lemma=""/>
+                           <masxml:nphead sgf:segment="seg221" xml:id="AAh26" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg221" xml:id="W101" Lpos="NNP" Lhead="10" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg223" xml:id="W102" Lpos="TO" Lhead="14" Lrel="aux" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg225" xml:id="W103" Lpos="VB" Lhead="10" Lrel="xcomp" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg227" xml:id="W104" Lpos="IN" Lhead="14" Lrel="prep" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg229" xml:id="ne27" AAgf="pobj" gf="unsure-gf">
+                           <masxml:ne sgf:segment="seg230" xml:id="ne28" AAgf="poss" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg230" xml:id="AAh27" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg230" xml:id="W105" Lpos="PRP$" Lhead="17" Lrel="poss" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                           <masxml:nphead sgf:segment="seg232" xml:id="AAh28" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg232" xml:id="W106" Lpos="NN" Lhead="15" Lrel="pobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg234" xml:id="W107" Lpos="CC" Lhead="14" Lrel="cc" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg236" xml:id="W108" Lpos="VB" Lhead="14" Lrel="conj" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg238" xml:id="ne29" AAgf="dobj" gf="unsure-gf">
+                           <masxml:ne sgf:segment="seg239" xml:id="ne30" AAgf="poss" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg239" xml:id="AAh29" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg239" xml:id="W109" Lpos="PRP$" Lhead="21" Lrel="poss" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                           <masxml:nphead sgf:segment="seg241" xml:id="AAh30" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg241" xml:id="W110" Lpos="NNS" Lhead="19" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg243" xml:id="W111" Lpos="RB" Lhead="23" Lrel="advmod" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg245" xml:id="W112" Lpos="JJ" Lhead="19" Lrel="advmod" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg247" xml:id="W113" Lpos="IN" Lhead="26" Lrel="mark" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg249" xml:id="ne31" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg249" xml:id="AAh31" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg249" xml:id="W114" Lpos="PRP" Lhead="26" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg251" xml:id="W115" Lpos="MD" Lhead="23" Lrel="ccomp" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg253" xml:id="W116" Lpos="." Lhead="5" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                     </masxml:s>
+                     <masxml:s sgf:segment="seg255" xml:id="s6">
+                        <masxml:W sgf:segment="seg256" xml:id="W117" Lpos="RB" Lhead="4" Lrel="advmod" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg258" xml:id="ne32" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:W sgf:segment="seg259" xml:id="W118" Lpos="DT" Lhead="3" Lrel="det" Xpos=""
+                                     lemma=""/>
+                           <masxml:nphead sgf:segment="seg261" xml:id="AAh32" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg261" xml:id="W119" Lpos="NNP" Lhead="4" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg263" xml:id="W120" Lpos="VBD" Lhead="0" Lrel="root" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg265" xml:id="ne33" AAgf="dobj" gf="unsure-gf">
+                           <masxml:ne sgf:segment="seg266" xml:id="ne34" AAgf="poss" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg266" xml:id="AAh33" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg266" xml:id="W121" Lpos="PRP$" Lhead="7" Lrel="poss" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                           <masxml:W sgf:segment="seg268" xml:id="W122" Lpos="JJ" Lhead="7" Lrel="amod" Xpos=""
+                                     lemma=""/>
+                           <masxml:nphead sgf:segment="seg270" xml:id="AAh34" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg270" xml:id="W123" Lpos="NN" Lhead="4" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg272" xml:id="W124" Lpos="IN" Lhead="4" Lrel="prep" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg274" xml:id="ne35" AAgf="pobj" gf="unsure-gf">
+                           <masxml:ne sgf:segment="seg275" xml:id="ne36" AAgf="poss" gf="unsure-gf">
+                              <masxml:W sgf:segment="seg276" xml:id="W125" Lpos="DT" Lhead="10" Lrel="det" Xpos=""
+                                        lemma=""/>
+                              <masxml:nphead sgf:segment="seg278" xml:id="AAh35" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg278" xml:id="W126" Lpos="NNP" Lhead="12" Lrel="poss" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                              <masxml:W sgf:segment="seg280" xml:id="W127" Lpos="POS" Lhead="10" Lrel="possessive"
+                                        Xpos=""
+                                        lemma=""/>
+                           </masxml:ne>
+                           <masxml:nphead sgf:segment="seg282" xml:id="AAh36" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg282" xml:id="W128" Lpos="NN" Lhead="8" Lrel="pobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg284" xml:id="W129" Lpos="," Lhead="4" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg286" xml:id="W130" Lpos="CC" Lhead="4" Lrel="cc" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg288" xml:id="W131" Lpos="IN" Lhead="18" Lrel="prep" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg290" xml:id="ne37" AAgf="pobj" gf="unsure-gf">
+                           <masxml:ne sgf:segment="seg291" xml:id="ne38" AAgf="poss" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg291" xml:id="AAh37" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg291" xml:id="W132" Lpos="PRP$" Lhead="17" Lrel="poss" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                           <masxml:nphead sgf:segment="seg293" xml:id="AAh38" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg293" xml:id="W133" Lpos="NN" Lhead="15" Lrel="pobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg295" xml:id="W134" Lpos="VBD" Lhead="4" Lrel="conj" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg297" xml:id="ne39" AAgf="dobj" gf="unsure-gf">
+                           <masxml:W sgf:segment="seg298" xml:id="W135" Lpos="DT" Lhead="20" Lrel="det" Xpos=""
+                                     lemma=""/>
+                           <masxml:nphead sgf:segment="seg300" xml:id="AAh39" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg300" xml:id="W136" Lpos="NN" Lhead="18" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg302" xml:id="W137" Lpos="," Lhead="18" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg304" xml:id="W138" Lpos="IN" Lhead="18" Lrel="prep" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg306" xml:id="W139" Lpos="IN" Lhead="26" Lrel="prep" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg308" xml:id="W140" Lpos="JJ" Lhead="23" Lrel="pobj" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg310" xml:id="ne40" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg310" xml:id="AAh40" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg310" xml:id="W141" Lpos="PRP" Lhead="26" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg312" xml:id="W142" Lpos="VBD" Lhead="4" Lrel="conj" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg314" xml:id="ne41" AAgf="dobj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg314" xml:id="AAh41" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg314" xml:id="W143" Lpos="PRP" Lhead="26" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg316" xml:id="W144" Lpos="RP" Lhead="26" Lrel="prt" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg318" xml:id="W145" Lpos="." Lhead="4" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                     </masxml:s>
+                  </masxml:p>
+                  <masxml:p sgf:segment="seg321" xml:id="p2">
+                     <masxml:s sgf:segment="seg322" xml:id="s7">
+                        <masxml:W sgf:segment="seg323" xml:id="W146" Lpos="``" Lhead="5" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg325" xml:id="W147" Lpos="MD" Lhead="5" Lrel="aux" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg327" xml:id="ne42" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg327" xml:id="AAh42" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg327" xml:id="W148" Lpos="PRP" Lhead="5" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg329" xml:id="W149" Lpos="RB" Lhead="5" Lrel="advmod" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg331" xml:id="W150" Lpos="VB" Lhead="0" Lrel="root" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg333" xml:id="ne43" AAgf="iobj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg333" xml:id="AAh43" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg333" xml:id="W151" Lpos="PRP" Lhead="5" Lrel="iobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:ne sgf:segment="seg335" xml:id="ne44" AAgf="dobj" gf="unsure-gf">
+                           <masxml:W sgf:segment="seg336" xml:id="W152" Lpos="DT" Lhead="8" Lrel="det" Xpos=""
+                                     lemma=""/>
+                           <masxml:nphead sgf:segment="seg338" xml:id="AAh44" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg338" xml:id="W153" Lpos="NN" Lhead="5" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                           <masxml:ne sgf:segment="seg340" xml:id="ne45" AAgf="nsubj" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg340" xml:id="AAh45" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg340" xml:id="W154" Lpos="PRP" Lhead="10" Lrel="nsubj" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                           <masxml:W sgf:segment="seg342" xml:id="W155" Lpos="VBD" Lhead="8" Lrel="rcmod" Xpos=""
+                                     lemma=""/>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg344" xml:id="W156" Lpos="." Lhead="5" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg346" xml:id="W157" Lpos="''" Lhead="5" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                     </masxml:s>
+                     <masxml:s sgf:segment="seg348" xml:id="s8">
+                        <masxml:W sgf:segment="seg349" xml:id="W158" Lpos="VBD" Lhead="0" Lrel="root" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg351" xml:id="ne46" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:W sgf:segment="seg352" xml:id="W159" Lpos="DT" Lhead="3" Lrel="det" Xpos=""
+                                     lemma=""/>
+                           <masxml:nphead sgf:segment="seg354" xml:id="AAh46" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg354" xml:id="W160" Lpos="NNP" Lhead="1" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg356" xml:id="W161" Lpos="." Lhead="1" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                     </masxml:s>
+                  </masxml:p>
+                  <masxml:p sgf:segment="seg358" xml:id="p3">
+                     <masxml:s sgf:segment="seg359" xml:id="s9">
+                        <masxml:ne sgf:segment="seg360" xml:id="ne47" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:W sgf:segment="seg361" xml:id="W162" Lpos="DT" Lhead="2" Lrel="det" Xpos=""
+                                     lemma=""/>
+                           <masxml:nphead sgf:segment="seg363" xml:id="AAh47" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg363" xml:id="W163" Lpos="NNP" Lhead="3" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg365" xml:id="W164" Lpos="VBD" Lhead="0" Lrel="root" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg367" xml:id="W165" Lpos="CC" Lhead="3" Lrel="cc" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg369" xml:id="W166" Lpos="VBD" Lhead="3" Lrel="conj" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg371" xml:id="ne48" AAgf="dobj" gf="unsure-gf">
+                           <masxml:ne sgf:segment="seg372" xml:id="ne49" AAgf="poss" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg372" xml:id="AAh48" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg372" xml:id="W167" Lpos="PRP$" Lhead="7" Lrel="poss" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                           <masxml:nphead sgf:segment="seg374" xml:id="AAh49" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg374" xml:id="W168" Lpos="NNS" Lhead="3" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg376" xml:id="W169" Lpos="CC" Lhead="3" Lrel="cc" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg378" xml:id="W170" Lpos="VBD" Lhead="3" Lrel="conj" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg380" xml:id="W171" Lpos=":" Lhead="9" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg382" xml:id="W172" Lpos="``" Lhead="9" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg384" xml:id="W173" Lpos="VB" Lhead="13" Lrel="cop" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg386" xml:id="ne50" AAgf="ccomp" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg386" xml:id="AAh50" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg386" xml:id="W174" Lpos="NN" Lhead="9" Lrel="ccomp" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg388" xml:id="W175" Lpos="." Lhead="3" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                     </masxml:s>
+                     <masxml:s sgf:segment="seg390" xml:id="s10">
+                        <masxml:ne sgf:segment="seg391" xml:id="ne51" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg391" xml:id="AAh51" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg391" xml:id="W176" Lpos="PRP" Lhead="3" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg393" xml:id="W177" Lpos="VBP" Lhead="3" Lrel="aux" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg395" xml:id="W178" Lpos="VBN" Lhead="0" Lrel="root" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg397" xml:id="ne52" AAgf="dobj" gf="unsure-gf">
+                           <masxml:ne sgf:segment="seg398" xml:id="ne53" AAgf="poss" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg398" xml:id="AAh52" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg398" xml:id="W179" Lpos="PRP$" Lhead="5" Lrel="poss" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                           <masxml:nphead sgf:segment="seg400" xml:id="AAh53" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg400" xml:id="W180" Lpos="NN" Lhead="3" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg402" xml:id="W181" Lpos="IN" Lhead="3" Lrel="prep" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg404" xml:id="ne54" AAgf="pobj" gf="unsure-gf">
+                           <masxml:ne sgf:segment="seg405" xml:id="ne55" AAgf="poss" gf="unsure-gf">
+                              <masxml:W sgf:segment="seg406" xml:id="W182" Lpos="DT" Lhead="8" Lrel="det" Xpos=""
+                                        lemma=""/>
+                              <masxml:nphead sgf:segment="seg408" xml:id="AAh54" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg408" xml:id="W183" Lpos="NNP" Lhead="10" Lrel="poss" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                              <masxml:W sgf:segment="seg410" xml:id="W184" Lpos="POS" Lhead="8" Lrel="possessive"
+                                        Xpos=""
+                                        lemma=""/>
+                           </masxml:ne>
+                           <masxml:nphead sgf:segment="seg412" xml:id="AAh55" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg412" xml:id="W185" Lpos="NN" Lhead="6" Lrel="pobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg414" xml:id="W186" Lpos="CC" Lhead="3" Lrel="cc" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg416" xml:id="W187" Lpos="VBN" Lhead="3" Lrel="conj" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg418" xml:id="ne56" AAgf="dobj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg418" xml:id="AAh56" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg418" xml:id="W188" Lpos="PRP" Lhead="12" Lrel="dobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg420" xml:id="W189" Lpos="RP" Lhead="12" Lrel="prt" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg422" xml:id="W190" Lpos="RB" Lhead="12" Lrel="advmod" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg424" xml:id="W191" Lpos="IN" Lhead="12" Lrel="prep" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg426" xml:id="ne57" AAgf="pobj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg426" xml:id="AAh57" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg426" xml:id="W192" Lpos="NN" Lhead="16" Lrel="pobj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg428" xml:id="W193" Lpos=":" Lhead="3" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg430" xml:id="W194" Lpos="WDT" Lhead="20" Lrel="nsubj" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg432" xml:id="W195" Lpos="MD" Lhead="3" Lrel="parataxis" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg434" xml:id="W196" Lpos="TO" Lhead="23" Lrel="aux" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg436" xml:id="W197" Lpos="VB" Lhead="23" Lrel="cop" Xpos=""
+                                  lemma=""/>
+                        <masxml:ne sgf:segment="seg438" xml:id="ne58" AAgf="xcomp" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg439" xml:id="AAh58" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg439" xml:id="W198" Lpos="NN" Lhead="20" Lrel="xcomp" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                           <masxml:W sgf:segment="seg441" xml:id="W199" Lpos="RB" Lhead="23" Lrel="advmod" Xpos=""
+                                     lemma=""/>
+                           <masxml:W sgf:segment="seg443" xml:id="W200" Lpos="IN" Lhead="23" Lrel="prep" Xpos=""
+                                     lemma=""/>
+                           <masxml:ne sgf:segment="seg445" xml:id="ne59" AAgf="pobj" gf="unsure-gf">
+                              <masxml:nphead sgf:segment="seg445" xml:id="AAh59" sem="unsureSEM">
+                                 <masxml:W sgf:segment="seg445" xml:id="W201" Lpos="PRP" Lhead="25" Lrel="pobj" Xpos=""
+                                           lemma=""/>
+                              </masxml:nphead>
+                           </masxml:ne>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg447" xml:id="W202" Lpos="." Lhead="3" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg449" xml:id="W203" Lpos="''" Lhead="3" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                     </masxml:s>
+                  </masxml:p>
+                  <masxml:p sgf:segment="seg451" xml:id="p4">
+                     <masxml:s sgf:segment="seg451" xml:id="s11">
+                        <masxml:ne sgf:segment="seg452" xml:id="ne60" AAgf="nsubj" gf="unsure-gf">
+                           <masxml:nphead sgf:segment="seg453" xml:id="AAh60" sem="unsureSEM">
+                              <masxml:W sgf:segment="seg453" xml:id="W204" Lpos="NN" Lhead="4" Lrel="nsubj" Xpos=""
+                                        lemma=""/>
+                           </masxml:nphead>
+                           <masxml:W sgf:segment="seg455" xml:id="W205" Lpos="CC" Lhead="1" Lrel="cc" Xpos=""
+                                     lemma=""/>
+                           <masxml:W sgf:segment="seg457" xml:id="W206" Lpos="NN" Lhead="1" Lrel="conj" Xpos=""
+                                     lemma=""/>
+                        </masxml:ne>
+                        <masxml:W sgf:segment="seg459" xml:id="W207" Lpos="VBP" Lhead="0" Lrel="root" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg461" xml:id="W208" Lpos="RB" Lhead="6" Lrel="neg" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg463" xml:id="W209" Lpos="RB" Lhead="4" Lrel="advmod" Xpos=""
+                                  lemma=""/>
+                        <masxml:W sgf:segment="seg465" xml:id="W210" Lpos="." Lhead="4" Lrel="punct" Xpos=""
+                                  lemma=""/>
+                     </masxml:s>
+                  </masxml:p>
+               </masxml:section>
+            </masxml:body>
+         </sgf:layer>
+      </sgf:level>
+   </sgf:annotation>
+   <sgf:annotation xml:id="aesopa10cy-masxml_d5e3">
+      <sgf:level xml:id="aesopa10cy-masxml_mark" priority="1">
+         <sgf:layer xmlns:mark="http://www.text-technology.de/anawiki/mark"
+                    xsi:schemaLocation="http://www.text-technology.de/anawiki/mark http://coli.lili.uni-bielefeld.de/Texttechnologie/Forschergruppe/sekimo/sgf/ana_markables.xsd">
+            <mark:markable sgf:segment="seg4" xml:id="mark_ne1" reference="unmarked" headPos="nom"/>
+            <mark:markable sgf:segment="seg17" xml:id="mark_ne2" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg22" xml:id="mark_ne3" reference="unmarked" headPos="pron"/>
+               <mark:markable sgf:segment="seg34" xml:id="mark_ne4" reference="unmarked" headPos="nom">
+                  <mark:markable sgf:segment="seg43" xml:id="mark_ne5" reference="unmarked" headPos="nom"/>
+               </mark:markable>
+               <mark:markable sgf:segment="seg52" xml:id="mark_ne6" reference="unmarked" headPos="nom">
+                  <mark:markable sgf:segment="seg53" xml:id="mark_ne7" reference="unmarked" headPos="pron"/>
+               </mark:markable>
+               <mark:markable sgf:segment="seg59" xml:id="mark_ne8" reference="unmarked" headPos="pron"/>
+               <mark:markable sgf:segment="seg67" xml:id="mark_ne9" reference="unmarked" headPos="pron"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg72" xml:id="mark_ne10" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg78" xml:id="mark_ne11" reference="unmarked" headPos="nom"/>
+            <mark:markable sgf:segment="seg85" xml:id="mark_ne12" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg86" xml:id="mark_ne13" reference="unmarked" headPos="pron"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg114" xml:id="mark_ne14" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg121" xml:id="mark_ne15" reference="unmarked" headPos="nom"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg129" xml:id="mark_ne16" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg137" xml:id="mark_ne17" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg142" xml:id="mark_ne18" reference="unmarked" headPos="pron"/>
+               <mark:markable sgf:segment="seg150" xml:id="mark_ne19" reference="unmarked" headPos="nom"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg160" xml:id="mark_ne20" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg166" xml:id="mark_ne21" reference="unmarked" headPos="nom"/>
+            <mark:markable sgf:segment="seg174" xml:id="mark_ne22" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg182" xml:id="mark_ne23" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg188" xml:id="mark_ne24" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg201" xml:id="mark_ne25" reference="unmarked" headPos="nom"/>
+            <mark:markable sgf:segment="seg218" xml:id="mark_ne26" reference="unmarked" headPos="nom"/>
+            <mark:markable sgf:segment="seg229" xml:id="mark_ne27" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg230" xml:id="mark_ne28" reference="unmarked" headPos="pron"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg238" xml:id="mark_ne29" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg239" xml:id="mark_ne30" reference="unmarked" headPos="pron"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg249" xml:id="mark_ne31" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg258" xml:id="mark_ne32" reference="unmarked" headPos="nom"/>
+            <mark:markable sgf:segment="seg265" xml:id="mark_ne33" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg266" xml:id="mark_ne34" reference="unmarked" headPos="pron"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg274" xml:id="mark_ne35" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg275" xml:id="mark_ne36" reference="unmarked" headPos="nom"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg290" xml:id="mark_ne37" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg291" xml:id="mark_ne38" reference="unmarked" headPos="pron"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg297" xml:id="mark_ne39" reference="unmarked" headPos="nom"/>
+            <mark:markable sgf:segment="seg310" xml:id="mark_ne40" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg314" xml:id="mark_ne41" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg327" xml:id="mark_ne42" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg333" xml:id="mark_ne43" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg335" xml:id="mark_ne44" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg340" xml:id="mark_ne45" reference="unmarked" headPos="pron"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg351" xml:id="mark_ne46" reference="unmarked" headPos="nom"/>
+            <mark:markable sgf:segment="seg360" xml:id="mark_ne47" reference="unmarked" headPos="nom"/>
+            <mark:markable sgf:segment="seg371" xml:id="mark_ne48" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg372" xml:id="mark_ne49" reference="unmarked" headPos="pron"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg386" xml:id="mark_ne50" reference="unmarked" headPos="nom"/>
+            <mark:markable sgf:segment="seg391" xml:id="mark_ne51" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg397" xml:id="mark_ne52" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg398" xml:id="mark_ne53" reference="unmarked" headPos="pron"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg404" xml:id="mark_ne54" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg405" xml:id="mark_ne55" reference="unmarked" headPos="nom"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg418" xml:id="mark_ne56" reference="unmarked" headPos="pron"/>
+            <mark:markable sgf:segment="seg426" xml:id="mark_ne57" reference="unmarked" headPos="nom"/>
+            <mark:markable sgf:segment="seg438" xml:id="mark_ne58" reference="unmarked" headPos="nom">
+               <mark:markable sgf:segment="seg445" xml:id="mark_ne59" reference="unmarked" headPos="pron"/>
+            </mark:markable>
+            <mark:markable sgf:segment="seg452" xml:id="mark_ne60" reference="unmarked" headPos="nom"/>
+         </sgf:layer>
+      </sgf:level>
+   </sgf:annotation>
+   <sgf:annotation xml:id="aesopa10cy-masxml_d5e6">
+      <sgf:level xml:id="aesopa10cy-masxml_ds">
+         <sgf:layer xmlns:ds="http://www.text-technology.de/anawiki/ds"
+                    xsi:schemaLocation="http://www.text-technology.de/anawiki/ds http://coli.lili.uni-bielefeld.de/Texttechnologie/Forschergruppe/sekimo/sgf/ana_doc.xsd">
+            <ds:paragraph sgf:segment="seg2" xml:id="ds_p1">
+               <ds:sentence sgf:segment="seg3" xml:id="ds_s1"/>
+               <ds:sentence sgf:segment="seg71" xml:id="ds_s2"/>
+               <ds:sentence sgf:segment="seg128" xml:id="ds_s3"/>
+               <ds:sentence sgf:segment="seg157" xml:id="ds_s4"/>
+               <ds:sentence sgf:segment="seg196" xml:id="ds_s5"/>
+               <ds:sentence sgf:segment="seg255" xml:id="ds_s6"/>
+            </ds:paragraph>
+            <ds:paragraph sgf:segment="seg321" xml:id="ds_p2">
+               <ds:sentence sgf:segment="seg322" xml:id="ds_s7"/>
+               <ds:sentence sgf:segment="seg348" xml:id="ds_s8"/>
+            </ds:paragraph>
+            <ds:paragraph sgf:segment="seg358" xml:id="ds_p3">
+               <ds:sentence sgf:segment="seg359" xml:id="ds_s9"/>
+               <ds:sentence sgf:segment="seg390" xml:id="ds_s10"/>
+            </ds:paragraph>
+            <ds:paragraph sgf:segment="seg451" xml:id="ds_p4">
+               <ds:sentence sgf:segment="seg451" xml:id="ds_s11"/>
+            </ds:paragraph>
+         </sgf:layer>
+      </sgf:level>
+   </sgf:annotation>
+   <sgf:annotation xml:id="aesopa10cy-masxml_d5e9">
+      <sgf:level xml:id="aesopa10cy-masxml_rel">
+         <sgf:layer xmlns:rel="http://www.text-technology.de/anawiki/relation"
+                    xsi:schemaLocation="http://www.text-technology.de/anawiki/relation http://coli.lili.uni-bielefeld.de/Texttechnologie/Forschergruppe/sekimo/sgf/ana_semrels.xsd"/>
+      </sgf:level>
+   </sgf:annotation>
+</sgf:corpusData>
