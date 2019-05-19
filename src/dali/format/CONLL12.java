@@ -144,7 +144,7 @@ public class CONLL12 extends IFormat {
 	
 	@Override
 	public void write(String out, DocumentData doc) throws Exception {
-		String output = out+FileHandler.FILE_SEPA+doc.getFilename()+SUFFIX;
+		String output = out+FileHandler.FILE_SEPA+doc.getFilename(out)+SUFFIX;
 		List<Integer> paraCnt = doc.getParaCnt();
 		List<SentenceData> sentList = doc.getSentList();		
 		String filename = doc.getFilename();

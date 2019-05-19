@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import dali.util.FileHandler;
 import dali.util.Options;
 
 /**
@@ -14,16 +15,27 @@ import dali.util.Options;
  */
 public class DocumentData {
 	private String heading;
+	private String textContent;
 	private List<SentenceData> sentList;
 	private String filename;
+	private String fileType;
+	private String daliType;
 	private List<Integer> paraCnt;
 	
 	private static final String INDENT = Options.INDENT;
 
 	public DocumentData(File file){
+		this(file,false);
+	}
+	
+	public DocumentData(File file,boolean dalifile){
 		heading = "<header>\n</header>";
 		sentList =  new ArrayList<SentenceData>();
 		filename=extractFilename(file.getName());
+		if(dalifile){
+			fileType = file.getParentFile().getName();
+			daliType = file.getParentFile().getParentFile().getName();
+		}
 		paraCnt = new ArrayList<Integer>();
 	}
 	
@@ -39,12 +51,18 @@ public class DocumentData {
 		return heading;
 	}
 	
+	public String getTextContent(){
+		return textContent;
+	}
+	
 	public void setHeading(String heading, boolean formatting){
 		if(formatting==true)
 			setHeading(heading);
 		else
 			this.heading=heading;
 	}
+	
+	
 	
 	public void setHeading(String heading){
 		StringBuilder sb = new StringBuilder();
@@ -71,6 +89,10 @@ public class DocumentData {
 		
 	}
 	
+	public void setTextContent(String content){
+		this.textContent = content;
+	}
+	
 	public void addParagraph(int cnt){
 		this.paraCnt.add(cnt);
 	}
@@ -85,6 +107,23 @@ public class DocumentData {
 	
 	public String getFilename(){
 		return filename;
+	}
+	
+	public String getDaliType(){
+		return daliType;
+	}
+	
+	public String getFileType(){
+		return fileType;
+	}
+	
+	public String getFilename(String out){
+		if(daliType!=null){
+			out += FileHandler.FILE_SEPA+daliType+FileHandler.FILE_SEPA+fileType+FileHandler.FILE_SEPA;
+			File dirs = new File(out);
+			dirs.mkdirs();
+		}
+		return daliType+FileHandler.FILE_SEPA+fileType+FileHandler.FILE_SEPA+filename;
 	}
 	
 	public void setFilename(String filename){

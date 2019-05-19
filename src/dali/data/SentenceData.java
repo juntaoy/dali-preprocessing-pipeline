@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.HashSet;
 
 import is2.data.SentenceData09;
+import dali.format.IFormat;
 
 
 /**
@@ -20,9 +21,12 @@ import is2.data.SentenceData09;
 public class SentenceData {
 	
 	private ArrayList<String> token;
+	private ArrayList<Integer> tstart;
+	private ArrayList<Integer> tend;
 	private ArrayList<String> pos;
 	private ArrayList<String> label;
 	private ArrayList<Integer> head;
+	private ArrayList<Double> head_scores;
 	private HashSet<MarkableData> markables;
 	
 	private static final String[] pennBracket={"-LRB-","-RRB-","-LSB-","-RSB-","-LCB-","-RCB-","`","``","''"};
@@ -48,6 +52,14 @@ public class SentenceData {
 		
 		size = dis.readInt();
 		for(int i=0;i<size;i++)
+			tstart.add(dis.readInt());
+		
+		size = dis.readInt();
+		for(int i=0;i<size;i++)
+			tend.add(dis.readInt());
+		
+		size = dis.readInt();
+		for(int i=0;i<size;i++)
 			pos.add(dis.readUTF());
 		
 		size = dis.readInt();
@@ -67,14 +79,21 @@ public class SentenceData {
 	
 	public SentenceData(){
 		this.token = new ArrayList<String>();
+		this.tstart = new ArrayList<Integer>();
+		this.tend = new ArrayList<Integer>();
 		this.pos = new ArrayList<String>();
 		this.label = new ArrayList<String>();
 		this.head = new ArrayList<Integer>();
+		this.head_scores = new ArrayList<Double>();
 		this.markables=new HashSet<MarkableData>();
+		
 		token.add("ROOT");
+		tstart.add(-1);
+		tend.add(-1);
 		pos.add("<ROOT-POS>");
 		label.add("root-label");
 		head.add(-1);
+		head_scores.add(0.0);
 	}
 	
 	
@@ -102,6 +121,14 @@ public class SentenceData {
 		for(int i=1;i<token.size();i++)
 			dos.writeUTF(token.get(i));
 		
+		dos.writeInt(tstart.size()-1);
+		for(int i=1;i<tstart.size();i++)
+			dos.writeInt(tstart.get(i));
+		
+		dos.writeInt(tend.size()-1);
+		for(int i=1;i<tend.size();i++)
+			dos.writeInt(tend.get(i));
+		
 		dos.writeInt(pos.size()-1);
 		for(int i=1;i<pos.size();i++)
 			dos.writeUTF(pos.get(i));
@@ -114,6 +141,10 @@ public class SentenceData {
 		for(int i=1;i<head.size();i++)
 			dos.writeInt(head.get(i));
 		
+		dos.writeInt(head_scores.size()-1);
+		for(int i=1;i<head_scores.size();i++)
+			dos.writeDouble(head.get(i));
+		
 		dos.writeInt(markables.size());
 		for(MarkableData mark:markables)
 			mark.writeData(dos);
@@ -123,6 +154,14 @@ public class SentenceData {
 	
 	public void addTokens(String tok){
 		token.add(bracketPennToString(tok));
+	}
+	
+	public void addTStart(int s){
+		tstart.add(s);
+	}
+	
+	public void addTEnd(int e){
+		tend.add(e);
 	}
 	
 	public void addPos(String pos){
@@ -135,6 +174,10 @@ public class SentenceData {
 	
 	public void addHead(int h){
 		this.head.add(h);
+	}
+	
+	public void addHeadScores(double h){
+		this.head_scores.add(h);
 	}
 	
 	public void resetMarkableHeadIdByDep(){
@@ -202,6 +245,18 @@ public class SentenceData {
 			tok[i]=token.get(i);
 		return tok;
 	}
+
+	public int getTStartById(int id){
+		if(id>=tstart.size()||id<0)
+			return -1;
+		return tstart.get(id);
+	}
+	
+	public int getTEndById(int id){
+		if(id>=tend.size()||id<0)
+			return -1;
+		return tend.get(id);
+	}
 	
 	public String getSentenceStr(){
 		StringBuilder sb = new StringBuilder();
@@ -221,6 +276,12 @@ public class SentenceData {
 		if(id>=pos.size()||id<0)
 			return null;
 		return pos.get(id);
+	}
+	
+	public String getXmlPosByID(int id){
+		if(id>=pos.size()||id<0)
+			return null;
+		return convertXMLchars(pos.get(id));
 	}
 	
 	public String[] getPos(){
@@ -246,6 +307,12 @@ public class SentenceData {
 		if(id>=head.size()||id<0)
 			return -1;
 		return head.get(id);
+	}
+	
+	public double getHeadScoresById(int id){
+		if(id>=head_scores.size()||id<0)
+			return 0.0;
+		return head_scores.get(id);
 	}
 	
 	public int[] getHead(){
@@ -327,8 +394,28 @@ public class SentenceData {
 	}
 	
 	
-	public void addMarkables(int start, int end){
-		addMarkables(start,end,-1);//no head word
+	public void addMarkables(int start,int end){
+		addMarkables(start,end,-1);
+	}
+	
+	
+	public void addMarkables(int start, int end,int head, int category,int set_id, int head_end,int id,int ner,int lastnn){
+		MarkableData mark = new MarkableData(id<0?markables.size():id,start,end,head,category,set_id,head_end,ner,lastnn);
+		if(!markables.contains(mark))
+			markables.add(mark);//no head word
+	}
+	
+	
+	public void addMarkables(int start, int end,int head,int ner){
+		MarkableData mark = new MarkableData(markables.size(),start,end,head,ner);
+		if(!markables.contains(mark))
+			markables.add(mark);
+	}
+	
+	public void addMarkables(int start, int end,int head,String ner_str){
+		MarkableData mark = new MarkableData(markables.size(),start,end,head, IFormat.getARRAUMentionTypeIdByStr(ner_str));
+		if(!markables.contains(mark))
+			markables.add(mark);
 	}
 	
 	public void addMarkables(int start, int end,int head){
@@ -454,7 +541,7 @@ public class SentenceData {
 	 * @param word
 	 * @return
 	 */
-    private String convertXMLchars(String word){
+    public static String convertXMLchars(String word){
         if ((word.indexOf("&")) >= 0)
             word = word.replaceAll("\\&","&amp;");
         if ((word.indexOf("<")) >= 0);

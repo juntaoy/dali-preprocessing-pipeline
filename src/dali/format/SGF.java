@@ -21,7 +21,8 @@ public class SGF  extends IFormat {
 
 	private static SGF singleton = new SGF();
 	private static final String SUFFIX_MASXML = "-masxml.xml";
-	private static final String SUFFIX_TEXT = ".txt";
+	private static final String SUFFIX_TEXT = "-noheader.txt";
+	private static final String SUFFIX_H_TEXT = "-header.txt";
 	private static final String SUFFIX = "-sgf.xml";
 	private static String xslPath;
 	
@@ -42,10 +43,11 @@ public class SGF  extends IFormat {
 	@Override
 	public void write(String out, DocumentData doc) throws Exception {
 		out = new File(out).getAbsolutePath();
-		String output = out+FileHandler.FILE_SEPA+doc.getFilename()+SUFFIX;
-		String masxml = out+FileHandler.FILE_SEPA+doc.getFilename()+SUFFIX_MASXML;
-		String text = out+FileHandler.FILE_SEPA+doc.getFilename()+SUFFIX_TEXT;
-		IFormat masio = MASXML.getInstance();
+		String output = out+FileHandler.FILE_SEPA+doc.getFilename(out)+SUFFIX;
+		String masxml = out+FileHandler.FILE_SEPA+doc.getFilename(out)+SUFFIX_MASXML;
+		String text = out+FileHandler.FILE_SEPA+doc.getFilename(out)+SUFFIX_TEXT;
+		String htext = out+FileHandler.FILE_SEPA+doc.getFilename(out)+SUFFIX_H_TEXT;
+		IFormat masio = MASXML_pd.getInstance();
 		masio.write(out, doc);
 		
 		List<Integer> paraCnt = doc.getParaCnt();
@@ -54,7 +56,9 @@ public class SGF  extends IFormat {
 		
 		//write the plain text
 		BufferedWriter textwriter = FileHandler.getBufferedWriter(text);
-		
+		BufferedWriter htextwriter = FileHandler.getBufferedWriter(htext);
+		htextwriter.write(doc.getHeading()+"\n");
+
 		int psnt=0;
 		int pid=0;
 		boolean newpara = true;
@@ -64,16 +68,22 @@ public class SGF  extends IFormat {
 				newpara=true;
 				if(i!=0){
 					textwriter.newLine();
-					textwriter.newLine();
+					htextwriter.newLine();
 				}
 			}
 			
-			if(!newpara)
+			if(!newpara){
 				textwriter.write(" ");
-			textwriter.write(sentList.get(i).getSentenceStr());
+				htextwriter.write(" ");
+			}
+			String sentstr = sentList.get(i).getSentenceStr();
+			textwriter.write(sentstr);
+			htextwriter.write(sentstr);
+			
 			newpara=false;
 		}
 		FileHandler.closeWriter(textwriter);
+		FileHandler.closeWriter(htextwriter);
 		
 		//converted to the sgf format
 		

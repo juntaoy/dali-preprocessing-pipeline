@@ -13,27 +13,29 @@ import dali.util.FileHandler;
 /**
  * DALI Project
  * 
- * Juntao Yu, 26/Jul/2017
+ * Juntao Yu, 12/Jun/2018
  *
  */
-public class DozatParser implements IAnotator {
-	private String configFile;
-	private String savedir;
+public class DaliTagger implements IAnotator {
+	private String model_prefix;
 	private Options op;
 	private String startFile;
-    public DozatParser(Options op) {
-    	this.savedir = op.getPmodel();
-    	configFile = savedir+"/config.cfg";
+    public DaliTagger(Options op) {
+    	this.model_prefix = op.getPmodel();
     	this.op = op;
     	startFile = op.getStartFile();
     }
     
     
     public void anotate(){
-    	generateConfigFile(op.getTmpFilePath());
-    	 System.out.println("Parsing the sentences...");
+    	 System.out.println("Annotating the sentences...");
 
-         String conversionPath = "python "+startFile+" --save_dir " + savedir + " --test";
+         String conversionPath = "python "+startFile+
+        		 " --mention_model " + model_prefix + "mention"
+        		 +" --ner_model " + model_prefix +"ner"
+        		 +" --head_model " + model_prefix +"head"
+        		 + " --input "+ op.getTmpFilePath()
+        		 +" --output "+ op.getTmpFilePath();
 
          //System.out.println("(1) " + conversionPath);
          Runtime rt = Runtime.getRuntime();
@@ -61,12 +63,7 @@ public class DozatParser implements IAnotator {
 	 	    //System.out.println("(3) " + conversionPath);
 	             //pr.waitFor();
 	 	    //System.out.println("(4) " + conversionPath);
-	 	    
-	 	    File parsed = new File(op.getDozatParsedPath());
-	 	    File conll = new File(op.getTmpFilePath());
- 	    	conll.delete();
-	 	    
-	 	    parsed.renameTo(conll);
+	 	   
 	 	    
          } catch (Exception ex) {
          	ex.printStackTrace();
@@ -104,29 +101,6 @@ public class DozatParser implements IAnotator {
     
     
     
-    private void generateConfigFile(String input){
-    	BufferedWriter writer = null;
-    	BufferedReader reader = null;
-		try {
-			reader = FileHandler.getBufferedReader(configFile);
-			StringBuilder sb = new StringBuilder();
-			while(true){
-				String line = reader.readLine();
-				if(line==null) break;
-				if(!line.startsWith("test_file"))
-					sb.append(line+"\n");
-				else
-					sb.append("test_file = "+input+"\n");
-			}
-			
-			reader.close();
-						
-			writer = FileHandler.getBufferedWriter(configFile);
-			writer.write(sb.toString());
-    		FileHandler.closeWriter(writer);
-		}catch (Exception e) {
-			e.printStackTrace();
-		}
-    }
+   
     
 }

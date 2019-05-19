@@ -15,6 +15,11 @@ public class MarkableData implements Comparable{
 	private int head;
 	private int start;
 	private int end;
+	private int category;
+	private int set_id;
+	private int head_end;
+	private int ner;
+	private int last_nn;
 	
 	public MarkableData(DataInputStream dis) throws Exception{
 		this.id = dis.readInt();
@@ -22,9 +27,14 @@ public class MarkableData implements Comparable{
 		this.head = dis.readInt();
 		this.start = dis.readInt();
 		this.end = dis.readInt();
+		this.category = dis.readInt();
+		this.set_id = dis.readInt();
+		this.head_end = dis.readInt();
+		this.ner = dis.readInt();
+		this.last_nn=dis.readInt();
 	}
 	
-	public MarkableData(int id, int start,int end,int head){
+	public MarkableData(int id, int start, int end, int head, int category, int set_id,int head_end,int ner,int last_nn){
 		this.id=id;
 		this.mapid=id;
 		this.start = start;
@@ -32,6 +42,23 @@ public class MarkableData implements Comparable{
 		this.head=head;
 		if(head<0&&end-start<=2)
 			this.head=end;
+		this.category = category;
+		this.set_id = set_id;
+		this.head_end = head_end;
+		this.ner = ner;
+		this.last_nn = last_nn;
+	}
+	
+	public MarkableData(int id,int start,int end, int head,int category,int set_id){
+		this(id,start,end,head,category,set_id,-1,-1,-1);
+	}
+	
+	public MarkableData(int id, int start,int end,int head,int ner){
+		this(id,start,end,head,-1,-1,-1,ner,-1);
+	}
+	
+	public MarkableData(int id, int start,int end,int head){
+		this(id,start,end,head,-1,-1);
 	}
 	
 	public void writeData(DataOutputStream dos)throws Exception{
@@ -40,6 +67,19 @@ public class MarkableData implements Comparable{
 		dos.writeInt(head);
 		dos.writeInt(start);
 		dos.writeInt(end);
+		dos.writeInt(category);
+		dos.writeInt(set_id);
+		dos.writeInt(head_end);
+		dos.writeInt(ner);
+		dos.writeInt(last_nn);
+	}
+	
+	public int getNer(){
+		return ner;
+	}
+	
+	public void setNer(int ner){
+		this.ner = ner;
 	}
 	
 	public int getMapid(){
@@ -67,9 +107,39 @@ public class MarkableData implements Comparable{
 	public int getHead(){
 		return head;
 	}
-	
+	public int getHeadEnd(){
+		return head_end;
+	}
+	public int getMostLikelyHead(){
+		//head_end > head > last_nn > end
+		if(head_end>=0)
+			return head_end;
+		else if(head>=0)
+			return head;
+		else if(last_nn>=0)
+			return last_nn;
+		return end;
+	}
+	public void setHeadEnd(int head_end){
+		this.head_end = head_end;
+	}
 	public void setHead(int head){
 		this.head=head;
+	}
+	
+	public int getCategory(){
+		return category;
+	}
+	
+	public void setCategory(int category){
+		this.category = category;
+	}
+	
+	public int getSetId(){
+		return set_id;
+	}
+	public void setSetId(int set_id){
+		this.set_id = set_id;
 	}
 
 	@Override
@@ -102,7 +172,7 @@ public class MarkableData implements Comparable{
 	@Override
 	public String toString() {
 		return "MarkableData [id=" + id + ", mapid=" + mapid + ", head="
-				+ head + ", start=" + start + ", end=" + end + "]";
+				+ head + ", start=" + start + ", end=" + end + ", category="+category+",set_id"+set_id+"]";
 	}
 
 	@Override

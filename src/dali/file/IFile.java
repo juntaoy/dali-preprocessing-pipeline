@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
 
 import dali.util.FileHandler;
 /**
@@ -17,6 +18,21 @@ public abstract class IFile {
 	protected String filename;
 	protected boolean isHead; 
 	
+	public static final String htTitle = "<title>";
+	public static final String htAuthor = "<author>";
+	public static final String htCatStmt = "<categoryStmt>";
+	public static final String htDiffStmt= "<difficultyStmt>";
+	public static final String htPublisher = "<publisher>";
+	public static final String htUrl = "<url>";
+	public static final String htAva = "<availability>";
+	public static final String htDate = "<date>";
+	public static final String htRevisionDesc="<revisionDesc>";
+	
+	public static final String DALI_FICTION = "DALI-FICTION";
+	public static final String DALI_LEARN="DALI-LEARN";
+	public static final String DALI_STUDENT_REPORTS="DALI-STUDENT-REPORTS";
+	public static final String DALI_WIKI="DALI-WIKI";
+	
 	public IFile(File file) throws Exception{
 		this(file,false);
 	}
@@ -28,6 +44,14 @@ public abstract class IFile {
 		isHead = !noHead;
 	}
 	
+	public String getNext(HashMap<String,String> map) throws Exception{
+		if(isHead){
+			isHead=false;
+			return getHeading(map);
+		}else
+			return nextPara();
+	}
+	
 	public String getNext() throws Exception {
 		if(isHead){
 			isHead=false;
@@ -36,6 +60,9 @@ public abstract class IFile {
 			return nextPara();
 	}
 	
+	protected String getHeading(HashMap<String,String> map) throws Exception{
+		return getHeading();
+	}
 	protected abstract String getHeading() throws Exception ;
 	
 	protected abstract String nextPara() throws Exception ;
@@ -46,6 +73,7 @@ public abstract class IFile {
 		return sdf.format(date);
 	}
 	
+	
 	protected String getChangeDesc(){
 		String change ="" 
 				+ "<change>"
@@ -54,7 +82,7 @@ public abstract class IFile {
 				    + "<name>Juntao Yu</name>"
 				    + "<resp>Automatic Processing</resp>"
 				  + "</respStmt>"
-				  + "<TEIitem>Mentions extracted from dependency parser</TEIitem>"
+				  + "<TEIitem>Sentence split, tokenization, pos tagging, mention extraction, named entity recoganation and mention haed findding</TEIitem>"
 				+ "</change>";
 		
 		return change;
@@ -116,7 +144,10 @@ public abstract class IFile {
 				sb.append('u');}
 			else if ((c == '\u00FD') || (c == '\u00FD')) {
 				sb.append('y');}
-			  
+			else if((c=='\u0022') || (c=='\u201C') ||(c=='\u201D')){
+				sb.append('\"');}
+			else if((c=='\'')||(c=='\u0060') || (c=='\u00B4')||(c=='\u2018')||(c=='\u2019')){
+				sb.append('\'');}
 			// All other characters: replace by space:
 			else {
 				sb.append(' ');}

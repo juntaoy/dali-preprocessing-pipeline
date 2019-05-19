@@ -4,9 +4,12 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import dali.format.ARRAU;
 import dali.format.CONLL12;
 import dali.format.Dali;
+import dali.format.Twoline;
 import dali.format.IFormat;
+import dali.format.IOB2;
 import dali.format.MASXML;
 import dali.format.MMAX;
 import dali.format.SGF;
@@ -44,13 +47,17 @@ public class Converter {
 			in = CONLL12.getInstance();
 		else if(inFormat.equals(Options.FORMAT_MMAX))
 			in = MMAX.getInstance();
+		else if(inFormat.equals(Options.FORMAT_ARRAU))
+			in = ARRAU.getInstance();
 		else
 			in = Dali.getInstance();
 		
 		
 		if(outFormat.contains(Options.FORMAT_DALI))
 			outs.add(Dali.getInstance());
-		if(outFormat.contains(Options.FORMAT_MASXML)&&!outFormat.contains(Options.FORMAT_SGF))
+		if(outFormat.contains(Options.FORMAT_MASXML))
+			outs.add(MASXML.getInstance());
+		if(outFormat.contains(Options.FORMAT_MASXML_PD)&&!outFormat.contains(Options.FORMAT_SGF))
 			outs.add(MASXML.getInstance());
 		if(outFormat.contains(Options.FORMAT_SGF))
 			outs.add(SGF.getInstance(op.getXslPath()));
@@ -58,6 +65,10 @@ public class Converter {
 			outs.add(CONLL12.getInstance());
 		if(outFormat.contains(Options.FORMAT_MMAX))
 			outs.add(MMAX.getInstance());
+		if(outFormat.contains(Options.FORMAT_IOB2))
+			outs.add(IOB2.getInstance());
+		if(outFormat.contains(Options.FORMAT_2LINE))
+			outs.add(Twoline.getInstance());
 	}
 	
 	
@@ -89,7 +100,7 @@ public class Converter {
 			System.out.println("-input <dir>				The directory that contains the documents to be converted; Default:"+op.getInPath());
 			System.out.println("-output <dir>				The directory to output the converted documents; Defalut:"+op.getOutPath());
 			System.out.println("-xsl <file> 				The location of the xsl file required by the sgf converter; Defalut:"+op.getXslPath());
-			System.out.println("-dali -masxml -sgf -conll -mmax		The output format of the documents; Default:"+op.getOutFormat());
+			System.out.println("-dali -masxml -masxmlpd -sgf -conll -mmax	-iob2	The output format of the documents; Default:"+op.getOutFormat());
 		}else {
 		
 			Options op = new Options(args);
@@ -104,6 +115,8 @@ public class Converter {
 			
 			Converter convertor = new Converter(op);
 			convertor.convert();
+			if(op.getInFormat().equals(Options.FORMAT_ARRAU))
+				System.out.print("corss_err: "+ARRAU.cross_err+", coref_set_err: "+ARRAU.coref_err+", ref_type_err: "+ARRAU.type_err);
 		}
 	}
 }

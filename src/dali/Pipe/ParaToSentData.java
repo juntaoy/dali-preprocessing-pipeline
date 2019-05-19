@@ -23,7 +23,7 @@ public class ParaToSentData {
 		postagger = new MaxentTagger(tagModel);
 	}
 	
-	public List<SentenceData> getSentenceDataListFromParagraph(String para){
+	public List<SentenceData> getSentenceDataListFromParagraph(String para,int pre_ind){
 		List<SentenceData> sentList = new ArrayList<SentenceData>();
 		List<List<HasWord>> sentences = MaxentTagger.tokenizeText(new StringReader(para)) ;
 		for(List<HasWord> sentence:sentences){
@@ -31,6 +31,8 @@ public class ParaToSentData {
 			SentenceData sent = new SentenceData();
 			for(TaggedWord tw:tagged){
 				sent.addTokens(tw.word());
+				sent.addTStart(pre_ind+tw.beginPosition());
+				sent.addTEnd(pre_ind+tw.endPosition());
 				sent.addPos(tw.tag());
 			}
 			//System.out.println(sent);

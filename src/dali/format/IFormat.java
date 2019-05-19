@@ -61,6 +61,39 @@ public abstract class IFormat {
 		return false;
 	}
 	
+	//private static final String[] MREFS={"non_referring","new", "old"};
+	private static final String[] MREFS={"unknown","expletive","predicate","quantifier","coordination","idiom","new", "old"};
+	
+	protected String getARRAUMentionReferringStrById(int id){
+		if(id<0 || id>= MREFS.length)
+			return "ERROR";
+		return MREFS[id];
+	}
+	
+	protected int getARRAUMentionReferringIdByStr(String str){
+		for(int i=0;i<MREFS.length;i++)
+			if(str.equals(MREFS[i]))
+				return i;
+		return -1;
+	}
+	
+	private static final String[] MTYPES={"unknown","person","animate","concrete",
+			"organization","space","time","numerical","plan","abstract"};
+	
+	public static String getARRAUMentionTypeStrById(int id){
+		if(id<=0||id>=MTYPES.length)
+			id=0;
+		return MTYPES[id];
+	}
+	
+	public static int getARRAUMentionTypeIdByStr(String str){
+		for(int i=0;i<MTYPES.length;i++)
+			if(str.equals(MTYPES[i]))
+				return i;
+		
+		return -1;
+	}
+	
 	protected String getXmlHeading(File in) throws Exception{
 		StringBuilder sb = new StringBuilder();
 		BufferedReader reader = FileHandler.getBufferedReader(in);

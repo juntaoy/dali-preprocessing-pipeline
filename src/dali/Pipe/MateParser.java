@@ -11,7 +11,7 @@ import is2.transitionS2.Parser;
  * Juntao Yu, 26/Jul/2017
  *
  */
-public class MateParser implements IParser {
+public class MateParser implements IAnotator {
 	/* Default setting
 	 * set th=0.25	# .25 for joint postagging and parsing
 	 * set mth=0.1
@@ -25,15 +25,15 @@ public class MateParser implements IParser {
 			,"-tsize","2","-msize","1","-hm","0","-ht","4","-tthreshold","0.25","-mthreshold","0.1","-beam","40"};
 	private static final int testInd=1, evalInd=3, outInd=5, modelInd=7;
 	public MateParser(Options op){
-		configs[testInd] = op.getConllPath();
-		configs[evalInd] = op.getConllPath();
+		configs[testInd] = op.getTmpFilePath();
+		configs[evalInd] = op.getTmpFilePath();
 		configs[outInd] = op.getMateParsedPath();
-		configs[modelInd] = op.getParserModel();
+		configs[modelInd] = op.getPmodel();
 	}
 	
 	
 	
-	public void parse(){
+	public void anotate(){
 		try {
 			Parser.main(configs);
 			 File parsed = new File(configs[outInd]);
