@@ -1,0 +1,260 @@
+<!-- mas_xml_DALI.dtd                                                 -->
+<!-- DTD for Minimal Anaphoric Syntax - XML for DALI (input/output)   -->
+<!--      v. 1                                                        -->
+<!-- Author: Massimo Poesio                                           -->
+<!--      (based on the mas_xml_PD and mas_xml_GNOME)                 -->
+<!-- Created:  2018/05/20                                             -->
+<!-- Modified:                                                        -->
+<!--           2018/05/22 - gnomedoc -> dalidoc -->
+<!--                        new primaryData element for raw text -->
+<!--                        added categoryStmt to header for category -->
+<!--                        added image as sub-element of section -->
+<!--                        added ner to ne attributes (using ARRAU types) -->
+<!--                        added start and end to W attributes -->
+
+
+<!--   ELEMENTS 	MIN 	CONTENTS     (EXCEPTIONS)             -->
+
+<!-- ================ DALIDOC ====================================== -->
+
+<!-- The outer element of a document of the corpus
+     (Was: gnomedoc)-->
+
+<!ELEMENT dalidoc  (header,primaryData,body)>       
+<!ATTLIST dalidoc
+          id      ID      #IMPLIED>
+
+<!-- ================ HEADERS ======================================== -->
+
+<!--                 TEI-style header                -->
+
+<!-- header: file desc + revisions -->
+<!ELEMENT header    (fileDesc,revisionDesc?)>
+
+<!-- file description:  a full bibliographical description of the computer -->
+<!-- file itself, from which a user of the text could derive a proper -->
+<!-- bibliographic citation -->
+<!ELEMENT fileDesc  (titleStmt,categoryStmt,difficultyStmt,publicationStmt,sourceDesc)>
+
+<!ELEMENT titleStmt (title,author)>
+<!ELEMENT title	    (#PCDATA)>
+<!ELEMENT author    (#PCDATA)>
+
+<!ELEMENT categoryStmt (category)>
+<!ELEMENT category  (#PCDATA)>
+
+<!ELEMENT difficultyStmt (difficulty)>
+<!ELEMENT difficulty  (#PCDATA)>
+
+<!ELEMENT publicationStmt ((book|web|leaflet|miscsource),availability,date?)>
+
+<!ELEMENT book      (publisher,pubPlace,idno?)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT pubPlace  (#PCDATA)>
+<!ELEMENT web       (publisher,url)>
+<!ELEMENT url       (#PCDATA)>
+<!ELEMENT leaflet   (publisher)>
+<!ELEMENT miscsource  (#PCDATA)>
+<!--                   ISBN, etc. -->
+<!ELEMENT idno      (#PCDATA)>
+
+<!-- Copyright info -->
+<!ELEMENT availability (#PCDATA)>
+
+<!ELEMENT date	    (#PCDATA)>
+
+<!ELEMENT sourceDesc (filename,date)>
+<!ELEMENT filename  (#PCDATA)>
+
+
+<!-- revision history:   allows the encoder to provide a history of changes -->
+<!-- made during the development of the electronic text. -->
+<!ELEMENT revisionDesc (change+)>
+
+<!-- called TEIitem because item already used -->
+<!ELEMENT change    (date, respStmt, TEIitem)>
+
+<!ELEMENT respStmt  (name,resp)>
+<!ELEMENT name      (#PCDATA)>
+<!ELEMENT resp      (#PCDATA)>
+
+<!ELEMENT TEIitem  (#PCDATA)>
+
+
+<!-- ================ PRIMARY DATA =================================== -->
+<!-- SGF-style element containing the original text -->
+
+<!ELEMENT primaryData (textualContent)>      
+<!ATTLIST primaryData
+          start     CDATA      #REQUIRED
+          end       CDATA      #REQUIRED>
+<!ELEMENT textualContent (#PCDATA)>
+
+
+
+<!-- ================ LAYOUT ======================================== -->
+
+<!ELEMENT body     (section)>
+
+<!ELEMENT section  (title|p|s|nh|PDante|list|image)+ >
+<!ATTLIST section
+          id      ID      #IMPLIED>
+<!ELEMENT p	  (#PCDATA|s|list|nh|PDante|emph)* >
+<!ATTLIST p
+          id      ID      #IMPLIED>
+<!ELEMENT s	  (#PCDATA|W|ve|unit)* >
+<!ATTLIST s
+          id      ID      #REQUIRED
+          stype   (decl | int | imp | excl | unsureSTYPE ) #IMPLIED
+          status  (edited|unedited) #REQUIRED>
+<!ELEMENT unit    (#PCDATA | unit | list | W | ve | emph)* >
+<!ATTLIST unit
+          id      ID      #IMPLIED
+          >
+<!ELEMENT list    (title?,(item|nh|PDante)+)>
+<!ATTLIST list 
+	  ltype   (normal|enum|defn|unsureLTYPE) 'unsureLTYPE'
+          id	  ID	   #IMPLIED>
+<!ELEMENT item    (#PCDATA|ne|unit|W|s|title|p|list|nh|PDante)* >
+<!ATTLIST item 
+          id	  ID	   #IMPLIED
+          term	  CDATA	   #IMPLIED>
+
+
+
+<!-- ================ NH, AM AND THEIR ATTRIBUTES ========================= -->
+
+<!-- big change 2018/06/26 - new representation for nes -->
+<!-- new nh element for nominal elements at the end of the sentence -->
+<!-- it contains multiple am elements (anaphoric markables) one for each -->
+<!-- ne hypothesis -->
+
+<!ELEMENT nh (am)+>
+<!ATTLIST nh head   CDATA        #REQUIRED>
+
+<!ELEMENT am  EMPTY>
+<!ATTLIST    am id     ID           #REQUIRED
+	     span      CDATA        #REQUIRED
+	     player    CDATA        #REQUIRED
+	     origin    (gold|silverMV|silverMPA) #IMPLIED 
+             ner    (person|animate|concrete|organization|space|time|numerical|plan|abstract|unknown) #IMPLIED
+             AAcat  (a-np|another-np|q-np|num-np|meas-np|this-np|that-np|such-np|wh-np|poss-np|bare-np|pn|the-pn|the-np|pers-pro|poss-pro|refl-pro|rec-pro|q-pro|wh-pro|free-rel|this-pro|that-pro|num-ana|null-ana|coord-np|gerund|complementizer|no-cat|unsure-cat)  #IMPLIED
+             per    (per1|per2|per3|undersp-per|no-per|unsure-per)  #IMPLIED
+             AAper  (per1|per2|per3|undersp-per|no-per|unsure-per)  #IMPLIED
+             num    (sing|plur|undersp-num|no-num|unsure-num)  #IMPLIED
+             AAnum  (sing|plur|undersp-num|no-num|unsure-num)  #IMPLIED
+             gen    (fem|masc|neut|undersp-gen|any|no-gen|unsure-gen)  #IMPLIED
+             AAgen  (fem|masc|neut|undersp-gen|any|no-gen|unsure-gen)  #IMPLIED
+             gf     (subj|obj|predicate|there-obj|comp|adjunct|gen|np-compl|
+                     np-part|np-mod|adj-mod|no-gf| unsure-gf) 
+                    "unsure-gf"
+	     >
+
+<!-- ================ ne AND ITS ATTRIBUTES ======================== -->
+
+<!-- ne has now been replaced by the nh element after the sentence to allow --> 
+<!-- for multiple hypotheses about mentions -->
+<!-- the old ne has been kept here for backwards compatibility -->
+<!ELEMENT ne  (W|ne|nphead|mod|ve|unit| emph)* > 
+<!-- here I had to remove references to parameter entities catvals, -->
+<!-- pervals, numvals, and genvals because the bloody validator -->
+<!-- complained -->
+<!ATTLIST ne id     ID           #IMPLIED
+             AAcat  (a-np|another-np|q-np|num-np|meas-np|this-np|that-np|such-np|wh-np|poss-np|bare-np|pn|the-pn|the-np|pers-pro|poss-pro|refl-pro|rec-pro|q-pro|wh-pro|free-rel|this-pro|that-pro|num-ana|null-ana|coord-np|gerund|complementizer|no-cat|unsure-cat)  #IMPLIED
+             per    (per1|per2|per3|undersp-per|no-per|unsure-per)  #IMPLIED
+             AAper  (per1|per2|per3|undersp-per|no-per|unsure-per)  #IMPLIED
+             num    (sing|plur|undersp-num|no-num|unsure-num)  #IMPLIED
+             AAnum  (sing|plur|undersp-num|no-num|unsure-num)  #IMPLIED
+             gen    (fem|masc|neut|undersp-gen|any|no-gen|unsure-gen)  #IMPLIED
+             AAgen  (fem|masc|neut|undersp-gen|any|no-gen|unsure-gen)  #IMPLIED
+             gf     (subj|obj|predicate|there-obj|comp|adjunct|gen|np-compl|
+                     np-part|np-mod|adj-mod|no-gf| unsure-gf) 
+                    "unsure-gf"
+             ner    (person|animate|concrete|organization|space|time|numerical|plan|abstract|unknown) #IMPLIED
+	     >
+
+<!-- ================ PDante AND ITS ATTRIBUTES ======================== -->
+
+<!ELEMENT PDante  (interpretation,chains?,comment?,skip)>
+<!ATTLIST PDante  id      IDREF            #REQUIRED>
+
+<!ELEMENT interpretation (anchor)+>
+<!ELEMENT anchor  EMPTY>
+<!-- had to remove references to parameter entity numjudgment here -->
+<!ATTLIST anchor  type    (DN|DO|PR|NR)    #REQUIRED
+                  ante    IDREFS           #IMPLIED
+                  ann     (0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20)  #REQUIRED
+                  agr     (0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20)  #REQUIRED
+                  disagr  (0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20)  #REQUIRED>
+
+<!ELEMENT comment EMPTY>
+<!ATTLIST comment type_id CDATA            #REQUIRED
+                  type    (not_selectable|discourse_deixis|
+                           out_of_context_window) #REQUIRED
+                  username CDATA           #REQUIRED
+                  user_id  CDATA           #REQUIRED>
+
+<!ELEMENT skip    EMPTY >
+<!ATTLIST skip    total   (0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20)  #REQUIRED>
+
+
+<!-- New 2018/06/19 -->
+<!ELEMENT chains (chain)+>
+<!ELEMENT chain  EMPTY>
+<!ATTLIST chain   type     (gold|silverMV|silverMPA)  #REQUIRED
+                  entityID ID                           #REQUIRED>
+
+
+
+<!-- ================ NPHEAD AND ITS ATTRIBUTES ========================= -->
+
+<!-- As of 2018/06/27 nphead should be obsolete as well -->
+<!ELEMENT nphead (W | ne | unit | emph)*>
+<!ATTLIST nphead id ID #IMPLIED
+                 sem (pn-1st | pn-2nd | pn-1st-2nd | pn-reduced |
+		      gn-full | gn-reduced | tn | opn-full |
+		      opn-reduced | other | unsureSEM) "unsureSEM">
+
+<!-- ================ MOD AND ITS ATTRIBUTES ============================ -->
+
+<!-- As of 2018/06/27 mod should be obsolete as well -->
+<!ELEMENT mod (W|ne|ve|unit)*>
+<!ATTLIST mod id ID #IMPLIED
+              AAcat (AApre | AApost | unsureAAcat) "unsureAAcat"
+              type (appos | such | poss | preadj | prenoun | postprep |
+                    postpart | postnp | rel-cls | other | 
+		            unsureTYPE) "unsureTYPE"
+              pragm (unique | int | attr | unsurePRAGM) "unsurePRAGM"
+              sem (location1 | time-period1 | possess | possinv |
+                   content2 | material1 | subject7 | object3 |
+                   purpose2 | identify2 | characterize1 |
+                   rephrase1 | temporal-property1 | visual-property1 |
+                   spatial-property1 | bodily-property1 | state4 |
+                   property2 | quality1 | abstraction6 | phenomenon1 |
+                   other | unsureSEM) "unsureSEM"
+              coord (coord-yes | coord-no | unsureCOORD) "coord-no">
+
+<!-- ================ VE AND ITS ATTRIBUTES ============================ -->
+
+<!ELEMENT ve    (W+) >
+<!ATTLIST ve    id     ID #IMPLIED>
+
+<!-- ================ W   ======================== -->
+
+<!ELEMENT W     (#PCDATA)>
+<!ATTLIST W	id	ID	#IMPLIED
+		Lpos	CDATA	""
+                Xpos	CDATA	"" 
+                lemma   CDATA   ""
+                start   CDATA  #REQUIRED
+                end     CDATA  #REQUIRED
+                >
+
+<!-- ================ OTHER ELEMENTS  ======================== -->
+
+<!ELEMENT emph  (#PCDATA)>
+<!ATTLIST emph 
+	  color CDATA #IMPLIED>
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST image
+          id    ID        #IMPLIED>

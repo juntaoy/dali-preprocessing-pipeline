@@ -1,0 +1,4606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE gnomedoc SYSTEM "dtd/masxmlpd.dtd">
+<gnomedoc>
+<header>
+ <fileDesc>
+  <titleStmt>
+   <title>Fairy Tales - The Blue Light</title>
+   <author>The Brothers Grimm</author>
+  </titleStmt>
+  <publicationStmt>
+   <web>
+    <publisher>Gutenberg Project</publisher>
+    <url>http://www.gutenberg.org/files/grimm10/grimm10.txt</url>
+   </web>
+   <availability>This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.  You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org</availability>
+   <date>April, 2001</date>
+  </publicationStmt>
+  <sourceDesc>
+   <filename>data\game\gutenberg\grimm10bv.txt</filename>
+   <date>October 2008</date>
+  </sourceDesc>
+ </fileDesc>
+ <revisionDesc>
+  <change>
+   <date>25 July 2017</date>
+   <respStmt>
+    <name>Juntao Yu</name>
+    <resp>Automatic Processing</resp>
+   </respStmt>
+   <TEIitem>Mentions extracted from dependency parser</TEIitem>
+  </change>
+  <change>
+   <date>27 October 2008</date>
+   <respStmt>
+    <name>Jon Chamberlain</name>
+    <resp>Annotator</resp>
+   </respStmt>
+   <TEIitem>File prepared for processing and added header</TEIitem>
+  </change>
+ </revisionDesc>
+</header>
+<body>
+ <section>
+  <p id="p1">
+   <s id="s1">
+    <ne id="ne1" AAgf="expl" >
+     <nphead id="AAh1">
+      <W Lpos="EX" Lhead="2" Lrel="expl" >There</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >was</W>
+    <W Lpos="RB" Lhead="2" Lrel="advmod" >once</W>
+    <W Lpos="IN" Lhead="2" Lrel="prep" >upon</W>
+    <ne id="ne2" AAgf="pobj" >
+     <W Lpos="DT" Lhead="6" Lrel="det" >a</W>
+     <nphead id="AAh2">
+      <W Lpos="NN" Lhead="4" Lrel="pobj" >time</W>
+     </nphead>
+     <ne id="ne3" AAgf="nsubj" >
+      <W Lpos="DT" Lhead="8" Lrel="det" >a</W>
+      <nphead id="AAh3">
+       <W Lpos="NN" Lhead="14" Lrel="nsubj" >soldier</W>
+      </nphead>
+     </ne>
+     <W Lpos="WP" Lhead="14" Lrel="nsubj" >who</W>
+     <W Lpos="IN" Lhead="14" Lrel="prep" >for</W>
+     <ne id="ne4" AAgf="pobj" >
+      <W Lpos="JJ" Lhead="12" Lrel="amod" >many</W>
+      <nphead id="AAh4">
+       <W Lpos="NNS" Lhead="10" Lrel="pobj" >years</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBD" Lhead="14" Lrel="aux" >had</W>
+     <W Lpos="VBN" Lhead="6" Lrel="rcmod" >served</W>
+     <ne id="ne5" AAgf="dobj" >
+      <W Lpos="DT" Lhead="16" Lrel="det" >the</W>
+      <nphead id="AAh5">
+       <W Lpos="NN" Lhead="14" Lrel="dobj" >king</W>
+      </nphead>
+     </ne>
+     <W Lpos="RB" Lhead="14" Lrel="advmod" >faithfully</W>
+    </ne>
+    <W Lpos="," Lhead="14" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="2" Lrel="cc" >but</W>
+    <W Lpos="WRB" Lhead="23" Lrel="advmod" >when</W>
+    <ne id="ne6" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="22" Lrel="det" >the</W>
+     <nphead id="AAh6">
+      <W Lpos="NN" Lhead="23" Lrel="nsubj" >war</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="28" Lrel="advcl" >came</W>
+    <W Lpos="TO" Lhead="23" Lrel="prep" >to</W>
+    <ne id="ne7" AAgf="pobj" >
+     <W Lpos="DT" Lhead="26" Lrel="det" >an</W>
+     <nphead id="AAh7">
+      <W Lpos="NN" Lhead="24" Lrel="pobj" >end</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="28" Lrel="aux" >could</W>
+    <W Lpos="VB" Lhead="2" Lrel="conj" >serve</W>
+    <W Lpos="RB" Lhead="30" Lrel="advmod" >no</W>
+    <W Lpos="RBR" Lhead="28" Lrel="advmod" >longer</W>
+    <W Lpos="IN" Lhead="32" Lrel="mwe" >because</W>
+    <W Lpos="IN" Lhead="28" Lrel="prep" >of</W>
+    <ne id="ne8" AAgf="pobj" >
+     <W Lpos="DT" Lhead="35" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="35" Lrel="amod" >many</W>
+     <nphead id="AAh8">
+      <W Lpos="NNS" Lhead="32" Lrel="pobj" >wounds</W>
+     </nphead>
+     <W Lpos="WDT" Lhead="39" Lrel="dobj" >which</W>
+     <ne id="ne9" AAgf="nsubj" >
+      <nphead id="AAh9">
+       <W Lpos="PRP" Lhead="39" Lrel="nsubj" >he</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBD" Lhead="39" Lrel="aux" >had</W>
+     <W Lpos="VBN" Lhead="35" Lrel="rcmod" >received</W>
+    </ne>
+    <W Lpos="." Lhead="2" Lrel="punct" >.</W>
+   </s>
+   <s id="s2">
+    <ne id="ne10" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="2" Lrel="det" >The</W>
+     <nphead id="AAh10">
+      <W Lpos="NN" Lhead="3" Lrel="nsubj" >king</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >said</W>
+    <W Lpos="TO" Lhead="3" Lrel="prep" >to</W>
+    <ne id="ne11" AAgf="pobj" >
+     <nphead id="AAh11">
+      <W Lpos="PRP" Lhead="4" Lrel="pobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos=":" Lhead="3" Lrel="punct" >:</W>
+    <W Lpos="``" Lhead="3" Lrel="punct" >&apos;</W>
+    <ne id="ne12" AAgf="nsubj" >
+     <nphead id="AAh12">
+      <W Lpos="PRP" Lhead="10" Lrel="nsubj" >You</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="10" Lrel="aux" >may</W>
+    <W Lpos="VB" Lhead="3" Lrel="ccomp" >return</W>
+    <W Lpos="TO" Lhead="10" Lrel="prep" >to</W>
+    <ne id="ne13" AAgf="pobj" >
+     <ne id="ne14" AAgf="poss" >
+      <nphead id="AAh13">
+       <W Lpos="PRP$" Lhead="13" Lrel="poss" >your</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh14">
+      <W Lpos="NN" Lhead="11" Lrel="pobj" >home</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+    <ne id="ne15" AAgf="nsubj" >
+     <nphead id="AAh15">
+      <W Lpos="PRP" Lhead="16" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="10" Lrel="ccomp" >need</W>
+    <ne id="ne16" AAgf="dobj" >
+     <nphead id="AAh16">
+      <W Lpos="PRP" Lhead="16" Lrel="dobj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="19" Lrel="advmod" >no</W>
+    <W Lpos="RBR" Lhead="16" Lrel="advmod" >longer</W>
+    <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="10" Lrel="cc" >and</W>
+    <ne id="ne17" AAgf="nsubj" >
+     <nphead id="AAh17">
+      <W Lpos="PRP" Lhead="25" Lrel="nsubj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="25" Lrel="aux" >will</W>
+    <W Lpos="RB" Lhead="25" Lrel="neg" >not</W>
+    <W Lpos="VB" Lhead="10" Lrel="conj" >receive</W>
+    <ne id="ne18" AAgf="dobj" >
+     <W Lpos="DT" Lhead="28" Lrel="det" >any</W>
+     <W Lpos="JJR" Lhead="28" Lrel="amod" >more</W>
+     <nphead id="AAh18">
+      <W Lpos="NN" Lhead="25" Lrel="dobj" >money</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+    <W Lpos="IN" Lhead="33" Lrel="mark" >for</W>
+    <ne id="ne19" AAgf="nsubj" >
+     <nphead id="AAh19">
+      <W Lpos="PRP" Lhead="33" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="33" Lrel="advmod" >only</W>
+    <W Lpos="VBZ" Lhead="25" Lrel="advcl" >receives</W>
+    <ne id="ne20" AAgf="dobj" >
+     <nphead id="AAh20">
+      <W Lpos="NNS" Lhead="33" Lrel="dobj" >wages</W>
+     </nphead>
+     <W Lpos="WP" Lhead="36" Lrel="nsubj" >who</W>
+     <W Lpos="VBZ" Lhead="34" Lrel="rcmod" >renders</W>
+     <ne id="ne21" AAgf="iobj" >
+      <nphead id="AAh21">
+       <W Lpos="PRP" Lhead="36" Lrel="iobj" >me</W>
+      </nphead>
+     </ne>
+     <ne id="ne22" AAgf="dobj" >
+      <nphead id="AAh22">
+       <W Lpos="NN" Lhead="36" Lrel="dobj" >service</W>
+      </nphead>
+      <W Lpos="IN" Lhead="38" Lrel="prep" >for</W>
+      <ne id="ne23" AAgf="pobj" >
+       <nphead id="AAh23">
+        <W Lpos="PRP" Lhead="39" Lrel="pobj" >them</W>
+       </nphead>
+      </ne>
+     </ne>
+    </ne>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="3" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s3">
+    <W Lpos="RB" Lhead="6" Lrel="advmod" >Then</W>
+    <ne id="ne24" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >the</W>
+     <nphead id="AAh24">
+      <W Lpos="NN" Lhead="6" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="6" Lrel="aux" >did</W>
+    <W Lpos="RB" Lhead="6" Lrel="neg" >not</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >know</W>
+    <W Lpos="WRB" Lhead="9" Lrel="advmod" >how</W>
+    <W Lpos="TO" Lhead="9" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="6" Lrel="ccomp" >earn</W>
+    <ne id="ne25" AAgf="dobj" >
+     <W Lpos="DT" Lhead="11" Lrel="det" >a</W>
+     <nphead id="AAh25">
+      <W Lpos="NN" Lhead="9" Lrel="dobj" >living</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="9" Lrel="punct" >,</W>
+    <W Lpos="VBD" Lhead="9" Lrel="conj" >went</W>
+    <W Lpos="RB" Lhead="16" Lrel="advmod" >away</W>
+    <W Lpos="RB" Lhead="16" Lrel="advmod" >greatly</W>
+    <W Lpos="JJ" Lhead="13" Lrel="acomp" >troubled</W>
+    <W Lpos="," Lhead="6" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="6" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="6" Lrel="conj" >walked</W>
+    <ne id="ne26" AAgf="tmod" >
+     <W Lpos="DT" Lhead="22" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="22" Lrel="amod" >whole</W>
+     <nphead id="AAh26">
+      <W Lpos="NN" Lhead="19" Lrel="tmod" >day</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="19" Lrel="punct" >,</W>
+    <W Lpos="IN" Lhead="29" Lrel="prep" >until</W>
+    <W Lpos="IN" Lhead="24" Lrel="pcomp" >in</W>
+    <ne id="ne27" AAgf="pobj" >
+     <W Lpos="DT" Lhead="27" Lrel="det" >the</W>
+     <nphead id="AAh27">
+      <W Lpos="NN" Lhead="25" Lrel="pobj" >evening</W>
+     </nphead>
+    </ne>
+    <ne id="ne28" AAgf="nsubj" >
+     <nphead id="AAh28">
+      <W Lpos="PRP" Lhead="29" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="6" Lrel="advcl" >entered</W>
+    <ne id="ne29" AAgf="dobj" >
+     <W Lpos="DT" Lhead="31" Lrel="det" >a</W>
+     <nphead id="AAh29">
+      <W Lpos="NN" Lhead="29" Lrel="dobj" >forest</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="6" Lrel="punct" >.</W>
+   </s>
+   <s id="s4">
+    <W Lpos="WRB" Lhead="3" Lrel="advmod" >When</W>
+    <ne id="ne30" AAgf="nsubj" >
+     <nphead id="AAh30">
+      <W Lpos="NN" Lhead="3" Lrel="nsubj" >darkness</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="7" Lrel="advcl" >came</W>
+    <W Lpos="IN" Lhead="3" Lrel="advmod" >on</W>
+    <W Lpos="," Lhead="7" Lrel="punct" >,</W>
+    <ne id="ne31" AAgf="nsubj" >
+     <nphead id="AAh31">
+      <W Lpos="PRP" Lhead="7" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >saw</W>
+    <ne id="ne32" AAgf="dobj" >
+     <W Lpos="DT" Lhead="9" Lrel="det" >a</W>
+     <nphead id="AAh32">
+      <W Lpos="NN" Lhead="7" Lrel="dobj" >light</W>
+     </nphead>
+     <W Lpos="," Lhead="9" Lrel="punct" >,</W>
+     <W Lpos="WDT" Lhead="13" Lrel="dobj" >which</W>
+     <ne id="ne33" AAgf="nsubj" >
+      <nphead id="AAh33">
+       <W Lpos="PRP" Lhead="13" Lrel="nsubj" >he</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBD" Lhead="9" Lrel="rcmod" >went</W>
+     <W Lpos="RB" Lhead="13" Lrel="advmod" >up</W>
+     <W Lpos="TO" Lhead="13" Lrel="prep" >to</W>
+    </ne>
+    <W Lpos="," Lhead="7" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="7" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="7" Lrel="conj" >came</W>
+    <W Lpos="TO" Lhead="18" Lrel="prep" >to</W>
+    <ne id="ne34" AAgf="pobj" >
+     <W Lpos="DT" Lhead="21" Lrel="det" >a</W>
+     <nphead id="AAh34">
+      <W Lpos="NN" Lhead="19" Lrel="pobj" >house</W>
+     </nphead>
+     <W Lpos="WRB" Lhead="23" Lrel="advmod" >wherein</W>
+     <W Lpos="VBD" Lhead="21" Lrel="rcmod" >lived</W>
+     <ne id="ne35" AAgf="dobj" >
+      <W Lpos="DT" Lhead="25" Lrel="det" >a</W>
+      <nphead id="AAh35">
+       <W Lpos="NN" Lhead="23" Lrel="dobj" >witch</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="." Lhead="7" Lrel="punct" >.</W>
+   </s>
+   <s id="s5">
+    <W Lpos="``" Lhead="3" Lrel="punct" >&apos;</W>
+    <W Lpos="VBP" Lhead="3" Lrel="aux" >Do</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >give</W>
+    <ne id="ne36" AAgf="iobj" >
+     <nphead id="AAh36">
+      <W Lpos="PRP" Lhead="3" Lrel="iobj" >me</W>
+     </nphead>
+    </ne>
+    <ne id="ne37" AAgf="dobj" >
+     <ne id="ne38" AAgf="poss" >
+      <W Lpos="CD" Lhead="6" Lrel="num" >one</W>
+      <nphead id="AAh37">
+       <W Lpos="NN" Lhead="8" Lrel="poss" >night</W>
+      </nphead>
+      <W Lpos="POS" Lhead="6" Lrel="possessive" >&apos;s</W>
+     </ne>
+     <nphead id="AAh38">
+      <W Lpos="NN" Lhead="3" Lrel="dobj" >lodging</W>
+     </nphead>
+     <W Lpos="," Lhead="8" Lrel="punct" >,</W>
+     <W Lpos="CC" Lhead="8" Lrel="cc" >and</W>
+     <W Lpos="DT" Lhead="12" Lrel="det" >a</W>
+     <W Lpos="JJ" Lhead="8" Lrel="conj" >little</W>
+     <W Lpos="TO" Lhead="14" Lrel="aux" >to</W>
+     <W Lpos="VB" Lhead="12" Lrel="infmod" >eat</W>
+     <W Lpos="CC" Lhead="14" Lrel="cc" >and</W>
+     <W Lpos="VB" Lhead="14" Lrel="conj" >drink</W>
+     <W Lpos="," Lhead="19" Lrel="punct" >,</W>
+     <W Lpos="''" Lhead="19" Lrel="punct" >&apos;</W>
+     <W Lpos="VBD" Lhead="14" Lrel="dep" >said</W>
+     <ne id="ne39" AAgf="nsubj" >
+      <nphead id="AAh39">
+       <W Lpos="PRP" Lhead="19" Lrel="nsubj" >he</W>
+      </nphead>
+     </ne>
+     <W Lpos="TO" Lhead="19" Lrel="prep" >to</W>
+     <ne id="ne40" AAgf="pobj" >
+      <nphead id="AAh40">
+       <W Lpos="PRP" Lhead="21" Lrel="pobj" >her</W>
+      </nphead>
+     </ne>
+     <W Lpos="," Lhead="19" Lrel="punct" >,</W>
+     <W Lpos="``" Lhead="19" Lrel="punct" >&apos;</W>
+     <W Lpos="CC" Lhead="14" Lrel="cc" >or</W>
+     <ne id="ne41" AAgf="nsubj" >
+      <nphead id="AAh41">
+       <W Lpos="PRP" Lhead="28" Lrel="nsubj" >I</W>
+      </nphead>
+     </ne>
+     <W Lpos="MD" Lhead="28" Lrel="aux" >shall</W>
+     <W Lpos="VB" Lhead="14" Lrel="conj" >starve</W>
+    </ne>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="3" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s6">
+    <W Lpos="``" Lhead="2" Lrel="punct" >&apos;</W>
+    <ne id="ne42" AAgf="root" >
+     <nphead id="AAh42">
+      <W Lpos="NN" Lhead="0" Lrel="root" >Oho</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="2" Lrel="punct" >!</W>
+    <W Lpos="''" Lhead="2" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s7">
+    <ne id="ne43" AAgf="nsubj" >
+     <nphead id="AAh43">
+      <W Lpos="PRP" Lhead="2" Lrel="nsubj" >she</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >answered</W>
+    <W Lpos="," Lhead="2" Lrel="punct" >,</W>
+    <W Lpos="``" Lhead="2" Lrel="punct" >&apos;</W>
+    <W Lpos="WP" Lhead="6" Lrel="nsubj" >who</W>
+    <W Lpos="VBZ" Lhead="2" Lrel="ccomp" >gives</W>
+    <ne id="ne44" AAgf="dobj" >
+     <nphead id="AAh44">
+      <W Lpos="NN" Lhead="6" Lrel="dobj" >anything</W>
+     </nphead>
+    </ne>
+    <W Lpos="TO" Lhead="6" Lrel="prep" >to</W>
+    <ne id="ne45" AAgf="pobj" >
+     <W Lpos="DT" Lhead="11" Lrel="det" >a</W>
+     <W Lpos="JJ" Lhead="11" Lrel="amod" >run-away</W>
+     <nphead id="AAh45">
+      <W Lpos="NN" Lhead="8" Lrel="pobj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="2" Lrel="punct" >?</W>
+   </s>
+   <s id="s8">
+    <W Lpos="RB" Lhead="5" Lrel="advmod" >Yet</W>
+    <W Lpos="MD" Lhead="5" Lrel="aux" >will</W>
+    <ne id="ne46" AAgf="nsubj" >
+     <nphead id="AAh46">
+      <W Lpos="PRP" Lhead="5" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="VB" Lhead="5" Lrel="cop" >be</W>
+    <W Lpos="JJ" Lhead="0" Lrel="root" >compassionate</W>
+    <W Lpos="," Lhead="5" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="5" Lrel="cc" >and</W>
+    <W Lpos="VB" Lhead="5" Lrel="conj" >take</W>
+    <ne id="ne47" AAgf="dobj" >
+     <nphead id="AAh47">
+      <W Lpos="PRP" Lhead="8" Lrel="dobj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="8" Lrel="prt" >in</W>
+    <W Lpos="," Lhead="8" Lrel="punct" >,</W>
+    <W Lpos="IN" Lhead="15" Lrel="mark" >if</W>
+    <ne id="ne48" AAgf="nsubj" >
+     <nphead id="AAh48">
+      <W Lpos="PRP" Lhead="15" Lrel="nsubj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="15" Lrel="aux" >will</W>
+    <W Lpos="VB" Lhead="5" Lrel="advcl" >do</W>
+    <W Lpos="WP" Lhead="18" Lrel="dobj" >what</W>
+    <ne id="ne49" AAgf="nsubj" >
+     <nphead id="AAh49">
+      <W Lpos="PRP" Lhead="18" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="15" Lrel="ccomp" >wish</W>
+    <W Lpos="." Lhead="5" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="5" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s9">
+    <W Lpos="``" Lhead="5" Lrel="punct" >&apos;</W>
+    <W Lpos="WP" Lhead="5" Lrel="dobj" >What</W>
+    <W Lpos="VBP" Lhead="5" Lrel="aux" >do</W>
+    <ne id="ne50" AAgf="nsubj" >
+     <nphead id="AAh50">
+      <W Lpos="PRP" Lhead="5" Lrel="nsubj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="VB" Lhead="0" Lrel="root" >wish</W>
+    <W Lpos="." Lhead="5" Lrel="punct" >?</W>
+    <W Lpos="''" Lhead="5" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s10">
+    <W Lpos="VBD" Lhead="0" Lrel="root" >said</W>
+    <ne id="ne51" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >the</W>
+     <nphead id="AAh51">
+      <W Lpos="NN" Lhead="1" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="1" Lrel="punct" >.</W>
+   </s>
+   <s id="s11">
+    <W Lpos="``" Lhead="7" Lrel="punct" >&apos;</W>
+    <W Lpos="IN" Lhead="5" Lrel="mark" >That</W>
+    <ne id="ne52" AAgf="nsubj" >
+     <nphead id="AAh52">
+      <W Lpos="PRP" Lhead="5" Lrel="nsubj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="5" Lrel="aux" >should</W>
+    <W Lpos="VB" Lhead="7" Lrel="csubj" >dig</W>
+    <ne id="ne53" AAgf="dobj" >
+     <nphead id="AAh53">
+      <W Lpos="DT" Lhead="5" Lrel="dobj" >all</W>
+     </nphead>
+    </ne>
+    <ne id="ne54" AAgf="root" >
+     <nphead id="AAh54">
+      <W Lpos="NN" Lhead="0" Lrel="root" >round</W>
+     </nphead>
+     <ne id="ne55" AAgf="dobj" >
+      <ne id="ne56" AAgf="poss" >
+       <nphead id="AAh55">
+        <W Lpos="PRP$" Lhead="9" Lrel="poss" >my</W>
+       </nphead>
+      </ne>
+      <nphead id="AAh56">
+       <W Lpos="NN" Lhead="7" Lrel="dobj" >garden</W>
+      </nphead>
+     </ne>
+     <W Lpos="IN" Lhead="7" Lrel="prep" >for</W>
+     <ne id="ne57" AAgf="pobj" >
+      <nphead id="AAh57">
+       <W Lpos="PRP" Lhead="10" Lrel="pobj" >me</W>
+      </nphead>
+     </ne>
+     <W Lpos="," Lhead="7" Lrel="punct" >,</W>
+     <ne id="ne58" AAgf="tmod" >
+      <nphead id="AAh58">
+       <W Lpos="NN" Lhead="7" Lrel="tmod" >tomorrow</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="." Lhead="7" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="7" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s12">
+    <ne id="ne59" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="2" Lrel="det" >The</W>
+     <nphead id="AAh59">
+      <W Lpos="NN" Lhead="3" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >consented</W>
+    <W Lpos="," Lhead="3" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="3" Lrel="cc" >and</W>
+    <ne id="ne60" AAgf="tmod" >
+     <W Lpos="JJ" Lhead="7" Lrel="amod" >next</W>
+     <nphead id="AAh60">
+      <W Lpos="NN" Lhead="8" Lrel="tmod" >day</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="3" Lrel="conj" >laboured</W>
+    <W Lpos="IN" Lhead="8" Lrel="prep" >with</W>
+    <ne id="ne61" AAgf="pobj" >
+     <W Lpos="PDT" Lhead="12" Lrel="predet" >all</W>
+     <ne id="ne62" AAgf="poss" >
+      <nphead id="AAh61">
+       <W Lpos="PRP$" Lhead="12" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh62">
+      <W Lpos="NN" Lhead="9" Lrel="pobj" >strength</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="8" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="8" Lrel="cc" >but</W>
+    <W Lpos="MD" Lhead="17" Lrel="aux" >could</W>
+    <W Lpos="RB" Lhead="17" Lrel="neg" >not</W>
+    <W Lpos="VB" Lhead="8" Lrel="conj" >finish</W>
+    <ne id="ne63" AAgf="dobj" >
+     <nphead id="AAh63">
+      <W Lpos="PRP" Lhead="17" Lrel="dobj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="17" Lrel="prep" >by</W>
+    <ne id="ne64" AAgf="pobj" >
+     <W Lpos="DT" Lhead="21" Lrel="det" >the</W>
+     <nphead id="AAh64">
+      <W Lpos="NN" Lhead="19" Lrel="pobj" >evening</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="3" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s13">
+    <ne id="ne65" AAgf="nsubj" >
+     <nphead id="AAh65">
+      <W Lpos="PRP" Lhead="2" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="0" Lrel="root" >see</W>
+    <W Lpos="RB" Lhead="4" Lrel="advmod" >well</W>
+    <W Lpos="RB" Lhead="2" Lrel="advmod" >enough</W>
+    <W Lpos="," Lhead="7" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="7" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="2" Lrel="dep" >said</W>
+    <ne id="ne66" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="9" Lrel="det" >the</W>
+     <nphead id="AAh66">
+      <W Lpos="NN" Lhead="7" Lrel="nsubj" >witch</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="7" Lrel="punct" >,</W>
+    <W Lpos="``" Lhead="7" Lrel="punct" >&apos;</W>
+    <W Lpos="IN" Lhead="15" Lrel="mark" >that</W>
+    <ne id="ne67" AAgf="nsubj" >
+     <nphead id="AAh67">
+      <W Lpos="PRP" Lhead="15" Lrel="nsubj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="15" Lrel="aux" >can</W>
+    <W Lpos="VB" Lhead="2" Lrel="ccomp" >do</W>
+    <W Lpos="DT" Lhead="17" Lrel="advmod" >no</W>
+    <W Lpos="JJR" Lhead="15" Lrel="dobj" >more</W>
+    <ne id="ne68" AAgf="tmod" >
+     <nphead id="AAh68">
+      <W Lpos="NN" Lhead="15" Lrel="tmod" >today</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="2" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="2" Lrel="cc" >but</W>
+    <ne id="ne69" AAgf="nsubj" >
+     <nphead id="AAh69">
+      <W Lpos="PRP" Lhead="23" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="23" Lrel="aux" >will</W>
+    <W Lpos="VB" Lhead="2" Lrel="conj" >keep</W>
+    <ne id="ne70" AAgf="dobj" >
+     <nphead id="AAh70">
+      <W Lpos="PRP" Lhead="23" Lrel="dobj" >you</W>
+     </nphead>
+    </ne>
+    <ne id="ne71" AAgf="tmod" >
+     <W Lpos="RB" Lhead="27" Lrel="advmod" >yet</W>
+     <W Lpos="DT" Lhead="27" Lrel="det" >another</W>
+     <nphead id="AAh71">
+      <W Lpos="NN" Lhead="23" Lrel="tmod" >night</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="23" Lrel="punct" >,</W>
+    <W Lpos="IN" Lhead="23" Lrel="prep" >in</W>
+    <ne id="ne72" AAgf="pobj" >
+     <nphead id="AAh72">
+      <W Lpos="NN" Lhead="29" Lrel="pobj" >payment</W>
+     </nphead>
+     <W Lpos="IN" Lhead="36" Lrel="prep" >for</W>
+     <W Lpos="WDT" Lhead="31" Lrel="pobj" >which</W>
+     <ne id="ne73" AAgf="nsubj" >
+      <nphead id="AAh73">
+       <W Lpos="PRP" Lhead="36" Lrel="nsubj" >you</W>
+      </nphead>
+     </ne>
+     <W Lpos="MD" Lhead="36" Lrel="aux" >must</W>
+     <ne id="ne74" AAgf="dep" >
+      <nphead id="AAh74">
+       <W Lpos="NN" Lhead="36" Lrel="dep" >tomorrow</W>
+      </nphead>
+     </ne>
+     <W Lpos="VB" Lhead="30" Lrel="rcmod" >chop</W>
+     <ne id="ne75" AAgf="iobj" >
+      <nphead id="AAh75">
+       <W Lpos="PRP" Lhead="36" Lrel="iobj" >me</W>
+      </nphead>
+     </ne>
+     <ne id="ne76" AAgf="dobj" >
+      <W Lpos="DT" Lhead="39" Lrel="det" >a</W>
+      <nphead id="AAh76">
+       <W Lpos="NN" Lhead="36" Lrel="dobj" >load</W>
+      </nphead>
+      <W Lpos="IN" Lhead="39" Lrel="prep" >of</W>
+      <ne id="ne77" AAgf="pobj" >
+       <nphead id="AAh77">
+        <W Lpos="NN" Lhead="40" Lrel="pobj" >wood</W>
+       </nphead>
+      </ne>
+     </ne>
+     <W Lpos="," Lhead="36" Lrel="punct" >,</W>
+     <W Lpos="CC" Lhead="36" Lrel="cc" >and</W>
+     <W Lpos="VB" Lhead="36" Lrel="conj" >chop</W>
+     <ne id="ne78" AAgf="nsubj" >
+      <nphead id="AAh78">
+       <W Lpos="PRP" Lhead="46" Lrel="nsubj" >it</W>
+      </nphead>
+     </ne>
+     <W Lpos="JJ" Lhead="44" Lrel="xcomp" >small</W>
+    </ne>
+    <W Lpos="." Lhead="2" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="2" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s14">
+    <ne id="ne79" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="2" Lrel="det" >The</W>
+     <nphead id="AAh79">
+      <W Lpos="NN" Lhead="3" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >spent</W>
+    <ne id="ne80" AAgf="tmod" >
+     <W Lpos="DT" Lhead="6" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="6" Lrel="amod" >whole</W>
+     <nphead id="AAh80">
+      <W Lpos="NN" Lhead="3" Lrel="tmod" >day</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="3" Lrel="prep" >in</W>
+    <W Lpos="VBG" Lhead="7" Lrel="pcomp" >doing</W>
+    <ne id="ne81" AAgf="dobj" >
+     <nphead id="AAh81">
+      <W Lpos="PRP" Lhead="8" Lrel="dobj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="3" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="3" Lrel="cc" >and</W>
+    <W Lpos="IN" Lhead="17" Lrel="prep" >in</W>
+    <ne id="ne82" AAgf="pobj" >
+     <W Lpos="DT" Lhead="14" Lrel="det" >the</W>
+     <nphead id="AAh82">
+      <W Lpos="NN" Lhead="12" Lrel="pobj" >evening</W>
+     </nphead>
+    </ne>
+    <ne id="ne83" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="16" Lrel="det" >the</W>
+     <nphead id="AAh83">
+      <W Lpos="NN" Lhead="17" Lrel="nsubj" >witch</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="3" Lrel="conj" >proposed</W>
+    <W Lpos="IN" Lhead="21" Lrel="mark" >that</W>
+    <ne id="ne84" AAgf="nsubj" >
+     <nphead id="AAh84">
+      <W Lpos="PRP" Lhead="21" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="21" Lrel="aux" >should</W>
+    <W Lpos="VB" Lhead="17" Lrel="ccomp" >stay</W>
+    <ne id="ne85" AAgf="npadvmod" >
+     <W Lpos="CD" Lhead="23" Lrel="num" >one</W>
+     <nphead id="AAh85">
+      <W Lpos="NN" Lhead="24" Lrel="npadvmod" >night</W>
+     </nphead>
+    </ne>
+    <W Lpos="JJR" Lhead="21" Lrel="advmod" >more</W>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+   </s>
+   <s id="s15">
+    <W Lpos="``" Lhead="7" Lrel="punct" >&apos;</W>
+    <ne id="ne86" AAgf="tmod" >
+     <nphead id="AAh86">
+      <W Lpos="NN" Lhead="7" Lrel="tmod" >Tomorrow</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="7" Lrel="punct" >,</W>
+    <ne id="ne87" AAgf="nsubj" >
+     <nphead id="AAh87">
+      <W Lpos="PRP" Lhead="7" Lrel="nsubj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="7" Lrel="aux" >shall</W>
+    <W Lpos="RB" Lhead="7" Lrel="advmod" >only</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >do</W>
+    <ne id="ne88" AAgf="iobj" >
+     <nphead id="AAh88">
+      <W Lpos="PRP" Lhead="7" Lrel="iobj" >me</W>
+     </nphead>
+    </ne>
+    <ne id="ne89" AAgf="dobj" >
+     <W Lpos="DT" Lhead="12" Lrel="det" >a</W>
+     <W Lpos="RB" Lhead="11" Lrel="advmod" >very</W>
+     <W Lpos="JJ" Lhead="12" Lrel="amod" >trifling</W>
+     <nphead id="AAh89">
+      <W Lpos="NN" Lhead="7" Lrel="dobj" >piece</W>
+     </nphead>
+     <W Lpos="IN" Lhead="12" Lrel="prep" >of</W>
+     <ne id="ne90" AAgf="pobj" >
+      <nphead id="AAh90">
+       <W Lpos="NN" Lhead="13" Lrel="pobj" >work</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="." Lhead="7" Lrel="punct" >.</W>
+   </s>
+   <s id="s16">
+    <W Lpos="IN" Lhead="6" Lrel="prep" >Behind</W>
+    <ne id="ne91" AAgf="pobj" >
+     <ne id="ne92" AAgf="poss" >
+      <nphead id="AAh91">
+       <W Lpos="PRP$" Lhead="3" Lrel="poss" >my</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh92">
+      <W Lpos="NN" Lhead="1" Lrel="pobj" >house</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="6" Lrel="punct" >,</W>
+    <ne id="ne93" AAgf="expl" >
+     <nphead id="AAh93">
+      <W Lpos="EX" Lhead="6" Lrel="expl" >there</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBZ" Lhead="0" Lrel="root" >is</W>
+    <ne id="ne94" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="10" Lrel="det" >an</W>
+     <W Lpos="JJ" Lhead="10" Lrel="amod" >old</W>
+     <W Lpos="JJ" Lhead="10" Lrel="amod" >dry</W>
+     <nphead id="AAh94">
+      <W Lpos="NN" Lhead="6" Lrel="nsubj" >well</W>
+     </nphead>
+     <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+     <W Lpos="IN" Lhead="17" Lrel="prep" >into</W>
+     <W Lpos="WDT" Lhead="12" Lrel="pobj" >which</W>
+     <ne id="ne95" AAgf="nsubj" >
+      <ne id="ne96" AAgf="poss" >
+       <nphead id="AAh95">
+        <W Lpos="PRP$" Lhead="15" Lrel="poss" >my</W>
+       </nphead>
+      </ne>
+      <nphead id="AAh96">
+       <W Lpos="NN" Lhead="17" Lrel="nsubj" >light</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBZ" Lhead="17" Lrel="aux" >has</W>
+     <W Lpos="VBN" Lhead="10" Lrel="rcmod" >fallen</W>
+     <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+     <ne id="ne97" AAgf="nsubj" >
+      <nphead id="AAh97">
+       <W Lpos="PRP" Lhead="20" Lrel="nsubj" >it</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBZ" Lhead="17" Lrel="conj" >burns</W>
+     <W Lpos="JJ" Lhead="20" Lrel="acomp" >blue</W>
+     <W Lpos="," Lhead="17" Lrel="punct" >,</W>
+     <W Lpos="CC" Lhead="17" Lrel="cc" >and</W>
+     <W Lpos="RB" Lhead="25" Lrel="neg" >never</W>
+     <W Lpos="VBZ" Lhead="17" Lrel="conj" >goes</W>
+     <W Lpos="RP" Lhead="25" Lrel="prt" >out</W>
+     <W Lpos="," Lhead="17" Lrel="punct" >,</W>
+     <W Lpos="CC" Lhead="17" Lrel="cc" >and</W>
+     <ne id="ne98" AAgf="nsubj" >
+      <nphead id="AAh98">
+       <W Lpos="PRP" Lhead="31" Lrel="nsubj" >you</W>
+      </nphead>
+     </ne>
+     <W Lpos="MD" Lhead="31" Lrel="aux" >shall</W>
+     <W Lpos="VB" Lhead="17" Lrel="conj" >bring</W>
+     <ne id="ne99" AAgf="dobj" >
+      <nphead id="AAh99">
+       <W Lpos="PRP" Lhead="31" Lrel="dobj" >it</W>
+      </nphead>
+     </ne>
+     <W Lpos="RP" Lhead="31" Lrel="prt" >up</W>
+     <W Lpos="RB" Lhead="31" Lrel="advmod" >again</W>
+    </ne>
+    <W Lpos="." Lhead="6" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="6" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s17">
+    <ne id="ne100" AAgf="tmod" >
+     <W Lpos="JJ" Lhead="2" Lrel="amod" >Next</W>
+     <nphead id="AAh100">
+      <W Lpos="NN" Lhead="6" Lrel="tmod" >day</W>
+     </nphead>
+    </ne>
+    <ne id="ne101" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="5" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="5" Lrel="amod" >old</W>
+     <nphead id="AAh101">
+      <W Lpos="NN" Lhead="6" Lrel="nsubj" >woman</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >took</W>
+    <ne id="ne102" AAgf="dobj" >
+     <nphead id="AAh102">
+      <W Lpos="PRP" Lhead="6" Lrel="dobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="TO" Lhead="6" Lrel="prep" >to</W>
+    <ne id="ne103" AAgf="pobj" >
+     <W Lpos="DT" Lhead="10" Lrel="det" >the</W>
+     <nphead id="AAh103">
+      <W Lpos="NN" Lhead="8" Lrel="pobj" >well</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="6" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="6" Lrel="cc" >and</W>
+    <W Lpos="VB" Lhead="6" Lrel="conj" >let</W>
+    <ne id="ne104" AAgf="dobj" >
+     <nphead id="AAh104">
+      <W Lpos="PRP" Lhead="13" Lrel="dobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="RP" Lhead="13" Lrel="prt" >down</W>
+    <W Lpos="IN" Lhead="13" Lrel="prep" >in</W>
+    <ne id="ne105" AAgf="pobj" >
+     <W Lpos="DT" Lhead="18" Lrel="det" >a</W>
+     <nphead id="AAh105">
+      <W Lpos="NN" Lhead="16" Lrel="pobj" >basket</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="6" Lrel="punct" >.</W>
+   </s>
+   <s id="s18">
+    <ne id="ne106" AAgf="nsubj" >
+     <nphead id="AAh106">
+      <W Lpos="PRP" Lhead="2" Lrel="nsubj" >He</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >found</W>
+    <ne id="ne107" AAgf="dobj" >
+     <W Lpos="DT" Lhead="5" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="5" Lrel="amod" >blue</W>
+     <nphead id="AAh107">
+      <W Lpos="NN" Lhead="2" Lrel="dobj" >light</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="2" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="2" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="2" Lrel="conj" >made</W>
+    <ne id="ne108" AAgf="iobj" >
+     <nphead id="AAh108">
+      <W Lpos="PRP" Lhead="8" Lrel="iobj" >her</W>
+     </nphead>
+    </ne>
+    <ne id="ne109" AAgf="dobj" >
+     <W Lpos="DT" Lhead="11" Lrel="det" >a</W>
+     <nphead id="AAh109">
+      <W Lpos="NN" Lhead="8" Lrel="dobj" >signal</W>
+     </nphead>
+     <W Lpos="TO" Lhead="13" Lrel="aux" >to</W>
+     <W Lpos="VB" Lhead="11" Lrel="infmod" >draw</W>
+     <ne id="ne110" AAgf="dobj" >
+      <nphead id="AAh110">
+       <W Lpos="PRP" Lhead="13" Lrel="dobj" >him</W>
+      </nphead>
+     </ne>
+     <W Lpos="RP" Lhead="13" Lrel="prt" >up</W>
+     <W Lpos="RB" Lhead="13" Lrel="advmod" >again</W>
+    </ne>
+    <W Lpos="." Lhead="2" Lrel="punct" >.</W>
+   </s>
+   <s id="s19">
+    <ne id="ne111" AAgf="nsubj" >
+     <nphead id="AAh111">
+      <W Lpos="PRP" Lhead="3" Lrel="nsubj" >She</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="3" Lrel="aux" >did</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >draw</W>
+    <ne id="ne112" AAgf="dobj" >
+     <nphead id="AAh112">
+      <W Lpos="PRP" Lhead="3" Lrel="dobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="RP" Lhead="3" Lrel="prt" >up</W>
+    <W Lpos="," Lhead="3" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="3" Lrel="cc" >but</W>
+    <W Lpos="WRB" Lhead="10" Lrel="advmod" >when</W>
+    <ne id="ne113" AAgf="nsubj" >
+     <nphead id="AAh113">
+      <W Lpos="PRP" Lhead="10" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="16" Lrel="advcl" >came</W>
+    <W Lpos="IN" Lhead="10" Lrel="prep" >near</W>
+    <ne id="ne114" AAgf="pobj" >
+     <W Lpos="DT" Lhead="13" Lrel="det" >the</W>
+     <nphead id="AAh114">
+      <W Lpos="NN" Lhead="11" Lrel="pobj" >edge</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="16" Lrel="punct" >,</W>
+    <ne id="ne115" AAgf="nsubj" >
+     <nphead id="AAh115">
+      <W Lpos="PRP" Lhead="16" Lrel="nsubj" >she</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="3" Lrel="conj" >stretched</W>
+    <W Lpos="RP" Lhead="16" Lrel="prt" >down</W>
+    <ne id="ne116" AAgf="dobj" >
+     <ne id="ne117" AAgf="poss" >
+      <nphead id="AAh116">
+       <W Lpos="PRP$" Lhead="19" Lrel="poss" >her</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh117">
+      <W Lpos="NN" Lhead="16" Lrel="dobj" >hand</W>
+     </nphead>
+    </ne>
+    <W Lpos="CC" Lhead="16" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="16" Lrel="conj" >wanted</W>
+    <W Lpos="TO" Lhead="23" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="21" Lrel="xcomp" >take</W>
+    <ne id="ne118" AAgf="dobj" >
+     <W Lpos="DT" Lhead="26" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="26" Lrel="amod" >blue</W>
+     <nphead id="AAh118">
+      <W Lpos="NN" Lhead="23" Lrel="dobj" >light</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="23" Lrel="advmod" >away</W>
+    <W Lpos="IN" Lhead="27" Lrel="prep" >from</W>
+    <ne id="ne119" AAgf="pobj" >
+     <nphead id="AAh119">
+      <W Lpos="PRP" Lhead="28" Lrel="pobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+   </s>
+   <s id="s20">
+    <W Lpos="``" Lhead="17" Lrel="punct" >&apos;</W>
+    <W Lpos="UH" Lhead="17" Lrel="discourse" >No</W>
+    <W Lpos="," Lhead="5" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="5" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="17" Lrel="parataxis" >said</W>
+    <ne id="ne120" AAgf="nsubj" >
+     <nphead id="AAh120">
+      <W Lpos="PRP" Lhead="5" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="5" Lrel="punct" >,</W>
+    <W Lpos="VBG" Lhead="5" Lrel="partmod" >perceiving</W>
+    <ne id="ne121" AAgf="dobj" >
+     <ne id="ne122" AAgf="poss" >
+      <nphead id="AAh121">
+       <W Lpos="PRP$" Lhead="11" Lrel="poss" >her</W>
+      </nphead>
+     </ne>
+     <W Lpos="NN" Lhead="11" Lrel="nn" >evil</W>
+     <nphead id="AAh122">
+      <W Lpos="NN" Lhead="8" Lrel="dobj" >intention</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="5" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="17" Lrel="punct" >&apos;</W>
+    <ne id="ne123" AAgf="nsubj" >
+     <nphead id="AAh123">
+      <W Lpos="PRP" Lhead="17" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="17" Lrel="aux" >will</W>
+    <W Lpos="RB" Lhead="17" Lrel="neg" >not</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >give</W>
+    <ne id="ne124" AAgf="iobj" >
+     <nphead id="AAh124">
+      <W Lpos="PRP" Lhead="17" Lrel="iobj" >you</W>
+     </nphead>
+    </ne>
+    <ne id="ne125" AAgf="dobj" >
+     <W Lpos="DT" Lhead="20" Lrel="det" >the</W>
+     <nphead id="AAh125">
+      <W Lpos="NN" Lhead="17" Lrel="dobj" >light</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="24" Lrel="mark" >until</W>
+    <ne id="ne126" AAgf="nsubj" >
+     <nphead id="AAh126">
+      <W Lpos="PRP" Lhead="24" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="24" Lrel="aux" >am</W>
+    <W Lpos="VBG" Lhead="17" Lrel="advcl" >standing</W>
+    <W Lpos="IN" Lhead="24" Lrel="prep" >with</W>
+    <ne id="ne127" AAgf="pobj" >
+     <W Lpos="DT" Lhead="27" Lrel="det" >both</W>
+     <nphead id="AAh127">
+      <W Lpos="NNS" Lhead="25" Lrel="pobj" >feet</W>
+     </nphead>
+     <W Lpos="IN" Lhead="27" Lrel="prep" >upon</W>
+     <ne id="ne128" AAgf="pobj" >
+      <W Lpos="DT" Lhead="30" Lrel="det" >the</W>
+      <nphead id="AAh128">
+       <W Lpos="NN" Lhead="28" Lrel="pobj" >ground</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="." Lhead="17" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="17" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s21">
+    <ne id="ne129" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="2" Lrel="det" >The</W>
+     <nphead id="AAh129">
+      <W Lpos="NN" Lhead="3" Lrel="nsubj" >witch</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >fell</W>
+    <W Lpos="IN" Lhead="3" Lrel="prep" >into</W>
+    <ne id="ne130" AAgf="pobj" >
+     <W Lpos="DT" Lhead="6" Lrel="det" >a</W>
+     <nphead id="AAh130">
+      <W Lpos="NN" Lhead="4" Lrel="pobj" >passion</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="3" Lrel="punct" >,</W>
+    <W Lpos="VB" Lhead="3" Lrel="conj" >let</W>
+    <ne id="ne131" AAgf="nsubj" >
+     <nphead id="AAh131">
+      <W Lpos="PRP" Lhead="10" Lrel="nsubj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="VB" Lhead="8" Lrel="ccomp" >fall</W>
+    <W Lpos="RB" Lhead="10" Lrel="advmod" >again</W>
+    <W Lpos="IN" Lhead="10" Lrel="prep" >into</W>
+    <ne id="ne132" AAgf="pobj" >
+     <W Lpos="DT" Lhead="14" Lrel="det" >the</W>
+     <nphead id="AAh132">
+      <W Lpos="NN" Lhead="12" Lrel="pobj" >well</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="3" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="3" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="3" Lrel="conj" >went</W>
+    <W Lpos="RB" Lhead="17" Lrel="advmod" >away</W>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+   </s>
+  </p>
+  <p id="p2">
+   <s id="s22">
+    <ne id="ne133" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >The</W>
+     <W Lpos="JJ" Lhead="3" Lrel="amod" >poor</W>
+     <nphead id="AAh133">
+      <W Lpos="NN" Lhead="4" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >fell</W>
+    <W Lpos="IN" Lhead="4" Lrel="prep" >without</W>
+    <ne id="ne134" AAgf="pobj" >
+     <nphead id="AAh134">
+      <W Lpos="NN" Lhead="5" Lrel="pobj" >injury</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="4" Lrel="prep" >on</W>
+    <ne id="ne135" AAgf="pobj" >
+     <W Lpos="DT" Lhead="10" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="10" Lrel="amod" >moist</W>
+     <nphead id="AAh135">
+      <W Lpos="NN" Lhead="7" Lrel="pobj" >ground</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="4" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="4" Lrel="cc" >and</W>
+    <ne id="ne136" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="15" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="15" Lrel="amod" >blue</W>
+     <nphead id="AAh136">
+      <W Lpos="NN" Lhead="16" Lrel="nsubj" >light</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="4" Lrel="conj" >went</W>
+    <W Lpos="IN" Lhead="16" Lrel="prep" >on</W>
+    <ne id="ne137" AAgf="pobj" >
+     <nphead id="AAh137">
+      <W Lpos="NN" Lhead="17" Lrel="pobj" >burning</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="16" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="16" Lrel="cc" >but</W>
+    <W Lpos="IN" Lhead="17" Lrel="conj" >of</W>
+    <ne id="ne138" AAgf="pobj" >
+     <W Lpos="WDT" Lhead="23" Lrel="det" >what</W>
+     <nphead id="AAh138">
+      <W Lpos="NN" Lhead="21" Lrel="pobj" >use</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="21" Lrel="pcomp" >was</W>
+    <W Lpos="IN" Lhead="24" Lrel="advmod" >that</W>
+    <W Lpos="TO" Lhead="24" Lrel="prep" >to</W>
+    <ne id="ne139" AAgf="pobj" >
+     <nphead id="AAh139">
+      <W Lpos="PRP" Lhead="26" Lrel="pobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="4" Lrel="punct" >?</W>
+   </s>
+   <s id="s23">
+    <ne id="ne140" AAgf="nsubj" >
+     <nphead id="AAh140">
+      <W Lpos="PRP" Lhead="2" Lrel="nsubj" >He</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >saw</W>
+    <W Lpos="RB" Lhead="4" Lrel="advmod" >very</W>
+    <W Lpos="RB" Lhead="2" Lrel="advmod" >well</W>
+    <W Lpos="IN" Lhead="9" Lrel="mark" >that</W>
+    <ne id="ne141" AAgf="nsubj" >
+     <nphead id="AAh141">
+      <W Lpos="PRP" Lhead="9" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="9" Lrel="aux" >could</W>
+    <W Lpos="RB" Lhead="9" Lrel="neg" >not</W>
+    <W Lpos="VB" Lhead="4" Lrel="ccomp" >escape</W>
+    <ne id="ne142" AAgf="dobj" >
+     <nphead id="AAh142">
+      <W Lpos="NN" Lhead="9" Lrel="dobj" >death</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="2" Lrel="punct" >.</W>
+   </s>
+   <s id="s24">
+    <ne id="ne143" AAgf="nsubj" >
+     <nphead id="AAh143">
+      <W Lpos="PRP" Lhead="2" Lrel="nsubj" >He</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >sat</W>
+    <W Lpos="IN" Lhead="2" Lrel="prep" >for</W>
+    <ne id="ne144" AAgf="pobj" >
+     <W Lpos="DT" Lhead="5" Lrel="det" >a</W>
+     <nphead id="AAh144">
+      <W Lpos="NN" Lhead="3" Lrel="pobj" >while</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="7" Lrel="advmod" >very</W>
+    <W Lpos="RB" Lhead="2" Lrel="advmod" >sorrowfully</W>
+    <W Lpos="," Lhead="2" Lrel="punct" >,</W>
+    <W Lpos="RB" Lhead="2" Lrel="advmod" >then</W>
+    <W Lpos="RB" Lhead="12" Lrel="advmod" >suddenly</W>
+    <ne id="ne145" AAgf="nsubj" >
+     <nphead id="AAh145">
+      <W Lpos="PRP" Lhead="12" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="2" Lrel="ccomp" >felt</W>
+    <W Lpos="IN" Lhead="12" Lrel="prep" >in</W>
+    <ne id="ne146" AAgf="pobj" >
+     <ne id="ne147" AAgf="poss" >
+      <nphead id="AAh146">
+       <W Lpos="PRP$" Lhead="15" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh147">
+      <W Lpos="NN" Lhead="13" Lrel="pobj" >pocket</W>
+     </nphead>
+    </ne>
+    <W Lpos="CC" Lhead="12" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="12" Lrel="conj" >found</W>
+    <ne id="ne148" AAgf="dobj" >
+     <ne id="ne149" AAgf="poss" >
+      <nphead id="AAh148">
+       <W Lpos="PRP$" Lhead="20" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <W Lpos="NN" Lhead="20" Lrel="nn" >tobacco</W>
+     <nphead id="AAh149">
+      <W Lpos="NN" Lhead="17" Lrel="dobj" >pipe</W>
+     </nphead>
+     <W Lpos="," Lhead="20" Lrel="punct" >,</W>
+     <W Lpos="WDT" Lhead="26" Lrel="nsubj" >which</W>
+     <W Lpos="VBD" Lhead="26" Lrel="cop" >was</W>
+     <W Lpos="RB" Lhead="26" Lrel="advmod" >still</W>
+     <W Lpos="RB" Lhead="26" Lrel="advmod" >half</W>
+     <W Lpos="JJ" Lhead="20" Lrel="rcmod" >full</W>
+    </ne>
+    <W Lpos="." Lhead="2" Lrel="punct" >.</W>
+   </s>
+   <s id="s25">
+    <W Lpos="``" Lhead="7" Lrel="punct" >&apos;</W>
+    <ne id="ne150" AAgf="nsubj" >
+     <nphead id="AAh150">
+      <W Lpos="DT" Lhead="7" Lrel="nsubj" >This</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="7" Lrel="aux" >shall</W>
+    <W Lpos="VB" Lhead="7" Lrel="cop" >be</W>
+    <ne id="ne151" AAgf="root" >
+     <ne id="ne152" AAgf="poss" >
+      <nphead id="AAh151">
+       <W Lpos="PRP$" Lhead="7" Lrel="poss" >my</W>
+      </nphead>
+     </ne>
+     <W Lpos="JJ" Lhead="7" Lrel="amod" >last</W>
+     <nphead id="AAh152">
+      <W Lpos="NN" Lhead="0" Lrel="root" >pleasure</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="7" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="7" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="7" Lrel="dep" >thought</W>
+    <ne id="ne153" AAgf="nsubj" >
+     <nphead id="AAh153">
+      <W Lpos="PRP" Lhead="13" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+    <W Lpos="VBD" Lhead="10" Lrel="ccomp" >pulled</W>
+    <ne id="ne154" AAgf="dobj" >
+     <nphead id="AAh154">
+      <W Lpos="PRP" Lhead="13" Lrel="dobj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="RP" Lhead="13" Lrel="prt" >out</W>
+    <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+    <W Lpos="VBD" Lhead="13" Lrel="conj" >lit</W>
+    <ne id="ne155" AAgf="dobj" >
+     <nphead id="AAh155">
+      <W Lpos="PRP" Lhead="17" Lrel="dobj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="17" Lrel="prep" >at</W>
+    <ne id="ne156" AAgf="pobj" >
+     <W Lpos="DT" Lhead="22" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="22" Lrel="amod" >blue</W>
+     <nphead id="AAh156">
+      <W Lpos="NN" Lhead="19" Lrel="pobj" >light</W>
+     </nphead>
+    </ne>
+    <W Lpos="CC" Lhead="10" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="10" Lrel="conj" >began</W>
+    <W Lpos="TO" Lhead="26" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="24" Lrel="xcomp" >smoke</W>
+    <W Lpos="." Lhead="7" Lrel="punct" >.</W>
+   </s>
+   <s id="s26">
+    <W Lpos="WRB" Lhead="5" Lrel="advmod" >When</W>
+    <ne id="ne157" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >the</W>
+     <nphead id="AAh157">
+      <W Lpos="NN" Lhead="5" Lrel="nsubj" >smoke</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="5" Lrel="aux" >had</W>
+    <W Lpos="VBN" Lhead="15" Lrel="advcl" >circled</W>
+    <W Lpos="IN" Lhead="5" Lrel="prep" >about</W>
+    <ne id="ne158" AAgf="pobj" >
+     <W Lpos="DT" Lhead="8" Lrel="det" >the</W>
+     <nphead id="AAh158">
+      <W Lpos="NN" Lhead="6" Lrel="pobj" >cavern</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="15" Lrel="punct" >,</W>
+    <ne id="ne159" AAgf="nsubj" >
+     <W Lpos="RB" Lhead="14" Lrel="advmod" >suddenly</W>
+     <W Lpos="DT" Lhead="14" Lrel="det" >a</W>
+     <W Lpos="JJ" Lhead="14" Lrel="amod" >little</W>
+     <W Lpos="JJ" Lhead="14" Lrel="amod" >black</W>
+     <nphead id="AAh159">
+      <W Lpos="NN" Lhead="15" Lrel="nsubj" >dwarf</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >stood</W>
+    <W Lpos="IN" Lhead="15" Lrel="prep" >before</W>
+    <ne id="ne160" AAgf="pobj" >
+     <nphead id="AAh160">
+      <W Lpos="PRP" Lhead="16" Lrel="pobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="15" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="15" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="15" Lrel="conj" >said</W>
+    <W Lpos=":" Lhead="20" Lrel="punct" >:</W>
+    <W Lpos="``" Lhead="20" Lrel="punct" >&apos;</W>
+    <ne id="ne161" AAgf="dobj" >
+     <nphead id="AAh161">
+      <W Lpos="NNP" Lhead="20" Lrel="dobj" >Lord</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="23" Lrel="punct" >,</W>
+    <W Lpos="WP" Lhead="28" Lrel="nsubj" >what</W>
+    <W Lpos="VBP" Lhead="28" Lrel="cop" >are</W>
+    <ne id="ne162" AAgf="ccomp" >
+     <ne id="ne163" AAgf="poss" >
+      <nphead id="AAh162">
+       <W Lpos="PRP$" Lhead="28" Lrel="poss" >your</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh163">
+      <W Lpos="NNS" Lhead="20" Lrel="ccomp" >commands</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="15" Lrel="punct" >?</W>
+    <W Lpos="''" Lhead="15" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s27">
+    <W Lpos="``" Lhead="5" Lrel="punct" >&apos;</W>
+    <W Lpos="WP" Lhead="5" Lrel="dobj" >What</W>
+    <ne id="ne164" AAgf="nsubj" >
+     <ne id="ne165" AAgf="poss" >
+      <nphead id="AAh164">
+       <W Lpos="PRP$" Lhead="4" Lrel="poss" >my</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh165">
+      <W Lpos="NNS" Lhead="5" Lrel="nsubj" >commands</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="0" Lrel="root" >are</W>
+    <W Lpos="." Lhead="5" Lrel="punct" >?</W>
+    <W Lpos="''" Lhead="5" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s28">
+    <W Lpos="VBD" Lhead="0" Lrel="root" >replied</W>
+    <ne id="ne166" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >the</W>
+     <nphead id="AAh166">
+      <W Lpos="NN" Lhead="1" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="1" Lrel="punct" >,</W>
+    <W Lpos="RB" Lhead="6" Lrel="advmod" >quite</W>
+    <W Lpos="JJ" Lhead="1" Lrel="dep" >astonished</W>
+    <W Lpos="." Lhead="1" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="1" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s29">
+    <ne id="ne167" AAgf="nsubj" >
+     <nphead id="AAh167">
+      <W Lpos="PRP" Lhead="3" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="3" Lrel="aux" >must</W>
+    <W Lpos="VB" Lhead="10" Lrel="ccomp" >do</W>
+    <ne id="ne168" AAgf="dobj" >
+     <nphead id="AAh168">
+      <W Lpos="NN" Lhead="3" Lrel="dobj" >everything</W>
+     </nphead>
+     <ne id="ne169" AAgf="nsubj" >
+      <nphead id="AAh169">
+       <W Lpos="PRP" Lhead="6" Lrel="nsubj" >you</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBP" Lhead="4" Lrel="rcmod" >bid</W>
+     <ne id="ne170" AAgf="dobj" >
+      <nphead id="AAh170">
+       <W Lpos="PRP" Lhead="6" Lrel="dobj" >me</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="10" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >said</W>
+    <ne id="ne171" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="13" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="13" Lrel="amod" >little</W>
+     <nphead id="AAh171">
+      <W Lpos="NN" Lhead="10" Lrel="nsubj" >man</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="10" Lrel="punct" >.</W>
+   </s>
+   <s id="s30">
+    <W Lpos="``" Lhead="5" Lrel="punct" >&apos;</W>
+    <ne id="ne172" AAgf="dep" >
+     <nphead id="AAh172">
+      <W Lpos="NNP" Lhead="5" Lrel="dep" >Good</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="5" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="5" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >said</W>
+    <ne id="ne173" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="7" Lrel="det" >the</W>
+     <nphead id="AAh173">
+      <W Lpos="NN" Lhead="5" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos=":" Lhead="5" Lrel="punct" >;</W>
+    <W Lpos="``" Lhead="5" Lrel="punct" >&apos;</W>
+    <W Lpos="RB" Lhead="15" Lrel="advmod" >then</W>
+    <W Lpos="IN" Lhead="15" Lrel="prep" >in</W>
+    <ne id="ne174" AAgf="pobj" >
+     <W Lpos="DT" Lhead="14" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="14" Lrel="amod" >first</W>
+     <nphead id="AAh174">
+      <W Lpos="NN" Lhead="11" Lrel="pobj" >place</W>
+     </nphead>
+    </ne>
+    <W Lpos="VB" Lhead="5" Lrel="ccomp" >help</W>
+    <ne id="ne175" AAgf="dobj" >
+     <nphead id="AAh175">
+      <W Lpos="PRP" Lhead="15" Lrel="dobj" >me</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="15" Lrel="prep" >out</W>
+    <W Lpos="IN" Lhead="17" Lrel="pcomp" >of</W>
+    <ne id="ne176" AAgf="pobj" >
+     <nphead id="AAh176">
+      <W Lpos="DT" Lhead="18" Lrel="pobj" >this</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="15" Lrel="advmod" >well</W>
+    <W Lpos="." Lhead="5" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="5" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s31">
+    <ne id="ne177" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >The</W>
+     <W Lpos="JJ" Lhead="3" Lrel="amod" >little</W>
+     <nphead id="AAh177">
+      <W Lpos="NN" Lhead="4" Lrel="nsubj" >man</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >took</W>
+    <ne id="ne178" AAgf="dobj" >
+     <nphead id="AAh178">
+      <W Lpos="PRP" Lhead="4" Lrel="dobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="4" Lrel="prep" >by</W>
+    <ne id="ne179" AAgf="pobj" >
+     <W Lpos="DT" Lhead="8" Lrel="det" >the</W>
+     <nphead id="AAh179">
+      <W Lpos="NN" Lhead="6" Lrel="pobj" >hand</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="4" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="4" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="4" Lrel="conj" >led</W>
+    <ne id="ne180" AAgf="dobj" >
+     <nphead id="AAh180">
+      <W Lpos="PRP" Lhead="11" Lrel="dobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="11" Lrel="prep" >through</W>
+    <ne id="ne181" AAgf="pobj" >
+     <W Lpos="DT" Lhead="16" Lrel="det" >an</W>
+     <W Lpos="JJ" Lhead="16" Lrel="amod" >underground</W>
+     <nphead id="AAh181">
+      <W Lpos="NN" Lhead="13" Lrel="pobj" >passage</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="4" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="4" Lrel="cc" >but</W>
+    <ne id="ne182" AAgf="nsubj" >
+     <nphead id="AAh182">
+      <W Lpos="PRP" Lhead="22" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="22" Lrel="aux" >did</W>
+    <W Lpos="RB" Lhead="22" Lrel="neg" >not</W>
+    <W Lpos="VB" Lhead="4" Lrel="conj" >forget</W>
+    <W Lpos="TO" Lhead="24" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="22" Lrel="xcomp" >take</W>
+    <ne id="ne183" AAgf="dobj" >
+     <W Lpos="DT" Lhead="27" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="27" Lrel="amod" >blue</W>
+     <nphead id="AAh183">
+      <W Lpos="NN" Lhead="24" Lrel="dobj" >light</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="24" Lrel="prep" >with</W>
+    <ne id="ne184" AAgf="pobj" >
+     <nphead id="AAh184">
+      <W Lpos="PRP" Lhead="28" Lrel="pobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="4" Lrel="punct" >.</W>
+   </s>
+   <s id="s32">
+    <W Lpos="IN" Lhead="6" Lrel="prep" >On</W>
+    <ne id="ne185" AAgf="pobj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >the</W>
+     <nphead id="AAh185">
+      <W Lpos="NN" Lhead="1" Lrel="pobj" >way</W>
+     </nphead>
+    </ne>
+    <ne id="ne186" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="5" Lrel="det" >the</W>
+     <nphead id="AAh186">
+      <W Lpos="NN" Lhead="6" Lrel="nsubj" >dwarf</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >showed</W>
+    <ne id="ne187" AAgf="iobj" >
+     <nphead id="AAh187">
+      <W Lpos="PRP" Lhead="6" Lrel="iobj" >him</W>
+     </nphead>
+    </ne>
+    <ne id="ne188" AAgf="dobj" >
+     <W Lpos="DT" Lhead="9" Lrel="det" >the</W>
+     <nphead id="AAh188">
+      <W Lpos="NNS" Lhead="6" Lrel="dobj" >treasures</W>
+     </nphead>
+     <W Lpos="WDT" Lhead="14" Lrel="dobj" >which</W>
+     <ne id="ne189" AAgf="nsubj" >
+      <W Lpos="DT" Lhead="12" Lrel="det" >the</W>
+      <nphead id="AAh189">
+       <W Lpos="NN" Lhead="14" Lrel="nsubj" >witch</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBD" Lhead="14" Lrel="aux" >had</W>
+     <W Lpos="VBN" Lhead="9" Lrel="rcmod" >collected</W>
+     <W Lpos="CC" Lhead="14" Lrel="cc" >and</W>
+     <W Lpos="VBN" Lhead="14" Lrel="conj" >hidden</W>
+     <W Lpos="RB" Lhead="14" Lrel="advmod" >there</W>
+    </ne>
+    <W Lpos="," Lhead="6" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="6" Lrel="cc" >and</W>
+    <ne id="ne190" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="21" Lrel="det" >the</W>
+     <nphead id="AAh190">
+      <W Lpos="NN" Lhead="22" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="6" Lrel="conj" >took</W>
+    <ne id="ne191" AAgf="dobj" >
+     <W Lpos="RB" Lhead="25" Lrel="advmod" >as</W>
+     <W Lpos="JJ" Lhead="25" Lrel="amod" >much</W>
+     <nphead id="AAh191">
+      <W Lpos="NN" Lhead="22" Lrel="dobj" >gold</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="29" Lrel="mark" >as</W>
+    <ne id="ne192" AAgf="nsubj" >
+     <nphead id="AAh192">
+      <W Lpos="PRP" Lhead="29" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="29" Lrel="aux" >could</W>
+    <W Lpos="VB" Lhead="25" Lrel="dep" >carry</W>
+    <W Lpos="." Lhead="6" Lrel="punct" >.</W>
+   </s>
+   <s id="s33">
+    <W Lpos="WRB" Lhead="3" Lrel="advmod" >When</W>
+    <ne id="ne193" AAgf="nsubj" >
+     <nphead id="AAh193">
+      <W Lpos="PRP" Lhead="3" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="7" Lrel="advcl" >was</W>
+    <W Lpos="IN" Lhead="3" Lrel="advmod" >above</W>
+    <W Lpos="," Lhead="7" Lrel="punct" >,</W>
+    <ne id="ne194" AAgf="nsubj" >
+     <nphead id="AAh194">
+      <W Lpos="PRP" Lhead="7" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >said</W>
+    <W Lpos="TO" Lhead="7" Lrel="prep" >to</W>
+    <ne id="ne195" AAgf="pobj" >
+     <W Lpos="DT" Lhead="11" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="11" Lrel="amod" >little</W>
+     <nphead id="AAh195">
+      <W Lpos="NN" Lhead="8" Lrel="pobj" >man</W>
+     </nphead>
+    </ne>
+    <W Lpos=":" Lhead="7" Lrel="punct" >:</W>
+    <W Lpos="``" Lhead="7" Lrel="punct" >&apos;</W>
+    <W Lpos="RB" Lhead="15" Lrel="advmod" >Now</W>
+    <W Lpos="VB" Lhead="7" Lrel="ccomp" >go</W>
+    <W Lpos="CC" Lhead="15" Lrel="cc" >and</W>
+    <W Lpos="VB" Lhead="15" Lrel="conj" >bind</W>
+    <ne id="ne196" AAgf="dobj" >
+     <W Lpos="DT" Lhead="20" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="20" Lrel="amod" >old</W>
+     <nphead id="AAh196">
+      <W Lpos="NN" Lhead="15" Lrel="dobj" >witch</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="15" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="15" Lrel="cc" >and</W>
+    <W Lpos="VB" Lhead="15" Lrel="conj" >carry</W>
+    <ne id="ne197" AAgf="dobj" >
+     <nphead id="AAh197">
+      <W Lpos="PRP" Lhead="23" Lrel="dobj" >her</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="23" Lrel="prep" >before</W>
+    <ne id="ne198" AAgf="pobj" >
+     <W Lpos="DT" Lhead="27" Lrel="det" >the</W>
+     <nphead id="AAh198">
+      <W Lpos="NN" Lhead="25" Lrel="pobj" >judge</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="7" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="7" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s34">
+    <W Lpos="IN" Lhead="6" Lrel="prep" >In</W>
+    <ne id="ne199" AAgf="pobj" >
+     <W Lpos="DT" Lhead="4" Lrel="det" >a</W>
+     <W Lpos="JJ" Lhead="4" Lrel="amod" >short</W>
+     <nphead id="AAh199">
+      <W Lpos="NN" Lhead="1" Lrel="pobj" >time</W>
+     </nphead>
+    </ne>
+    <ne id="ne200" AAgf="nsubj" >
+     <nphead id="AAh200">
+      <W Lpos="PRP" Lhead="6" Lrel="nsubj" >she</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >came</W>
+    <W Lpos="IN" Lhead="6" Lrel="prep" >by</W>
+    <W Lpos="IN" Lhead="6" Lrel="prep" >like</W>
+    <ne id="ne201" AAgf="pobj" >
+     <W Lpos="DT" Lhead="10" Lrel="det" >the</W>
+     <nphead id="AAh201">
+      <W Lpos="NN" Lhead="8" Lrel="pobj" >wind</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="6" Lrel="punct" >,</W>
+    <W Lpos="VBG" Lhead="6" Lrel="ccomp" >riding</W>
+    <W Lpos="IN" Lhead="12" Lrel="prep" >on</W>
+    <ne id="ne202" AAgf="pobj" >
+     <W Lpos="DT" Lhead="16" Lrel="det" >a</W>
+     <W Lpos="JJ" Lhead="16" Lrel="amod" >wild</W>
+     <nphead id="AAh202">
+      <W Lpos="NN" Lhead="13" Lrel="pobj" >tom-cat</W>
+     </nphead>
+    </ne>
+    <W Lpos="CC" Lhead="12" Lrel="cc" >and</W>
+    <W Lpos="VBG" Lhead="12" Lrel="conj" >screaming</W>
+    <W Lpos="RB" Lhead="18" Lrel="advmod" >frightfully</W>
+    <W Lpos="." Lhead="6" Lrel="punct" >.</W>
+   </s>
+   <s id="s35">
+    <W Lpos="CC" Lhead="2" Lrel="cc" >Nor</W>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >was</W>
+    <ne id="ne203" AAgf="nsubj" >
+     <nphead id="AAh203">
+      <W Lpos="PRP" Lhead="2" Lrel="nsubj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="9" Lrel="advmod" >long</W>
+    <W Lpos="IN" Lhead="9" Lrel="mark" >before</W>
+    <ne id="ne204" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="8" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="8" Lrel="amod" >little</W>
+     <nphead id="AAh204">
+      <W Lpos="NN" Lhead="9" Lrel="nsubj" >man</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="2" Lrel="dep" >reappeared</W>
+    <W Lpos="." Lhead="2" Lrel="punct" >.</W>
+   </s>
+   <s id="s36">
+    <W Lpos="``" Lhead="5" Lrel="punct" >&apos;</W>
+    <ne id="ne205" AAgf="nsubjpass" >
+     <nphead id="AAh205">
+      <W Lpos="PRP" Lhead="5" Lrel="nsubjpass" >It</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBZ" Lhead="5" Lrel="auxpass" >is</W>
+    <W Lpos="DT" Lhead="5" Lrel="dep" >all</W>
+    <W Lpos="VBN" Lhead="0" Lrel="root" >done</W>
+    <W Lpos="," Lhead="8" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="8" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="5" Lrel="dep" >said</W>
+    <ne id="ne206" AAgf="nsubj" >
+     <nphead id="AAh206">
+      <W Lpos="PRP" Lhead="8" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="8" Lrel="punct" >,</W>
+    <W Lpos="``" Lhead="5" Lrel="punct" >&apos;</W>
+    <W Lpos="CC" Lhead="5" Lrel="cc" >and</W>
+    <ne id="ne207" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="14" Lrel="det" >the</W>
+     <nphead id="AAh207">
+      <W Lpos="NN" Lhead="17" Lrel="nsubj" >witch</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBZ" Lhead="17" Lrel="aux" >is</W>
+    <W Lpos="RB" Lhead="17" Lrel="advmod" >already</W>
+    <W Lpos="VBG" Lhead="5" Lrel="conj" >hanging</W>
+    <W Lpos="IN" Lhead="17" Lrel="prep" >on</W>
+    <ne id="ne208" AAgf="pobj" >
+     <W Lpos="DT" Lhead="20" Lrel="det" >the</W>
+     <nphead id="AAh208">
+      <W Lpos="NNS" Lhead="18" Lrel="pobj" >gallows</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="5" Lrel="punct" >.</W>
+   </s>
+   <s id="s37">
+    <ne id="ne209" AAgf="nsubj" >
+     <W Lpos="WDT" Lhead="3" Lrel="det" >What</W>
+     <W Lpos="JJ" Lhead="3" Lrel="amod" >further</W>
+     <nphead id="AAh209">
+      <W Lpos="NNS" Lhead="4" Lrel="nsubj" >commands</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBZ" Lhead="0" Lrel="root" >has</W>
+    <ne id="ne210" AAgf="dobj" >
+     <ne id="ne211" AAgf="poss" >
+      <nphead id="AAh210">
+       <W Lpos="PRP$" Lhead="6" Lrel="poss" >my</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh211">
+      <W Lpos="NN" Lhead="4" Lrel="dobj" >lord</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="4" Lrel="punct" >?</W>
+    <W Lpos="''" Lhead="4" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s38">
+    <W Lpos="VBD" Lhead="0" Lrel="root" >inquired</W>
+    <ne id="ne212" AAgf="dobj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >the</W>
+     <nphead id="AAh212">
+      <W Lpos="NN" Lhead="1" Lrel="dobj" >dwarf</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="1" Lrel="punct" >.</W>
+   </s>
+   <s id="s39">
+    <W Lpos="``" Lhead="9" Lrel="punct" >&apos;</W>
+    <W Lpos="IN" Lhead="9" Lrel="prep" >At</W>
+    <ne id="ne213" AAgf="pobj" >
+     <W Lpos="DT" Lhead="4" Lrel="det" >this</W>
+     <nphead id="AAh213">
+      <W Lpos="NN" Lhead="2" Lrel="pobj" >moment</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="9" Lrel="punct" >,</W>
+    <ne id="ne214" AAgf="nsubj" >
+     <nphead id="AAh214">
+      <W Lpos="NN" Lhead="9" Lrel="nsubj" >none</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="9" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="9" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >answered</W>
+    <ne id="ne215" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="11" Lrel="det" >the</W>
+     <nphead id="AAh215">
+      <W Lpos="NN" Lhead="9" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos=":" Lhead="9" Lrel="punct" >;</W>
+    <W Lpos="``" Lhead="9" Lrel="punct" >&apos;</W>
+    <ne id="ne216" AAgf="nsubj" >
+     <nphead id="AAh216">
+      <W Lpos="PRP" Lhead="16" Lrel="nsubj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="16" Lrel="aux" >can</W>
+    <W Lpos="VB" Lhead="9" Lrel="ccomp" >return</W>
+    <W Lpos="NN" Lhead="16" Lrel="advmod" >home</W>
+    <W Lpos="," Lhead="16" Lrel="punct" >,</W>
+    <W Lpos="RB" Lhead="16" Lrel="advmod" >only</W>
+    <W Lpos="VB" Lhead="16" Lrel="dep" >be</W>
+    <W Lpos="IN" Lhead="20" Lrel="prep" >at</W>
+    <ne id="ne217" AAgf="pobj" >
+     <nphead id="AAh217">
+      <W Lpos="NN" Lhead="21" Lrel="pobj" >hand</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="20" Lrel="advmod" >immediately</W>
+    <W Lpos="," Lhead="16" Lrel="punct" >,</W>
+    <W Lpos="IN" Lhead="27" Lrel="mark" >if</W>
+    <ne id="ne218" AAgf="nsubj" >
+     <nphead id="AAh218">
+      <W Lpos="PRP" Lhead="27" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="16" Lrel="advcl" >summon</W>
+    <ne id="ne219" AAgf="dobj" >
+     <nphead id="AAh219">
+      <W Lpos="PRP" Lhead="27" Lrel="dobj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="9" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="9" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s40">
+    <W Lpos="``" Lhead="5" Lrel="punct" >&apos;</W>
+    <ne id="ne220" AAgf="nsubjpass" >
+     <nphead id="AAh220">
+      <W Lpos="NN" Lhead="5" Lrel="nsubjpass" >Nothing</W>
+     </nphead>
+     <W Lpos="JJR" Lhead="2" Lrel="amod" >more</W>
+    </ne>
+    <W Lpos="VBZ" Lhead="5" Lrel="auxpass" >is</W>
+    <W Lpos="VBN" Lhead="0" Lrel="root" >needed</W>
+    <W Lpos="IN" Lhead="5" Lrel="prep" >than</W>
+    <W Lpos="IN" Lhead="10" Lrel="mark" >that</W>
+    <ne id="ne221" AAgf="nsubj" >
+     <nphead id="AAh221">
+      <W Lpos="PRP" Lhead="10" Lrel="nsubj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="10" Lrel="aux" >should</W>
+    <W Lpos="VB" Lhead="5" Lrel="advcl" >light</W>
+    <ne id="ne222" AAgf="dobj" >
+     <ne id="ne223" AAgf="poss" >
+      <nphead id="AAh222">
+       <W Lpos="PRP$" Lhead="12" Lrel="poss" >your</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh223">
+      <W Lpos="NN" Lhead="10" Lrel="dobj" >pipe</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="10" Lrel="prep" >at</W>
+    <ne id="ne224" AAgf="pobj" >
+     <W Lpos="DT" Lhead="16" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="16" Lrel="amod" >blue</W>
+     <nphead id="AAh224">
+      <W Lpos="NN" Lhead="13" Lrel="pobj" >light</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="5" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="5" Lrel="cc" >and</W>
+    <ne id="ne225" AAgf="nsubj" >
+     <nphead id="AAh225">
+      <W Lpos="PRP" Lhead="21" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="21" Lrel="aux" >will</W>
+    <W Lpos="VB" Lhead="5" Lrel="conj" >appear</W>
+    <W Lpos="IN" Lhead="21" Lrel="prep" >before</W>
+    <ne id="ne226" AAgf="pobj" >
+     <nphead id="AAh226">
+      <W Lpos="PRP" Lhead="22" Lrel="pobj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="21" Lrel="advmod" >at</W>
+    <W Lpos="RB" Lhead="24" Lrel="pobj" >once</W>
+    <W Lpos="." Lhead="5" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="5" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s41">
+    <W Lpos="NNP" Lhead="3" Lrel="advmod" >Thereupon</W>
+    <ne id="ne227" AAgf="nsubj" >
+     <nphead id="AAh227">
+      <W Lpos="PRP" Lhead="3" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >vanished</W>
+    <W Lpos="IN" Lhead="3" Lrel="prep" >from</W>
+    <ne id="ne228" AAgf="pobj" >
+     <ne id="ne229" AAgf="poss" >
+      <nphead id="AAh228">
+       <W Lpos="PRP$" Lhead="6" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh229">
+      <W Lpos="NN" Lhead="4" Lrel="pobj" >sight</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+   </s>
+  </p>
+  <p id="p3">
+   <s id="s42">
+    <ne id="ne230" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="2" Lrel="det" >The</W>
+     <nphead id="AAh230">
+      <W Lpos="NN" Lhead="3" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >returned</W>
+    <W Lpos="TO" Lhead="3" Lrel="prep" >to</W>
+    <ne id="ne231" AAgf="pobj" >
+     <W Lpos="DT" Lhead="6" Lrel="det" >the</W>
+     <nphead id="AAh231">
+      <W Lpos="NN" Lhead="4" Lrel="pobj" >town</W>
+     </nphead>
+     <W Lpos="IN" Lhead="10" Lrel="prep" >from</W>
+     <W Lpos="WDT" Lhead="7" Lrel="pobj" >which</W>
+     <ne id="ne232" AAgf="nsubj" >
+      <nphead id="AAh232">
+       <W Lpos="PRP" Lhead="10" Lrel="nsubj" >he</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBD" Lhead="6" Lrel="rcmod" >come</W>
+    </ne>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+   </s>
+   <s id="s43">
+    <ne id="ne233" AAgf="nsubj" >
+     <nphead id="AAh233">
+      <W Lpos="PRP" Lhead="2" Lrel="nsubj" >He</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >went</W>
+    <W Lpos="TO" Lhead="2" Lrel="prep" >to</W>
+    <ne id="ne234" AAgf="pobj" >
+     <W Lpos="DT" Lhead="6" Lrel="det" >the</W>
+     <W Lpos="JJS" Lhead="6" Lrel="amod" >best</W>
+     <nphead id="AAh234">
+      <W Lpos="NN" Lhead="3" Lrel="pobj" >inn</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="2" Lrel="punct" >,</W>
+    <W Lpos="VBD" Lhead="2" Lrel="conj" >ordered</W>
+    <ne id="ne235" AAgf="nsubj" >
+     <nphead id="AAh235">
+      <W Lpos="PRP" Lhead="11" Lrel="nsubj" >himself</W>
+     </nphead>
+    </ne>
+    <ne id="ne236" AAgf="dobj" >
+     <W Lpos="JJ" Lhead="11" Lrel="amod" >handsome</W>
+     <nphead id="AAh236">
+      <W Lpos="NNS" Lhead="8" Lrel="dobj" >clothes</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="2" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="2" Lrel="cc" >and</W>
+    <W Lpos="RB" Lhead="2" Lrel="advmod" >then</W>
+    <W Lpos="VB" Lhead="2" Lrel="conj" >bade</W>
+    <ne id="ne237" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="17" Lrel="det" >the</W>
+     <nphead id="AAh237">
+      <W Lpos="NN" Lhead="18" Lrel="nsubj" >landlord</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="15" Lrel="ccomp" >furnish</W>
+    <ne id="ne238" AAgf="iobj" >
+     <nphead id="AAh238">
+      <W Lpos="PRP" Lhead="18" Lrel="iobj" >him</W>
+     </nphead>
+    </ne>
+    <ne id="ne239" AAgf="dobj" >
+     <W Lpos="DT" Lhead="21" Lrel="det" >a</W>
+     <nphead id="AAh239">
+      <W Lpos="NN" Lhead="18" Lrel="dobj" >room</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="23" Lrel="advmod" >as</W>
+    <W Lpos="JJ" Lhead="18" Lrel="advmod" >handsome</W>
+    <W Lpos="IN" Lhead="23" Lrel="prep" >as</W>
+    <W Lpos="JJ" Lhead="24" Lrel="pobj" >possible</W>
+    <W Lpos="." Lhead="2" Lrel="punct" >.</W>
+   </s>
+   <s id="s44">
+    <W Lpos="WRB" Lhead="4" Lrel="advmod" >When</W>
+    <ne id="ne240" AAgf="nsubj" >
+     <nphead id="AAh240">
+      <W Lpos="PRP" Lhead="4" Lrel="nsubj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="4" Lrel="cop" >was</W>
+    <W Lpos="JJ" Lhead="15" Lrel="advcl" >ready</W>
+    <W Lpos="CC" Lhead="4" Lrel="cc" >and</W>
+    <ne id="ne241" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="7" Lrel="det" >the</W>
+     <nphead id="AAh241">
+      <W Lpos="NN" Lhead="9" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="9" Lrel="aux" >had</W>
+    <W Lpos="VBN" Lhead="4" Lrel="conj" >taken</W>
+    <ne id="ne242" AAgf="dobj" >
+     <nphead id="AAh242">
+      <W Lpos="NN" Lhead="9" Lrel="dobj" >possession</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="9" Lrel="prep" >of</W>
+    <ne id="ne243" AAgf="pobj" >
+     <nphead id="AAh243">
+      <W Lpos="PRP" Lhead="11" Lrel="pobj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="15" Lrel="punct" >,</W>
+    <ne id="ne244" AAgf="nsubj" >
+     <nphead id="AAh244">
+      <W Lpos="PRP" Lhead="15" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >summoned</W>
+    <ne id="ne245" AAgf="dobj" >
+     <W Lpos="DT" Lhead="19" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="19" Lrel="amod" >little</W>
+     <W Lpos="JJ" Lhead="19" Lrel="amod" >black</W>
+     <nphead id="AAh245">
+      <W Lpos="NN" Lhead="15" Lrel="dobj" >manikin</W>
+     </nphead>
+    </ne>
+    <W Lpos="CC" Lhead="15" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="15" Lrel="conj" >said</W>
+    <W Lpos=":" Lhead="21" Lrel="punct" >:</W>
+    <W Lpos="''" Lhead="21" Lrel="punct" >&apos;</W>
+    <ne id="ne246" AAgf="nsubj" >
+     <nphead id="AAh246">
+      <W Lpos="PRP" Lhead="26" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="26" Lrel="aux" >have</W>
+    <W Lpos="VBN" Lhead="21" Lrel="ccomp" >served</W>
+    <ne id="ne247" AAgf="dobj" >
+     <W Lpos="DT" Lhead="28" Lrel="det" >the</W>
+     <nphead id="AAh247">
+      <W Lpos="NN" Lhead="26" Lrel="dobj" >king</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="26" Lrel="advmod" >faithfully</W>
+    <W Lpos="," Lhead="26" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="26" Lrel="cc" >but</W>
+    <ne id="ne248" AAgf="nsubj" >
+     <nphead id="AAh248">
+      <W Lpos="PRP" Lhead="34" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBZ" Lhead="34" Lrel="aux" >has</W>
+    <W Lpos="VBN" Lhead="26" Lrel="conj" >dismissed</W>
+    <ne id="ne249" AAgf="dobj" >
+     <nphead id="AAh249">
+      <W Lpos="PRP" Lhead="34" Lrel="dobj" >me</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="26" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="34" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="34" Lrel="conj" >left</W>
+    <ne id="ne250" AAgf="dobj" >
+     <nphead id="AAh250">
+      <W Lpos="PRP" Lhead="38" Lrel="dobj" >me</W>
+     </nphead>
+    </ne>
+    <W Lpos="TO" Lhead="38" Lrel="prep" >to</W>
+    <ne id="ne251" AAgf="pobj" >
+     <nphead id="AAh251">
+      <W Lpos="NN" Lhead="40" Lrel="pobj" >hunger</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="26" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="26" Lrel="cc" >and</W>
+    <W Lpos="RB" Lhead="46" Lrel="advmod" >now</W>
+    <ne id="ne252" AAgf="nsubj" >
+     <nphead id="AAh252">
+      <W Lpos="PRP" Lhead="46" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="26" Lrel="conj" >want</W>
+    <W Lpos="TO" Lhead="48" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="46" Lrel="xcomp" >take</W>
+    <ne id="ne253" AAgf="dobj" >
+     <ne id="ne254" AAgf="poss" >
+      <nphead id="AAh253">
+       <W Lpos="PRP$" Lhead="50" Lrel="poss" >my</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh254">
+      <W Lpos="NN" Lhead="48" Lrel="dobj" >revenge</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="15" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="15" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s45">
+    <W Lpos="``" Lhead="6" Lrel="punct" >&apos;</W>
+    <W Lpos="WP" Lhead="6" Lrel="dobj" >What</W>
+    <W Lpos="VBP" Lhead="6" Lrel="aux" >am</W>
+    <ne id="ne255" AAgf="nsubj" >
+     <nphead id="AAh255">
+      <W Lpos="PRP" Lhead="6" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="TO" Lhead="6" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >do</W>
+    <W Lpos="." Lhead="6" Lrel="punct" >?</W>
+    <W Lpos="''" Lhead="6" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s46">
+    <W Lpos="VBD" Lhead="0" Lrel="root" >asked</W>
+    <ne id="ne256" AAgf="dobj" >
+     <W Lpos="DT" Lhead="4" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="4" Lrel="amod" >little</W>
+     <nphead id="AAh256">
+      <W Lpos="NN" Lhead="1" Lrel="dobj" >man</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="1" Lrel="punct" >.</W>
+   </s>
+   <s id="s47">
+    <W Lpos="``" Lhead="24" Lrel="punct" >&apos;</W>
+    <W Lpos="RB" Lhead="24" Lrel="advmod" >Late</W>
+    <W Lpos="IN" Lhead="24" Lrel="prep" >at</W>
+    <ne id="ne257" AAgf="pobj" >
+     <nphead id="AAh257">
+      <W Lpos="NN" Lhead="3" Lrel="pobj" >night</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="24" Lrel="punct" >,</W>
+    <W Lpos="WRB" Lhead="11" Lrel="advmod" >when</W>
+    <ne id="ne258" AAgf="nsubj" >
+     <ne id="ne259" AAgf="poss" >
+      <W Lpos="DT" Lhead="8" Lrel="det" >the</W>
+      <nphead id="AAh258">
+       <W Lpos="NN" Lhead="10" Lrel="poss" >king</W>
+      </nphead>
+      <W Lpos="POS" Lhead="8" Lrel="possessive" >&apos;s</W>
+     </ne>
+     <nphead id="AAh259">
+      <W Lpos="NN" Lhead="11" Lrel="nsubj" >daughter</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBZ" Lhead="24" Lrel="advcl" >is</W>
+    <W Lpos="IN" Lhead="11" Lrel="prep" >in</W>
+    <ne id="ne260" AAgf="pobj" >
+     <nphead id="AAh260">
+      <W Lpos="NN" Lhead="12" Lrel="pobj" >bed</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="11" Lrel="punct" >,</W>
+    <W Lpos="VB" Lhead="11" Lrel="conj" >bring</W>
+    <ne id="ne261" AAgf="dobj" >
+     <nphead id="AAh261">
+      <W Lpos="PRP" Lhead="15" Lrel="dobj" >her</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="15" Lrel="advmod" >here</W>
+    <W Lpos="IN" Lhead="15" Lrel="prep" >in</W>
+    <ne id="ne262" AAgf="pobj" >
+     <ne id="ne263" AAgf="poss" >
+      <nphead id="AAh262">
+       <W Lpos="PRP$" Lhead="20" Lrel="poss" >her</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh263">
+      <W Lpos="NN" Lhead="18" Lrel="pobj" >sleep</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="24" Lrel="punct" >,</W>
+    <ne id="ne264" AAgf="nsubj" >
+     <nphead id="AAh264">
+      <W Lpos="PRP" Lhead="24" Lrel="nsubj" >she</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="24" Lrel="aux" >shall</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >do</W>
+    <ne id="ne265" AAgf="dobj" >
+     <ne id="ne266" AAgf="poss" >
+      <nphead id="AAh265">
+       <W Lpos="NN" Lhead="27" Lrel="poss" >servant</W>
+      </nphead>
+      <W Lpos="POS" Lhead="25" Lrel="possessive" >&apos;s</W>
+     </ne>
+     <nphead id="AAh266">
+      <W Lpos="NN" Lhead="24" Lrel="dobj" >work</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="24" Lrel="prep" >for</W>
+    <ne id="ne267" AAgf="pobj" >
+     <nphead id="AAh267">
+      <W Lpos="PRP" Lhead="28" Lrel="pobj" >me</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="24" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="24" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s48">
+    <ne id="ne268" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="2" Lrel="det" >The</W>
+     <nphead id="AAh268">
+      <W Lpos="NN" Lhead="3" Lrel="nsubj" >manikin</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >said</W>
+    <W Lpos=":" Lhead="3" Lrel="punct" >:</W>
+    <W Lpos="``" Lhead="3" Lrel="punct" >&apos;</W>
+    <ne id="ne269" AAgf="nsubj" >
+     <nphead id="AAh269">
+      <W Lpos="DT" Lhead="10" Lrel="nsubj" >That</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBZ" Lhead="10" Lrel="cop" >is</W>
+    <ne id="ne270" AAgf="ccomp" >
+     <W Lpos="DT" Lhead="10" Lrel="det" >an</W>
+     <W Lpos="JJ" Lhead="10" Lrel="amod" >easy</W>
+     <nphead id="AAh270">
+      <W Lpos="NN" Lhead="3" Lrel="ccomp" >thing</W>
+     </nphead>
+     <W Lpos="IN" Lhead="14" Lrel="mark" >for</W>
+     <ne id="ne271" AAgf="nsubj" >
+      <nphead id="AAh271">
+       <W Lpos="PRP" Lhead="14" Lrel="nsubj" >me</W>
+      </nphead>
+     </ne>
+     <W Lpos="TO" Lhead="14" Lrel="aux" >to</W>
+     <W Lpos="VB" Lhead="10" Lrel="infmod" >do</W>
+     <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+     <W Lpos="CC" Lhead="10" Lrel="cc" >but</W>
+     <ne id="ne272" AAgf="conj" >
+      <W Lpos="DT" Lhead="20" Lrel="det" >a</W>
+      <W Lpos="RB" Lhead="19" Lrel="advmod" >very</W>
+      <W Lpos="JJ" Lhead="20" Lrel="amod" >dangerous</W>
+      <nphead id="AAh272">
+       <W Lpos="NN" Lhead="10" Lrel="conj" >thing</W>
+      </nphead>
+      <W Lpos="IN" Lhead="20" Lrel="prep" >for</W>
+      <ne id="ne273" AAgf="pobj" >
+       <nphead id="AAh273">
+        <W Lpos="PRP" Lhead="21" Lrel="pobj" >you</W>
+       </nphead>
+      </ne>
+     </ne>
+     <W Lpos="," Lhead="32" Lrel="punct" >,</W>
+     <W Lpos="IN" Lhead="28" Lrel="mark" >for</W>
+     <W Lpos="IN" Lhead="28" Lrel="mark" >if</W>
+     <ne id="ne274" AAgf="nsubjpass" >
+      <nphead id="AAh274">
+       <W Lpos="PRP" Lhead="28" Lrel="nsubjpass" >it</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBZ" Lhead="28" Lrel="auxpass" >is</W>
+     <W Lpos="VBN" Lhead="32" Lrel="advcl" >discovered</W>
+     <W Lpos="," Lhead="32" Lrel="punct" >,</W>
+     <ne id="ne275" AAgf="nsubj" >
+      <nphead id="AAh275">
+       <W Lpos="PRP" Lhead="32" Lrel="nsubj" >you</W>
+      </nphead>
+     </ne>
+     <W Lpos="MD" Lhead="32" Lrel="aux" >will</W>
+     <W Lpos="VB" Lhead="10" Lrel="conj" >fare</W>
+     <W Lpos="RB" Lhead="32" Lrel="advmod" >ill</W>
+    </ne>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="3" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s49">
+    <W Lpos="WRB" Lhead="5" Lrel="advmod" >When</W>
+    <W Lpos="CD" Lhead="3" Lrel="num" >twelve</W>
+    <W Lpos="RB" Lhead="5" Lrel="nsubj" >o&apos;clock</W>
+    <W Lpos="VBD" Lhead="5" Lrel="aux" >had</W>
+    <W Lpos="VBN" Lhead="9" Lrel="advcl" >struck</W>
+    <W Lpos="," Lhead="9" Lrel="punct" >,</W>
+    <ne id="ne276" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="8" Lrel="det" >the</W>
+     <nphead id="AAh276">
+      <W Lpos="NN" Lhead="9" Lrel="nsubj" >door</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >sprang</W>
+    <W Lpos="JJ" Lhead="9" Lrel="acomp" >open</W>
+    <W Lpos="," Lhead="9" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="9" Lrel="cc" >and</W>
+    <ne id="ne277" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="14" Lrel="det" >the</W>
+     <nphead id="AAh277">
+      <W Lpos="NN" Lhead="15" Lrel="nsubj" >manikin</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="9" Lrel="conj" >carried</W>
+    <W Lpos="IN" Lhead="15" Lrel="prep" >in</W>
+    <ne id="ne278" AAgf="pobj" >
+     <W Lpos="DT" Lhead="18" Lrel="det" >the</W>
+     <nphead id="AAh278">
+      <W Lpos="NN" Lhead="16" Lrel="pobj" >princess</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="9" Lrel="punct" >.</W>
+   </s>
+   <s id="s50">
+    <W Lpos="``" Lhead="2" Lrel="punct" >&apos;</W>
+    <ne id="ne279" AAgf="root" >
+     <nphead id="AAh279">
+      <W Lpos="NN" Lhead="0" Lrel="root" >Aha</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="2" Lrel="punct" >!</W>
+   </s>
+   <s id="s51">
+    <W Lpos="VBP" Lhead="0" Lrel="root" >are</W>
+    <ne id="ne280" AAgf="nsubj" >
+     <nphead id="AAh280">
+      <W Lpos="PRP" Lhead="1" Lrel="nsubj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="EX" Lhead="1" Lrel="advmod" >there</W>
+    <W Lpos="." Lhead="1" Lrel="punct" >?</W>
+    <W Lpos="''" Lhead="1" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s52">
+    <W Lpos="VBD" Lhead="0" Lrel="root" >cried</W>
+    <ne id="ne281" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >the</W>
+     <nphead id="AAh281">
+      <W Lpos="NN" Lhead="1" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="1" Lrel="punct" >,</W>
+    <W Lpos="``" Lhead="1" Lrel="punct" >&apos;</W>
+    <W Lpos="VB" Lhead="1" Lrel="ccomp" >get</W>
+    <W Lpos="TO" Lhead="6" Lrel="prep" >to</W>
+    <ne id="ne282" AAgf="pobj" >
+     <ne id="ne283" AAgf="poss" >
+      <nphead id="AAh282">
+       <W Lpos="PRP$" Lhead="9" Lrel="poss" >your</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh283">
+      <W Lpos="NN" Lhead="7" Lrel="pobj" >work</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="6" Lrel="advmod" >at</W>
+    <W Lpos="RB" Lhead="10" Lrel="pobj" >once</W>
+    <W Lpos="." Lhead="1" Lrel="punct" >!</W>
+   </s>
+   <s id="s53">
+    <W Lpos="VB" Lhead="0" Lrel="root" >Fetch</W>
+    <ne id="ne284" AAgf="dobj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >the</W>
+     <nphead id="AAh284">
+      <W Lpos="NN" Lhead="1" Lrel="dobj" >broom</W>
+     </nphead>
+    </ne>
+    <W Lpos="CC" Lhead="1" Lrel="cc" >and</W>
+    <W Lpos="NN" Lhead="1" Lrel="conj" >sweep</W>
+    <ne id="ne285" AAgf="dobj" >
+     <W Lpos="DT" Lhead="7" Lrel="det" >the</W>
+     <nphead id="AAh285">
+      <W Lpos="NN" Lhead="5" Lrel="dobj" >chamber</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="1" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="1" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s54">
+    <W Lpos="WRB" Lhead="4" Lrel="advmod" >When</W>
+    <ne id="ne286" AAgf="nsubj" >
+     <nphead id="AAh286">
+      <W Lpos="PRP" Lhead="4" Lrel="nsubj" >she</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="4" Lrel="aux" >had</W>
+    <W Lpos="VBN" Lhead="8" Lrel="advcl" >done</W>
+    <ne id="ne287" AAgf="dobj" >
+     <nphead id="AAh287">
+      <W Lpos="DT" Lhead="4" Lrel="dobj" >this</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="8" Lrel="punct" >,</W>
+    <ne id="ne288" AAgf="nsubj" >
+     <nphead id="AAh288">
+      <W Lpos="PRP" Lhead="8" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >ordered</W>
+    <ne id="ne289" AAgf="nsubj" >
+     <nphead id="AAh289">
+      <W Lpos="PRP" Lhead="11" Lrel="nsubj" >her</W>
+     </nphead>
+    </ne>
+    <W Lpos="TO" Lhead="11" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="8" Lrel="xcomp" >come</W>
+    <W Lpos="TO" Lhead="11" Lrel="prep" >to</W>
+    <ne id="ne290" AAgf="pobj" >
+     <ne id="ne291" AAgf="poss" >
+      <nphead id="AAh290">
+       <W Lpos="PRP$" Lhead="14" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh291">
+      <W Lpos="NN" Lhead="12" Lrel="pobj" >chair</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="8" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="8" Lrel="cc" >and</W>
+    <W Lpos="RB" Lhead="19" Lrel="advmod" >then</W>
+    <ne id="ne292" AAgf="nsubj" >
+     <nphead id="AAh292">
+      <W Lpos="PRP" Lhead="19" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="8" Lrel="conj" >stretched</W>
+    <W Lpos="RP" Lhead="19" Lrel="prt" >out</W>
+    <ne id="ne293" AAgf="dobj" >
+     <ne id="ne294" AAgf="poss" >
+      <nphead id="AAh293">
+       <W Lpos="PRP$" Lhead="22" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh294">
+      <W Lpos="NNS" Lhead="19" Lrel="dobj" >feet</W>
+     </nphead>
+    </ne>
+    <W Lpos="CC" Lhead="19" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="19" Lrel="conj" >said</W>
+    <W Lpos=":" Lhead="24" Lrel="punct" >:</W>
+    <W Lpos="``" Lhead="24" Lrel="punct" >&apos;</W>
+    <W Lpos="VB" Lhead="24" Lrel="ccomp" >Pull</W>
+    <W Lpos="RP" Lhead="27" Lrel="prt" >off</W>
+    <ne id="ne295" AAgf="dobj" >
+     <ne id="ne296" AAgf="poss" >
+      <nphead id="AAh295">
+       <W Lpos="PRP$" Lhead="30" Lrel="poss" >my</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh296">
+      <W Lpos="NNS" Lhead="27" Lrel="dobj" >boots</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="27" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="27" Lrel="punct" >&apos;</W>
+    <W Lpos="CC" Lhead="27" Lrel="cc" >and</W>
+    <W Lpos="RB" Lhead="36" Lrel="advmod" >then</W>
+    <ne id="ne297" AAgf="nsubj" >
+     <nphead id="AAh297">
+      <W Lpos="PRP" Lhead="36" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="27" Lrel="conj" >threw</W>
+    <ne id="ne298" AAgf="dobj" >
+     <nphead id="AAh298">
+      <W Lpos="PRP" Lhead="36" Lrel="dobj" >them</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="36" Lrel="prep" >in</W>
+    <ne id="ne299" AAgf="pobj" >
+     <ne id="ne300" AAgf="poss" >
+      <nphead id="AAh299">
+       <W Lpos="PRP$" Lhead="40" Lrel="poss" >her</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh300">
+      <W Lpos="NN" Lhead="38" Lrel="pobj" >face</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="36" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="36" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="36" Lrel="conj" >made</W>
+    <ne id="ne301" AAgf="nsubj" >
+     <nphead id="AAh301">
+      <W Lpos="PRP$" Lhead="45" Lrel="nsubj" >her</W>
+     </nphead>
+    </ne>
+    <ne id="ne302" AAgf="ccomp" >
+     <nphead id="AAh302">
+      <W Lpos="NN" Lhead="43" Lrel="ccomp" >pick</W>
+     </nphead>
+     <ne id="ne303" AAgf="dobj" >
+      <nphead id="AAh303">
+       <W Lpos="PRP" Lhead="45" Lrel="dobj" >them</W>
+      </nphead>
+     </ne>
+     <W Lpos="RP" Lhead="45" Lrel="prt" >up</W>
+     <W Lpos="RB" Lhead="45" Lrel="advmod" >again</W>
+    </ne>
+    <W Lpos="," Lhead="36" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="36" Lrel="cc" >and</W>
+    <W Lpos="VB" Lhead="36" Lrel="conj" >clean</W>
+    <W Lpos="CC" Lhead="51" Lrel="cc" >and</W>
+    <W Lpos="VB" Lhead="51" Lrel="conj" >brighten</W>
+    <ne id="ne304" AAgf="dobj" >
+     <nphead id="AAh304">
+      <W Lpos="PRP" Lhead="51" Lrel="dobj" >them</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="8" Lrel="punct" >.</W>
+   </s>
+   <s id="s55">
+    <ne id="ne305" AAgf="nsubj" >
+     <nphead id="AAh305">
+      <W Lpos="PRP" Lhead="5" Lrel="nsubj" >She</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="5" Lrel="punct" >,</W>
+    <W Lpos="RB" Lhead="5" Lrel="advmod" >however</W>
+    <W Lpos="," Lhead="5" Lrel="punct" >,</W>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >did</W>
+    <ne id="ne306" AAgf="dobj" >
+     <nphead id="AAh306">
+      <W Lpos="NN" Lhead="5" Lrel="dobj" >everything</W>
+     </nphead>
+     <ne id="ne307" AAgf="nsubj" >
+      <nphead id="AAh307">
+       <W Lpos="PRP" Lhead="8" Lrel="nsubj" >he</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBD" Lhead="6" Lrel="rcmod" >bade</W>
+     <ne id="ne308" AAgf="dobj" >
+      <nphead id="AAh308">
+       <W Lpos="PRP" Lhead="8" Lrel="dobj" >her</W>
+      </nphead>
+     </ne>
+     <W Lpos="," Lhead="8" Lrel="punct" >,</W>
+     <W Lpos="IN" Lhead="8" Lrel="prep" >without</W>
+     <ne id="ne309" AAgf="pobj" >
+      <nphead id="AAh309">
+       <W Lpos="NN" Lhead="11" Lrel="pobj" >opposition</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="," Lhead="11" Lrel="punct" >,</W>
+    <W Lpos="RB" Lhead="11" Lrel="dep" >silently</W>
+    <W Lpos="CC" Lhead="14" Lrel="cc" >and</W>
+    <W Lpos="IN" Lhead="14" Lrel="conj" >with</W>
+    <ne id="ne310" AAgf="pobj" >
+     <nphead id="AAh310">
+      <W Lpos="NN" Lhead="16" Lrel="pobj" >half</W>
+     </nphead>
+    </ne>
+    <W Lpos=":" Lhead="11" Lrel="punct" >-</W>
+    <W Lpos="VB" Lhead="8" Lrel="dep" >shut</W>
+    <ne id="ne311" AAgf="dobj" >
+     <nphead id="AAh311">
+      <W Lpos="NNS" Lhead="19" Lrel="dobj" >eyes</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="5" Lrel="punct" >.</W>
+   </s>
+   <s id="s56">
+    <W Lpos="WRB" Lhead="5" Lrel="advmod" >When</W>
+    <ne id="ne312" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="4" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="4" Lrel="amod" >first</W>
+     <nphead id="AAh312">
+      <W Lpos="NN" Lhead="5" Lrel="nsubj" >cock</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="9" Lrel="advcl" >crowed</W>
+    <W Lpos="," Lhead="9" Lrel="punct" >,</W>
+    <ne id="ne313" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="8" Lrel="det" >the</W>
+     <nphead id="AAh313">
+      <W Lpos="NN" Lhead="9" Lrel="nsubj" >manikin</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >carried</W>
+    <ne id="ne314" AAgf="dobj" >
+     <nphead id="AAh314">
+      <W Lpos="PRP" Lhead="9" Lrel="dobj" >her</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="9" Lrel="advmod" >back</W>
+    <W Lpos="TO" Lhead="9" Lrel="prep" >to</W>
+    <ne id="ne315" AAgf="pobj" >
+     <W Lpos="DT" Lhead="15" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="15" Lrel="amod" >royal</W>
+     <nphead id="AAh315">
+      <W Lpos="NN" Lhead="12" Lrel="pobj" >palace</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="9" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="9" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="9" Lrel="conj" >laid</W>
+    <ne id="ne316" AAgf="dobj" >
+     <nphead id="AAh316">
+      <W Lpos="PRP" Lhead="18" Lrel="dobj" >her</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="18" Lrel="prep" >in</W>
+    <ne id="ne317" AAgf="pobj" >
+     <ne id="ne318" AAgf="poss" >
+      <nphead id="AAh317">
+       <W Lpos="PRP$" Lhead="22" Lrel="poss" >her</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh318">
+      <W Lpos="NN" Lhead="20" Lrel="pobj" >bed</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="9" Lrel="punct" >.</W>
+   </s>
+  </p>
+  <p id="p4">
+   <s id="s57">
+    <ne id="ne319" AAgf="tmod" >
+     <W Lpos="JJ" Lhead="2" Lrel="amod" >Next</W>
+     <nphead id="AAh319">
+      <W Lpos="NN" Lhead="8" Lrel="tmod" >morning</W>
+     </nphead>
+    </ne>
+    <W Lpos="WRB" Lhead="6" Lrel="advmod" >when</W>
+    <ne id="ne320" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="5" Lrel="det" >the</W>
+     <nphead id="AAh320">
+      <W Lpos="NN" Lhead="6" Lrel="nsubj" >princess</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="8" Lrel="advcl" >arose</W>
+    <ne id="ne321" AAgf="nsubj" >
+     <nphead id="AAh321">
+      <W Lpos="PRP" Lhead="8" Lrel="nsubj" >she</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >went</W>
+    <W Lpos="TO" Lhead="8" Lrel="prep" >to</W>
+    <ne id="ne322" AAgf="pobj" >
+     <ne id="ne323" AAgf="poss" >
+      <nphead id="AAh322">
+       <W Lpos="PRP$" Lhead="11" Lrel="poss" >her</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh323">
+      <W Lpos="NN" Lhead="9" Lrel="pobj" >father</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="8" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="8" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="8" Lrel="conj" >told</W>
+    <ne id="ne324" AAgf="dobj" >
+     <nphead id="AAh324">
+      <W Lpos="PRP" Lhead="14" Lrel="dobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="19" Lrel="mark" >that</W>
+    <ne id="ne325" AAgf="nsubj" >
+     <nphead id="AAh325">
+      <W Lpos="PRP" Lhead="19" Lrel="nsubj" >she</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="19" Lrel="aux" >had</W>
+    <W Lpos="VBN" Lhead="14" Lrel="ccomp" >had</W>
+    <ne id="ne326" AAgf="dobj" >
+     <W Lpos="DT" Lhead="23" Lrel="det" >a</W>
+     <W Lpos="RB" Lhead="22" Lrel="advmod" >very</W>
+     <W Lpos="JJ" Lhead="23" Lrel="amod" >strange</W>
+     <nphead id="AAh326">
+      <W Lpos="NN" Lhead="19" Lrel="dobj" >dream</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="8" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="8" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s58">
+    <ne id="ne327" AAgf="nsubjpass" >
+     <nphead id="AAh327">
+      <W Lpos="PRP" Lhead="3" Lrel="nsubjpass" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="3" Lrel="auxpass" >was</W>
+    <W Lpos="VBN" Lhead="0" Lrel="root" >carried</W>
+    <W Lpos="IN" Lhead="3" Lrel="prep" >through</W>
+    <ne id="ne328" AAgf="pobj" >
+     <W Lpos="DT" Lhead="6" Lrel="det" >the</W>
+     <nphead id="AAh328">
+      <W Lpos="NNS" Lhead="4" Lrel="pobj" >streets</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="3" Lrel="prep" >with</W>
+    <ne id="ne329" AAgf="pobj" >
+     <W Lpos="DT" Lhead="9" Lrel="det" >the</W>
+     <nphead id="AAh329">
+      <W Lpos="NN" Lhead="7" Lrel="pobj" >rapidity</W>
+     </nphead>
+     <W Lpos="IN" Lhead="9" Lrel="prep" >of</W>
+     <ne id="ne330" AAgf="pobj" >
+      <nphead id="AAh330">
+       <W Lpos="NN" Lhead="10" Lrel="pobj" >lightning</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="," Lhead="3" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="14" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="3" Lrel="dep" >said</W>
+    <ne id="ne331" AAgf="nsubj" >
+     <nphead id="AAh331">
+      <W Lpos="PRP" Lhead="14" Lrel="nsubj" >she</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="14" Lrel="punct" >,</W>
+    <W Lpos="``" Lhead="3" Lrel="punct" >&apos;</W>
+    <W Lpos="CC" Lhead="3" Lrel="cc" >and</W>
+    <W Lpos="VBN" Lhead="14" Lrel="conj" >taken</W>
+    <W Lpos="IN" Lhead="19" Lrel="prep" >into</W>
+    <ne id="ne332" AAgf="pobj" >
+     <ne id="ne333" AAgf="poss" >
+      <W Lpos="DT" Lhead="22" Lrel="det" >a</W>
+      <nphead id="AAh332">
+       <W Lpos="NN" Lhead="24" Lrel="poss" >soldier</W>
+      </nphead>
+      <W Lpos="POS" Lhead="22" Lrel="possessive" >&apos;s</W>
+     </ne>
+     <nphead id="AAh333">
+      <W Lpos="NN" Lhead="20" Lrel="pobj" >room</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="3" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="3" Lrel="cc" >and</W>
+    <ne id="ne334" AAgf="nsubj" >
+     <nphead id="AAh334">
+      <W Lpos="PRP" Lhead="28" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="3" Lrel="conj" >had</W>
+    <W Lpos="TO" Lhead="30" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="28" Lrel="xcomp" >wait</W>
+    <W Lpos="IN" Lhead="30" Lrel="prep" >upon</W>
+    <ne id="ne335" AAgf="pobj" >
+     <nphead id="AAh335">
+      <W Lpos="PRP" Lhead="31" Lrel="pobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="30" Lrel="prep" >like</W>
+    <ne id="ne336" AAgf="pobj" >
+     <W Lpos="DT" Lhead="35" Lrel="det" >a</W>
+     <nphead id="AAh336">
+      <W Lpos="NN" Lhead="33" Lrel="pobj" >servant</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="30" Lrel="punct" >,</W>
+    <W Lpos="NN" Lhead="30" Lrel="conj" >sweep</W>
+    <ne id="ne337" AAgf="dobj" >
+     <ne id="ne338" AAgf="poss" >
+      <nphead id="AAh337">
+       <W Lpos="PRP$" Lhead="39" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh338">
+      <W Lpos="NN" Lhead="37" Lrel="dobj" >room</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="30" Lrel="punct" >,</W>
+    <W Lpos="VB" Lhead="30" Lrel="conj" >clean</W>
+    <ne id="ne339" AAgf="dobj" >
+     <ne id="ne340" AAgf="poss" >
+      <nphead id="AAh339">
+       <W Lpos="PRP$" Lhead="43" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh340">
+      <W Lpos="NNS" Lhead="41" Lrel="dobj" >boots</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="30" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="30" Lrel="cc" >and</W>
+    <W Lpos="VB" Lhead="30" Lrel="conj" >do</W>
+    <ne id="ne341" AAgf="dobj" >
+     <W Lpos="DT" Lhead="48" Lrel="det" >all</W>
+     <nphead id="AAh341">
+      <W Lpos="NNS" Lhead="46" Lrel="dobj" >kinds</W>
+     </nphead>
+     <W Lpos="IN" Lhead="48" Lrel="prep" >of</W>
+     <ne id="ne342" AAgf="pobj" >
+      <W Lpos="JJ" Lhead="51" Lrel="amod" >menial</W>
+      <nphead id="AAh342">
+       <W Lpos="NN" Lhead="49" Lrel="pobj" >work</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+   </s>
+   <s id="s59">
+    <ne id="ne343" AAgf="nsubj" >
+     <nphead id="AAh343">
+      <W Lpos="PRP" Lhead="5" Lrel="nsubj" >It</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="5" Lrel="cop" >was</W>
+    <ne id="ne344" AAgf="root" >
+     <W Lpos="RB" Lhead="5" Lrel="advmod" >only</W>
+     <W Lpos="DT" Lhead="5" Lrel="det" >a</W>
+     <nphead id="AAh344">
+      <W Lpos="NN" Lhead="0" Lrel="root" >dream</W>
+     </nphead>
+     <W Lpos="," Lhead="5" Lrel="punct" >,</W>
+     <W Lpos="CC" Lhead="5" Lrel="cc" >and</W>
+     <W Lpos="RB" Lhead="13" Lrel="advmod" >yet</W>
+     <ne id="ne345" AAgf="nsubj" >
+      <nphead id="AAh345">
+       <W Lpos="PRP" Lhead="13" Lrel="nsubj" >I</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBP" Lhead="13" Lrel="cop" >am</W>
+     <W Lpos="RB" Lhead="13" Lrel="advmod" >just</W>
+     <W Lpos="RB" Lhead="13" Lrel="advmod" >as</W>
+     <W Lpos="JJ" Lhead="5" Lrel="conj" >tired</W>
+    </ne>
+    <W Lpos="IN" Lhead="19" Lrel="mark" >as</W>
+    <W Lpos="IN" Lhead="19" Lrel="mark" >if</W>
+    <ne id="ne346" AAgf="nsubj" >
+     <nphead id="AAh346">
+      <W Lpos="PRP" Lhead="19" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="19" Lrel="advmod" >really</W>
+    <W Lpos="VBD" Lhead="19" Lrel="aux" >had</W>
+    <W Lpos="VBN" Lhead="13" Lrel="advcl" >done</W>
+    <ne id="ne347" AAgf="dobj" >
+     <nphead id="AAh347">
+      <W Lpos="NN" Lhead="19" Lrel="dobj" >everything</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="5" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="5" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s60">
+    <W Lpos="``" Lhead="10" Lrel="punct" >&apos;</W>
+    <ne id="ne348" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >The</W>
+     <nphead id="AAh348">
+      <W Lpos="NN" Lhead="7" Lrel="nsubj" >dream</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="7" Lrel="aux" >may</W>
+    <W Lpos="VB" Lhead="7" Lrel="aux" >have</W>
+    <W Lpos="VBN" Lhead="7" Lrel="cop" >been</W>
+    <W Lpos="JJ" Lhead="10" Lrel="ccomp" >true</W>
+    <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="10" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >said</W>
+    <ne id="ne349" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="12" Lrel="det" >the</W>
+     <nphead id="AAh349">
+      <W Lpos="NN" Lhead="10" Lrel="nsubj" >king</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="10" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="10" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s61">
+    <ne id="ne350" AAgf="nsubj" >
+     <nphead id="AAh350">
+      <W Lpos="PRP" Lhead="3" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="3" Lrel="aux" >will</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >give</W>
+    <ne id="ne351" AAgf="iobj" >
+     <nphead id="AAh351">
+      <W Lpos="PRP" Lhead="3" Lrel="iobj" >you</W>
+     </nphead>
+    </ne>
+    <ne id="ne352" AAgf="dobj" >
+     <W Lpos="DT" Lhead="6" Lrel="det" >a</W>
+     <nphead id="AAh352">
+      <W Lpos="NN" Lhead="3" Lrel="dobj" >piece</W>
+     </nphead>
+     <W Lpos="IN" Lhead="6" Lrel="prep" >of</W>
+     <ne id="ne353" AAgf="pobj" >
+      <nphead id="AAh353">
+       <W Lpos="NN" Lhead="7" Lrel="pobj" >advice</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+   </s>
+   <s id="s62">
+    <W Lpos="VB" Lhead="0" Lrel="root" >Fill</W>
+    <ne id="ne354" AAgf="dobj" >
+     <ne id="ne355" AAgf="poss" >
+      <nphead id="AAh354">
+       <W Lpos="PRP$" Lhead="3" Lrel="poss" >your</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh355">
+      <W Lpos="NN" Lhead="1" Lrel="dobj" >pocket</W>
+     </nphead>
+    </ne>
+    <W Lpos="JJ" Lhead="1" Lrel="xcomp" >full</W>
+    <W Lpos="IN" Lhead="4" Lrel="prep" >of</W>
+    <ne id="ne356" AAgf="pobj" >
+     <nphead id="AAh356">
+      <W Lpos="NNS" Lhead="5" Lrel="pobj" >peas</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="1" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="1" Lrel="cc" >and</W>
+    <W Lpos="VB" Lhead="1" Lrel="conj" >make</W>
+    <ne id="ne357" AAgf="dobj" >
+     <W Lpos="DT" Lhead="12" Lrel="det" >a</W>
+     <W Lpos="JJ" Lhead="12" Lrel="amod" >small</W>
+     <nphead id="AAh357">
+      <W Lpos="NN" Lhead="9" Lrel="dobj" >hole</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="9" Lrel="prep" >in</W>
+    <ne id="ne358" AAgf="pobj" >
+     <W Lpos="DT" Lhead="15" Lrel="det" >the</W>
+     <nphead id="AAh358">
+      <W Lpos="NN" Lhead="13" Lrel="pobj" >pocket</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="1" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="1" Lrel="cc" >and</W>
+    <W Lpos="RB" Lhead="22" Lrel="advmod" >then</W>
+    <W Lpos="IN" Lhead="22" Lrel="mark" >if</W>
+    <ne id="ne359" AAgf="nsubjpass" >
+     <nphead id="AAh359">
+      <W Lpos="PRP" Lhead="22" Lrel="nsubjpass" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="22" Lrel="auxpass" >are</W>
+    <W Lpos="VBN" Lhead="28" Lrel="advcl" >carried</W>
+    <W Lpos="RB" Lhead="22" Lrel="prt" >away</W>
+    <W Lpos="RB" Lhead="22" Lrel="advmod" >again</W>
+    <W Lpos="," Lhead="28" Lrel="punct" >,</W>
+    <ne id="ne360" AAgf="nsubj" >
+     <nphead id="AAh360">
+      <W Lpos="PRP" Lhead="28" Lrel="nsubj" >they</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="28" Lrel="aux" >will</W>
+    <W Lpos="VB" Lhead="1" Lrel="conj" >fall</W>
+    <W Lpos="RB" Lhead="28" Lrel="advmod" >out</W>
+    <W Lpos="CC" Lhead="28" Lrel="cc" >and</W>
+    <W Lpos="VB" Lhead="28" Lrel="conj" >leave</W>
+    <ne id="ne361" AAgf="dobj" >
+     <W Lpos="DT" Lhead="33" Lrel="det" >a</W>
+     <nphead id="AAh361">
+      <W Lpos="NN" Lhead="31" Lrel="dobj" >track</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="31" Lrel="prep" >in</W>
+    <ne id="ne362" AAgf="pobj" >
+     <W Lpos="DT" Lhead="36" Lrel="det" >the</W>
+     <nphead id="AAh362">
+      <W Lpos="NNS" Lhead="34" Lrel="pobj" >streets</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="1" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="1" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s63">
+    <W Lpos="CC" Lhead="10" Lrel="cc" >But</W>
+    <W Lpos="JJ" Lhead="10" Lrel="ccomp" >unseen</W>
+    <W Lpos="IN" Lhead="2" Lrel="prep" >by</W>
+    <ne id="ne363" AAgf="pobj" >
+     <W Lpos="DT" Lhead="5" Lrel="det" >the</W>
+     <nphead id="AAh363">
+      <W Lpos="NN" Lhead="3" Lrel="pobj" >king</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+    <ne id="ne364" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="8" Lrel="det" >the</W>
+     <nphead id="AAh364">
+      <W Lpos="NN" Lhead="10" Lrel="nsubj" >manikin</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="10" Lrel="aux" >was</W>
+    <W Lpos="VBG" Lhead="0" Lrel="root" >standing</W>
+    <W Lpos="IN" Lhead="10" Lrel="prep" >beside</W>
+    <ne id="ne365" AAgf="pobj" >
+     <nphead id="AAh365">
+      <W Lpos="PRP" Lhead="11" Lrel="pobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="WRB" Lhead="15" Lrel="advmod" >when</W>
+    <ne id="ne366" AAgf="nsubj" >
+     <nphead id="AAh366">
+      <W Lpos="PRP" Lhead="15" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="10" Lrel="advcl" >said</W>
+    <W Lpos="IN" Lhead="15" Lrel="dobj" >that</W>
+    <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="15" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="10" Lrel="conj" >heard</W>
+    <ne id="ne367" AAgf="dobj" >
+     <nphead id="AAh367">
+      <W Lpos="DT" Lhead="19" Lrel="dobj" >all</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="10" Lrel="punct" >.</W>
+   </s>
+   <s id="s64">
+    <W Lpos="IN" Lhead="18" Lrel="prep" >At</W>
+    <ne id="ne368" AAgf="pobj" >
+     <nphead id="AAh368">
+      <W Lpos="NN" Lhead="1" Lrel="pobj" >night</W>
+     </nphead>
+     <W Lpos="WRB" Lhead="9" Lrel="advmod" >when</W>
+     <ne id="ne369" AAgf="nsubjpass" >
+      <W Lpos="DT" Lhead="6" Lrel="det" >the</W>
+      <W Lpos="VBG" Lhead="6" Lrel="amod" >sleeping</W>
+      <nphead id="AAh369">
+       <W Lpos="NN" Lhead="9" Lrel="nsubjpass" >princess</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBD" Lhead="9" Lrel="auxpass" >was</W>
+     <W Lpos="RB" Lhead="9" Lrel="advmod" >again</W>
+     <W Lpos="VBN" Lhead="2" Lrel="rcmod" >carried</W>
+     <W Lpos="IN" Lhead="9" Lrel="prep" >through</W>
+     <ne id="ne370" AAgf="pobj" >
+      <W Lpos="DT" Lhead="12" Lrel="det" >the</W>
+      <nphead id="AAh370">
+       <W Lpos="NNS" Lhead="10" Lrel="pobj" >streets</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="," Lhead="18" Lrel="punct" >,</W>
+    <ne id="ne371" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="15" Lrel="det" >some</W>
+     <nphead id="AAh371">
+      <W Lpos="NNS" Lhead="18" Lrel="nsubj" >peas</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="18" Lrel="advmod" >certainly</W>
+    <W Lpos="VBD" Lhead="18" Lrel="aux" >did</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >fall</W>
+    <W Lpos="IN" Lhead="18" Lrel="prep" >out</W>
+    <W Lpos="IN" Lhead="19" Lrel="pcomp" >of</W>
+    <ne id="ne372" AAgf="pobj" >
+     <ne id="ne373" AAgf="poss" >
+      <nphead id="AAh372">
+       <W Lpos="PRP$" Lhead="22" Lrel="poss" >her</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh373">
+      <W Lpos="NN" Lhead="20" Lrel="pobj" >pocket</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="18" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="18" Lrel="cc" >but</W>
+    <ne id="ne374" AAgf="nsubj" >
+     <nphead id="AAh374">
+      <W Lpos="PRP" Lhead="26" Lrel="nsubj" >they</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="18" Lrel="conj" >made</W>
+    <ne id="ne375" AAgf="dobj" >
+     <W Lpos="DT" Lhead="28" Lrel="det" >no</W>
+     <nphead id="AAh375">
+      <W Lpos="NN" Lhead="26" Lrel="dobj" >track</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="26" Lrel="punct" >,</W>
+    <W Lpos="IN" Lhead="26" Lrel="prep" >for</W>
+    <ne id="ne376" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="33" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="33" Lrel="amod" >crafty</W>
+     <nphead id="AAh376">
+      <W Lpos="NN" Lhead="34" Lrel="nsubj" >manikin</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="26" Lrel="advcl" >had</W>
+    <W Lpos="RB" Lhead="36" Lrel="advmod" >just</W>
+    <W Lpos="IN" Lhead="34" Lrel="prep" >before</W>
+    <ne id="ne377" AAgf="pobj" >
+     <W Lpos="JJ" Lhead="38" Lrel="amod" >scattered</W>
+     <nphead id="AAh377">
+      <W Lpos="NNS" Lhead="36" Lrel="pobj" >peas</W>
+     </nphead>
+     <W Lpos="IN" Lhead="38" Lrel="prep" >in</W>
+     <ne id="ne378" AAgf="pobj" >
+      <W Lpos="DT" Lhead="41" Lrel="det" >every</W>
+      <nphead id="AAh378">
+       <W Lpos="NN" Lhead="39" Lrel="pobj" >street</W>
+      </nphead>
+     </ne>
+    </ne>
+    <ne id="ne379" AAgf="expl" >
+     <nphead id="AAh379">
+      <W Lpos="EX" Lhead="43" Lrel="expl" >there</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="34" Lrel="advcl" >was</W>
+    <W Lpos="." Lhead="18" Lrel="punct" >.</W>
+   </s>
+   <s id="s65">
+    <W Lpos="CC" Lhead="6" Lrel="cc" >And</W>
+    <W Lpos="RB" Lhead="6" Lrel="advmod" >again</W>
+    <ne id="ne380" AAgf="nsubjpass" >
+     <W Lpos="DT" Lhead="4" Lrel="det" >the</W>
+     <nphead id="AAh380">
+      <W Lpos="NN" Lhead="6" Lrel="nsubjpass" >princess</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="6" Lrel="auxpass" >was</W>
+    <W Lpos="VBN" Lhead="0" Lrel="root" >compelled</W>
+    <W Lpos="TO" Lhead="8" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="6" Lrel="xcomp" >do</W>
+    <ne id="ne381" AAgf="dobj" >
+     <ne id="ne382" AAgf="poss" >
+      <nphead id="AAh381">
+       <W Lpos="NN" Lhead="11" Lrel="poss" >servant</W>
+      </nphead>
+      <W Lpos="POS" Lhead="9" Lrel="possessive" >&apos;s</W>
+     </ne>
+     <nphead id="AAh382">
+      <W Lpos="NN" Lhead="8" Lrel="dobj" >work</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="8" Lrel="prep" >until</W>
+    <ne id="ne383" AAgf="pobj" >
+     <nphead id="AAh383">
+      <W Lpos="NN" Lhead="12" Lrel="pobj" >cock-crow</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="6" Lrel="punct" >.</W>
+   </s>
+  </p>
+  <p id="p5">
+   <s id="s66">
+    <ne id="ne384" AAgf="tmod" >
+     <W Lpos="JJ" Lhead="2" Lrel="amod" >Next</W>
+     <nphead id="AAh384">
+      <W Lpos="NN" Lhead="5" Lrel="tmod" >morning</W>
+     </nphead>
+    </ne>
+    <ne id="ne385" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="4" Lrel="det" >the</W>
+     <nphead id="AAh385">
+      <W Lpos="NN" Lhead="5" Lrel="nsubj" >king</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >sent</W>
+    <ne id="ne386" AAgf="dobj" >
+     <ne id="ne387" AAgf="poss" >
+      <nphead id="AAh386">
+       <W Lpos="PRP$" Lhead="7" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh387">
+      <W Lpos="NNS" Lhead="5" Lrel="dobj" >people</W>
+     </nphead>
+    </ne>
+    <W Lpos="RP" Lhead="5" Lrel="prt" >out</W>
+    <W Lpos="TO" Lhead="10" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="5" Lrel="xcomp" >seek</W>
+    <ne id="ne388" AAgf="dobj" >
+     <W Lpos="DT" Lhead="12" Lrel="det" >the</W>
+     <nphead id="AAh388">
+      <W Lpos="NN" Lhead="10" Lrel="dobj" >track</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="5" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="5" Lrel="cc" >but</W>
+    <ne id="ne389" AAgf="nsubj" >
+     <nphead id="AAh389">
+      <W Lpos="PRP" Lhead="16" Lrel="nsubj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="5" Lrel="conj" >was</W>
+    <W Lpos="DT" Lhead="18" Lrel="dep" >all</W>
+    <W Lpos="IN" Lhead="16" Lrel="prep" >in</W>
+    <W Lpos="JJ" Lhead="18" Lrel="pobj" >vain</W>
+    <W Lpos="," Lhead="16" Lrel="punct" >,</W>
+    <W Lpos="IN" Lhead="28" Lrel="mark" >for</W>
+    <W Lpos="IN" Lhead="28" Lrel="prep" >in</W>
+    <ne id="ne390" AAgf="pobj" >
+     <W Lpos="DT" Lhead="24" Lrel="det" >every</W>
+     <nphead id="AAh390">
+      <W Lpos="NN" Lhead="22" Lrel="pobj" >street</W>
+     </nphead>
+    </ne>
+    <ne id="ne391" AAgf="nsubj" >
+     <W Lpos="JJ" Lhead="26" Lrel="amod" >poor</W>
+     <nphead id="AAh391">
+      <W Lpos="NNS" Lhead="28" Lrel="nsubj" >children</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="28" Lrel="aux" >were</W>
+    <W Lpos="VBG" Lhead="16" Lrel="advcl" >sitting</W>
+    <W Lpos="," Lhead="28" Lrel="punct" >,</W>
+    <W Lpos="VBG" Lhead="28" Lrel="conj" >picking</W>
+    <W Lpos="RP" Lhead="30" Lrel="prt" >up</W>
+    <ne id="ne392" AAgf="dobj" >
+     <nphead id="AAh392">
+      <W Lpos="NNS" Lhead="30" Lrel="dobj" >peas</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="28" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="28" Lrel="cc" >and</W>
+    <W Lpos="VBG" Lhead="28" Lrel="conj" >saying</W>
+    <W Lpos=":" Lhead="35" Lrel="punct" >:</W>
+    <W Lpos="``" Lhead="35" Lrel="punct" >&apos;</W>
+    <ne id="ne393" AAgf="nsubj" >
+     <nphead id="AAh393">
+      <W Lpos="PRP" Lhead="41" Lrel="nsubj" >It</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="41" Lrel="aux" >must</W>
+    <W Lpos="VB" Lhead="41" Lrel="aux" >have</W>
+    <W Lpos="VBN" Lhead="35" Lrel="ccomp" >rained</W>
+    <ne id="ne394" AAgf="dobj" >
+     <nphead id="AAh394">
+      <W Lpos="NNS" Lhead="41" Lrel="dobj" >peas</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="41" Lrel="punct" >,</W>
+    <ne id="ne395" AAgf="tmod" >
+     <W Lpos="JJ" Lhead="45" Lrel="amod" >last</W>
+     <nphead id="AAh395">
+      <W Lpos="NN" Lhead="41" Lrel="tmod" >night</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="5" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="5" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s67">
+    <W Lpos="``" Lhead="4" Lrel="punct" >&apos;</W>
+    <ne id="ne396" AAgf="nsubj" >
+     <nphead id="AAh396">
+      <W Lpos="PRP" Lhead="4" Lrel="nsubj" >We</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="4" Lrel="aux" >must</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >think</W>
+    <W Lpos="IN" Lhead="4" Lrel="prep" >of</W>
+    <ne id="ne397" AAgf="pobj" >
+     <nphead id="AAh397">
+      <W Lpos="NN" Lhead="5" Lrel="pobj" >something</W>
+     </nphead>
+     <W Lpos="RB" Lhead="6" Lrel="amod" >else</W>
+    </ne>
+    <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="10" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="4" Lrel="dep" >said</W>
+    <ne id="ne398" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="12" Lrel="det" >the</W>
+     <nphead id="AAh398">
+      <W Lpos="NN" Lhead="10" Lrel="nsubj" >king</W>
+     </nphead>
+    </ne>
+    <W Lpos=":" Lhead="4" Lrel="punct" >;</W>
+    <W Lpos="``" Lhead="10" Lrel="punct" >&apos;</W>
+    <W Lpos="VB" Lhead="4" Lrel="dep" >keep</W>
+    <ne id="ne399" AAgf="dobj" >
+     <ne id="ne400" AAgf="poss" >
+      <nphead id="AAh399">
+       <W Lpos="PRP$" Lhead="17" Lrel="poss" >your</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh400">
+      <W Lpos="NNS" Lhead="15" Lrel="dobj" >shoes</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="15" Lrel="prep" >on</W>
+    <W Lpos="WRB" Lhead="21" Lrel="advmod" >when</W>
+    <ne id="ne401" AAgf="nsubj" >
+     <nphead id="AAh401">
+      <W Lpos="PRP" Lhead="21" Lrel="nsubj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="15" Lrel="advcl" >go</W>
+    <W Lpos="TO" Lhead="21" Lrel="prep" >to</W>
+    <ne id="ne402" AAgf="pobj" >
+     <nphead id="AAh402">
+      <W Lpos="NN" Lhead="22" Lrel="pobj" >bed</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="15" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="15" Lrel="cc" >and</W>
+    <W Lpos="IN" Lhead="28" Lrel="mark" >before</W>
+    <ne id="ne403" AAgf="nsubj" >
+     <nphead id="AAh403">
+      <W Lpos="PRP" Lhead="28" Lrel="nsubj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="47" Lrel="advcl" >come</W>
+    <W Lpos="RB" Lhead="28" Lrel="advmod" >back</W>
+    <W Lpos="IN" Lhead="29" Lrel="prep" >from</W>
+    <ne id="ne404" AAgf="pobj" >
+     <W Lpos="DT" Lhead="32" Lrel="det" >the</W>
+     <nphead id="AAh404">
+      <W Lpos="NN" Lhead="30" Lrel="pobj" >place</W>
+     </nphead>
+     <W Lpos="WRB" Lhead="36" Lrel="advmod" >where</W>
+     <ne id="ne405" AAgf="nsubjpass" >
+      <nphead id="AAh405">
+       <W Lpos="PRP" Lhead="36" Lrel="nsubjpass" >you</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBP" Lhead="36" Lrel="auxpass" >are</W>
+     <W Lpos="VBN" Lhead="32" Lrel="rcmod" >taken</W>
+    </ne>
+    <W Lpos="," Lhead="28" Lrel="punct" >,</W>
+    <W Lpos="VB" Lhead="15" Lrel="conj" >hide</W>
+    <ne id="ne406" AAgf="dobj" >
+     <nphead id="AAh406">
+      <W Lpos="CD" Lhead="38" Lrel="dobj" >one</W>
+     </nphead>
+     <W Lpos="IN" Lhead="39" Lrel="prep" >of</W>
+     <ne id="ne407" AAgf="pobj" >
+      <nphead id="AAh407">
+       <W Lpos="PRP" Lhead="40" Lrel="pobj" >them</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="RB" Lhead="38" Lrel="advmod" >there</W>
+    <W Lpos="," Lhead="47" Lrel="punct" >,</W>
+    <ne id="ne408" AAgf="nsubj" >
+     <nphead id="AAh408">
+      <W Lpos="PRP" Lhead="47" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="47" Lrel="aux" >will</W>
+    <W Lpos="RB" Lhead="47" Lrel="advmod" >soon</W>
+    <W Lpos="VB" Lhead="15" Lrel="conj" >contrive</W>
+    <W Lpos="TO" Lhead="49" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="47" Lrel="xcomp" >find</W>
+    <ne id="ne409" AAgf="dobj" >
+     <nphead id="AAh409">
+      <W Lpos="PRP" Lhead="49" Lrel="dobj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="4" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="4" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s68">
+    <ne id="ne410" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >The</W>
+     <W Lpos="JJ" Lhead="3" Lrel="amod" >black</W>
+     <nphead id="AAh410">
+      <W Lpos="NN" Lhead="4" Lrel="nsubj" >manikin</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >heard</W>
+    <ne id="ne411" AAgf="dobj" >
+     <W Lpos="DT" Lhead="6" Lrel="det" >this</W>
+     <nphead id="AAh411">
+      <W Lpos="NN" Lhead="4" Lrel="dobj" >plot</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="4" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="4" Lrel="cc" >and</W>
+    <W Lpos="IN" Lhead="15" Lrel="prep" >at</W>
+    <ne id="ne412" AAgf="pobj" >
+     <nphead id="AAh412">
+      <W Lpos="NN" Lhead="9" Lrel="pobj" >night</W>
+     </nphead>
+    </ne>
+    <W Lpos="WRB" Lhead="15" Lrel="advmod" >when</W>
+    <ne id="ne413" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="13" Lrel="det" >the</W>
+     <nphead id="AAh413">
+      <W Lpos="NN" Lhead="15" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="RB" Lhead="15" Lrel="advmod" >again</W>
+    <W Lpos="VBD" Lhead="4" Lrel="conj" >ordered</W>
+    <ne id="ne414" AAgf="nsubj" >
+     <nphead id="AAh414">
+      <W Lpos="PRP" Lhead="18" Lrel="nsubj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="TO" Lhead="18" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="15" Lrel="xcomp" >bring</W>
+    <ne id="ne415" AAgf="dobj" >
+     <W Lpos="DT" Lhead="20" Lrel="det" >the</W>
+     <nphead id="AAh415">
+      <W Lpos="NN" Lhead="18" Lrel="dobj" >princess</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="15" Lrel="punct" >,</W>
+    <W Lpos="VBD" Lhead="4" Lrel="conj" >revealed</W>
+    <ne id="ne416" AAgf="dobj" >
+     <nphead id="AAh416">
+      <W Lpos="PRP" Lhead="22" Lrel="dobj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="TO" Lhead="22" Lrel="prep" >to</W>
+    <ne id="ne417" AAgf="pobj" >
+     <nphead id="AAh417">
+      <W Lpos="PRP" Lhead="24" Lrel="pobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="4" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="4" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="4" Lrel="conj" >told</W>
+    <ne id="ne418" AAgf="dobj" >
+     <nphead id="AAh418">
+      <W Lpos="PRP" Lhead="28" Lrel="dobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="32" Lrel="mark" >that</W>
+    <ne id="ne419" AAgf="nsubj" >
+     <nphead id="AAh419">
+      <W Lpos="PRP" Lhead="32" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="28" Lrel="ccomp" >knew</W>
+    <W Lpos="IN" Lhead="32" Lrel="prep" >of</W>
+    <ne id="ne420" AAgf="pobj" >
+     <W Lpos="DT" Lhead="35" Lrel="det" >no</W>
+     <nphead id="AAh420">
+      <W Lpos="NN" Lhead="33" Lrel="pobj" >expedient</W>
+     </nphead>
+     <W Lpos="TO" Lhead="37" Lrel="aux" >to</W>
+     <W Lpos="VB" Lhead="35" Lrel="infmod" >counteract</W>
+     <ne id="ne421" AAgf="dobj" >
+      <W Lpos="DT" Lhead="39" Lrel="det" >this</W>
+      <nphead id="AAh421">
+       <W Lpos="NN" Lhead="37" Lrel="dobj" >stratagem</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="," Lhead="32" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="32" Lrel="cc" >and</W>
+    <W Lpos="IN" Lhead="55" Lrel="mark" >that</W>
+    <W Lpos="IN" Lhead="47" Lrel="mark" >if</W>
+    <ne id="ne422" AAgf="nsubjpass" >
+     <W Lpos="DT" Lhead="45" Lrel="det" >the</W>
+     <nphead id="AAh422">
+      <W Lpos="NN" Lhead="47" Lrel="nsubjpass" >shoe</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="47" Lrel="auxpass" >were</W>
+    <W Lpos="VBN" Lhead="55" Lrel="advcl" >found</W>
+    <W Lpos="IN" Lhead="47" Lrel="prep" >in</W>
+    <ne id="ne423" AAgf="pobj" >
+     <ne id="ne424" AAgf="poss" >
+      <W Lpos="DT" Lhead="50" Lrel="det" >the</W>
+      <nphead id="AAh423">
+       <W Lpos="NN" Lhead="52" Lrel="poss" >soldier</W>
+      </nphead>
+      <W Lpos="POS" Lhead="50" Lrel="possessive" >&apos;s</W>
+     </ne>
+     <nphead id="AAh424">
+      <W Lpos="NN" Lhead="48" Lrel="pobj" >house</W>
+     </nphead>
+    </ne>
+    <ne id="ne425" AAgf="nsubj" >
+     <nphead id="AAh425">
+      <W Lpos="PRP" Lhead="55" Lrel="nsubj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="55" Lrel="aux" >would</W>
+    <W Lpos="VB" Lhead="32" Lrel="conj" >go</W>
+    <W Lpos="RB" Lhead="55" Lrel="advmod" >badly</W>
+    <W Lpos="IN" Lhead="55" Lrel="prep" >with</W>
+    <ne id="ne426" AAgf="pobj" >
+     <nphead id="AAh426">
+      <W Lpos="PRP" Lhead="57" Lrel="pobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="4" Lrel="punct" >.</W>
+   </s>
+   <s id="s69">
+    <W Lpos="``" Lhead="9" Lrel="punct" >&apos;</W>
+    <W Lpos="VBP" Lhead="5" Lrel="aux" >Do</W>
+    <W Lpos="WP" Lhead="5" Lrel="dobj" >what</W>
+    <ne id="ne427" AAgf="nsubj" >
+     <nphead id="AAh427">
+      <W Lpos="PRP" Lhead="5" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="9" Lrel="ccomp" >bid</W>
+    <ne id="ne428" AAgf="dobj" >
+     <nphead id="AAh428">
+      <W Lpos="PRP" Lhead="5" Lrel="dobj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="9" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="9" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >replied</W>
+    <ne id="ne429" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="11" Lrel="det" >the</W>
+     <nphead id="AAh429">
+      <W Lpos="NN" Lhead="9" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="9" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="9" Lrel="cc" >and</W>
+    <W Lpos="RB" Lhead="21" Lrel="advmod" >again</W>
+    <ne id="ne430" AAgf="tmod" >
+     <W Lpos="DT" Lhead="17" Lrel="det" >this</W>
+     <W Lpos="JJ" Lhead="17" Lrel="amod" >third</W>
+     <nphead id="AAh430">
+      <W Lpos="NN" Lhead="21" Lrel="tmod" >night</W>
+     </nphead>
+    </ne>
+    <ne id="ne431" AAgf="nsubjpass" >
+     <W Lpos="DT" Lhead="19" Lrel="det" >the</W>
+     <nphead id="AAh431">
+      <W Lpos="NN" Lhead="21" Lrel="nsubjpass" >princess</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="21" Lrel="auxpass" >was</W>
+    <W Lpos="VBN" Lhead="9" Lrel="conj" >obliged</W>
+    <W Lpos="TO" Lhead="23" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="21" Lrel="xcomp" >work</W>
+    <W Lpos="IN" Lhead="23" Lrel="prep" >like</W>
+    <ne id="ne432" AAgf="pobj" >
+     <W Lpos="DT" Lhead="26" Lrel="det" >a</W>
+     <nphead id="AAh432">
+      <W Lpos="NN" Lhead="24" Lrel="pobj" >servant</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="21" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="21" Lrel="cc" >but</W>
+    <W Lpos="IN" Lhead="31" Lrel="mark" >before</W>
+    <ne id="ne433" AAgf="nsubj" >
+     <nphead id="AAh433">
+      <W Lpos="PRP" Lhead="31" Lrel="nsubj" >she</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="35" Lrel="advcl" >went</W>
+    <W Lpos="RB" Lhead="31" Lrel="advmod" >away</W>
+    <W Lpos="," Lhead="35" Lrel="punct" >,</W>
+    <ne id="ne434" AAgf="nsubj" >
+     <nphead id="AAh434">
+      <W Lpos="PRP" Lhead="35" Lrel="nsubj" >she</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="21" Lrel="conj" >hid</W>
+    <ne id="ne435" AAgf="dobj" >
+     <ne id="ne436" AAgf="poss" >
+      <nphead id="AAh435">
+       <W Lpos="PRP$" Lhead="37" Lrel="poss" >her</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh436">
+      <W Lpos="NN" Lhead="35" Lrel="dobj" >shoe</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="35" Lrel="prep" >under</W>
+    <ne id="ne437" AAgf="pobj" >
+     <W Lpos="DT" Lhead="40" Lrel="det" >the</W>
+     <nphead id="AAh437">
+      <W Lpos="NN" Lhead="38" Lrel="pobj" >bed</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="9" Lrel="punct" >.</W>
+   </s>
+  </p>
+  <p id="p6">
+   <s id="s70">
+    <ne id="ne438" AAgf="tmod" >
+     <W Lpos="JJ" Lhead="2" Lrel="amod" >Next</W>
+     <nphead id="AAh438">
+      <W Lpos="NN" Lhead="5" Lrel="tmod" >morning</W>
+     </nphead>
+    </ne>
+    <ne id="ne439" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="4" Lrel="det" >the</W>
+     <nphead id="AAh439">
+      <W Lpos="NN" Lhead="5" Lrel="nsubj" >king</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >had</W>
+    <ne id="ne440" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="8" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="8" Lrel="amod" >entire</W>
+     <nphead id="AAh440">
+      <W Lpos="NN" Lhead="9" Lrel="nsubj" >town</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="5" Lrel="ccomp" >searched</W>
+    <W Lpos="IN" Lhead="9" Lrel="prep" >for</W>
+    <ne id="ne441" AAgf="pobj" >
+     <ne id="ne442" AAgf="poss" >
+      <ne id="ne443" AAgf="poss" >
+       <nphead id="AAh441">
+        <W Lpos="PRP$" Lhead="12" Lrel="poss" >his</W>
+       </nphead>
+      </ne>
+      <nphead id="AAh442">
+       <W Lpos="NN" Lhead="14" Lrel="poss" >daughter</W>
+      </nphead>
+      <W Lpos="POS" Lhead="12" Lrel="possessive" >&apos;s</W>
+     </ne>
+     <nphead id="AAh443">
+      <W Lpos="NN" Lhead="10" Lrel="pobj" >shoe</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="5" Lrel="punct" >.</W>
+   </s>
+   <s id="s71">
+    <ne id="ne444" AAgf="nsubjpass" >
+     <nphead id="AAh444">
+      <W Lpos="PRP" Lhead="3" Lrel="nsubjpass" >It</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="3" Lrel="auxpass" >was</W>
+    <W Lpos="VBN" Lhead="0" Lrel="root" >found</W>
+    <W Lpos="IN" Lhead="3" Lrel="prep" >at</W>
+    <ne id="ne445" AAgf="pobj" >
+     <W Lpos="DT" Lhead="6" Lrel="det" >the</W>
+     <nphead id="AAh445">
+      <W Lpos="NN" Lhead="4" Lrel="pobj" >soldier</W>
+     </nphead>
+     <W Lpos="POS" Lhead="6" Lrel="possessive" >&apos;s</W>
+    </ne>
+    <W Lpos="," Lhead="3" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="3" Lrel="cc" >and</W>
+    <ne id="ne446" AAgf="nsubjpass" >
+     <W Lpos="DT" Lhead="11" Lrel="det" >the</W>
+     <nphead id="AAh446">
+      <W Lpos="NN" Lhead="29" Lrel="nsubjpass" >soldier</W>
+     </nphead>
+     <ne id="ne447" AAgf="dep" >
+      <nphead id="AAh447">
+       <W Lpos="PRP" Lhead="11" Lrel="dep" >himself</W>
+      </nphead>
+     </ne>
+     <W Lpos="," Lhead="11" Lrel="punct" >,</W>
+     <W Lpos="WP" Lhead="22" Lrel="nsubj" >who</W>
+     <W Lpos="IN" Lhead="22" Lrel="prep" >at</W>
+     <ne id="ne448" AAgf="pobj" >
+      <W Lpos="DT" Lhead="17" Lrel="det" >the</W>
+      <nphead id="AAh448">
+       <W Lpos="NN" Lhead="15" Lrel="pobj" >entreaty</W>
+      </nphead>
+      <W Lpos="IN" Lhead="17" Lrel="prep" >of</W>
+      <ne id="ne449" AAgf="pobj" >
+       <W Lpos="DT" Lhead="20" Lrel="det" >the</W>
+       <nphead id="AAh449">
+        <W Lpos="NN" Lhead="18" Lrel="pobj" >dwarf</W>
+       </nphead>
+      </ne>
+     </ne>
+     <W Lpos="VBD" Lhead="22" Lrel="aux" >had</W>
+     <W Lpos="VBN" Lhead="11" Lrel="rcmod" >gone</W>
+     <W Lpos="IN" Lhead="22" Lrel="prep" >outside</W>
+     <ne id="ne450" AAgf="pobj" >
+      <W Lpos="DT" Lhead="25" Lrel="det" >the</W>
+      <nphead id="AAh450">
+       <W Lpos="NN" Lhead="23" Lrel="pobj" >gate</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="," Lhead="11" Lrel="punct" >,</W>
+    <W Lpos="VBD" Lhead="29" Lrel="auxpass" >was</W>
+    <W Lpos="RB" Lhead="29" Lrel="advmod" >soon</W>
+    <W Lpos="VBN" Lhead="3" Lrel="conj" >brought</W>
+    <W Lpos="RB" Lhead="29" Lrel="prt" >back</W>
+    <W Lpos="," Lhead="29" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="29" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="29" Lrel="conj" >thrown</W>
+    <W Lpos="IN" Lhead="33" Lrel="prep" >into</W>
+    <ne id="ne451" AAgf="pobj" >
+     <nphead id="AAh451">
+      <W Lpos="NN" Lhead="34" Lrel="pobj" >prison</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+   </s>
+   <s id="s72">
+    <W Lpos="IN" Lhead="6" Lrel="prep" >In</W>
+    <ne id="ne452" AAgf="pobj" >
+     <ne id="ne453" AAgf="poss" >
+      <nphead id="AAh452">
+       <W Lpos="PRP$" Lhead="3" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh453">
+      <W Lpos="NN" Lhead="1" Lrel="pobj" >flight</W>
+     </nphead>
+    </ne>
+    <ne id="ne454" AAgf="nsubj" >
+     <nphead id="AAh454">
+      <W Lpos="PRP" Lhead="6" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="6" Lrel="aux" >had</W>
+    <W Lpos="VBN" Lhead="0" Lrel="root" >forgotten</W>
+    <ne id="ne455" AAgf="dobj" >
+     <W Lpos="DT" Lhead="10" Lrel="det" >the</W>
+     <W Lpos="RBS" Lhead="9" Lrel="advmod" >most</W>
+     <W Lpos="JJ" Lhead="10" Lrel="amod" >valuable</W>
+     <nphead id="AAh455">
+      <W Lpos="NNS" Lhead="6" Lrel="dobj" >things</W>
+     </nphead>
+     <ne id="ne456" AAgf="nsubj" >
+      <nphead id="AAh456">
+       <W Lpos="PRP" Lhead="12" Lrel="nsubj" >he</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBD" Lhead="10" Lrel="rcmod" >had</W>
+     <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+     <ne id="ne457" AAgf="conj" >
+      <W Lpos="DT" Lhead="16" Lrel="det" >the</W>
+      <W Lpos="JJ" Lhead="16" Lrel="amod" >blue</W>
+      <nphead id="AAh457">
+       <W Lpos="NN" Lhead="10" Lrel="conj" >light</W>
+      </nphead>
+      <W Lpos="CC" Lhead="16" Lrel="cc" >and</W>
+      <ne id="ne458" AAgf="conj" >
+       <W Lpos="DT" Lhead="19" Lrel="det" >the</W>
+       <nphead id="AAh458">
+        <W Lpos="NN" Lhead="16" Lrel="conj" >gold</W>
+       </nphead>
+      </ne>
+     </ne>
+    </ne>
+    <W Lpos="," Lhead="6" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="6" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="6" Lrel="conj" >had</W>
+    <ne id="ne459" AAgf="dobj" >
+     <W Lpos="RB" Lhead="24" Lrel="quantmod" >only</W>
+     <W Lpos="CD" Lhead="25" Lrel="num" >one</W>
+     <nphead id="AAh459">
+      <W Lpos="NN" Lhead="22" Lrel="dobj" >ducat</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="22" Lrel="prep" >in</W>
+    <ne id="ne460" AAgf="pobj" >
+     <ne id="ne461" AAgf="poss" >
+      <nphead id="AAh460">
+       <W Lpos="PRP$" Lhead="28" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh461">
+      <W Lpos="NN" Lhead="26" Lrel="pobj" >pocket</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="6" Lrel="punct" >.</W>
+   </s>
+   <s id="s73">
+    <W Lpos="CC" Lhead="9" Lrel="cc" >And</W>
+    <W Lpos="RB" Lhead="3" Lrel="advmod" >now</W>
+    <W Lpos="VBN" Lhead="9" Lrel="partmod" >loaded</W>
+    <W Lpos="IN" Lhead="3" Lrel="prep" >with</W>
+    <ne id="ne462" AAgf="pobj" >
+     <nphead id="AAh462">
+      <W Lpos="NNS" Lhead="4" Lrel="pobj" >chains</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="9" Lrel="punct" >,</W>
+    <ne id="ne463" AAgf="nsubj" >
+     <nphead id="AAh463">
+      <W Lpos="PRP" Lhead="9" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="9" Lrel="aux" >was</W>
+    <W Lpos="VBG" Lhead="0" Lrel="root" >standing</W>
+    <W Lpos="IN" Lhead="9" Lrel="prep" >at</W>
+    <ne id="ne464" AAgf="pobj" >
+     <W Lpos="DT" Lhead="12" Lrel="det" >the</W>
+     <nphead id="AAh464">
+      <W Lpos="NN" Lhead="10" Lrel="pobj" >window</W>
+     </nphead>
+     <W Lpos="IN" Lhead="12" Lrel="prep" >of</W>
+     <ne id="ne465" AAgf="pobj" >
+      <ne id="ne466" AAgf="poss" >
+       <nphead id="AAh465">
+        <W Lpos="PRP$" Lhead="15" Lrel="poss" >his</W>
+       </nphead>
+      </ne>
+      <nphead id="AAh466">
+       <W Lpos="NN" Lhead="13" Lrel="pobj" >dungeon</W>
+      </nphead>
+      <W Lpos="," Lhead="15" Lrel="punct" >,</W>
+      <W Lpos="WRB" Lhead="19" Lrel="advmod" >when</W>
+      <ne id="ne467" AAgf="nsubj" >
+       <nphead id="AAh467">
+        <W Lpos="PRP" Lhead="19" Lrel="nsubj" >he</W>
+       </nphead>
+      </ne>
+      <W Lpos="VBD" Lhead="15" Lrel="rcmod" >chanced</W>
+      <W Lpos="TO" Lhead="21" Lrel="aux" >to</W>
+      <W Lpos="VB" Lhead="19" Lrel="xcomp" >see</W>
+     </ne>
+    </ne>
+    <ne id="ne468" AAgf="nsubj" >
+     <nphead id="AAh468">
+      <W Lpos="CD" Lhead="26" Lrel="nsubj" >one</W>
+     </nphead>
+     <W Lpos="IN" Lhead="22" Lrel="prep" >of</W>
+     <ne id="ne469" AAgf="pobj" >
+      <ne id="ne470" AAgf="poss" >
+       <nphead id="AAh469">
+        <W Lpos="PRP$" Lhead="25" Lrel="poss" >his</W>
+       </nphead>
+      </ne>
+      <nphead id="AAh470">
+       <W Lpos="NNS" Lhead="23" Lrel="pobj" >comrades</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="VBG" Lhead="21" Lrel="dep" >passing</W>
+    <W Lpos="IN" Lhead="26" Lrel="prt" >by</W>
+    <W Lpos="." Lhead="9" Lrel="punct" >.</W>
+   </s>
+   <s id="s74">
+    <ne id="ne471" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="2" Lrel="det" >The</W>
+     <nphead id="AAh471">
+      <W Lpos="NN" Lhead="3" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >tapped</W>
+    <W Lpos="IN" Lhead="3" Lrel="prep" >at</W>
+    <ne id="ne472" AAgf="pobj" >
+     <W Lpos="DT" Lhead="6" Lrel="det" >the</W>
+     <nphead id="AAh472">
+      <W Lpos="NN" Lhead="4" Lrel="pobj" >pane</W>
+     </nphead>
+     <W Lpos="IN" Lhead="6" Lrel="prep" >of</W>
+     <ne id="ne473" AAgf="pobj" >
+      <nphead id="AAh473">
+       <W Lpos="NN" Lhead="7" Lrel="pobj" >glass</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="," Lhead="3" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="3" Lrel="cc" >and</W>
+    <W Lpos="WRB" Lhead="14" Lrel="advmod" >when</W>
+    <ne id="ne474" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="13" Lrel="det" >this</W>
+     <nphead id="AAh474">
+      <W Lpos="NN" Lhead="14" Lrel="nsubj" >man</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="24" Lrel="advcl" >came</W>
+    <W Lpos="RP" Lhead="14" Lrel="prt" >up</W>
+    <W Lpos="," Lhead="17" Lrel="punct" >,</W>
+    <W Lpos="VBD" Lhead="3" Lrel="conj" >said</W>
+    <W Lpos="TO" Lhead="17" Lrel="prep" >to</W>
+    <ne id="ne475" AAgf="pobj" >
+     <nphead id="AAh475">
+      <W Lpos="PRP" Lhead="18" Lrel="pobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos=":" Lhead="17" Lrel="punct" >:</W>
+    <W Lpos="``" Lhead="17" Lrel="punct" >&apos;</W>
+    <W Lpos="VB" Lhead="24" Lrel="cop" >Be</W>
+    <W Lpos="RB" Lhead="24" Lrel="advmod" >so</W>
+    <W Lpos="RB" Lhead="17" Lrel="ccomp" >kind</W>
+    <W Lpos="IN" Lhead="27" Lrel="mark" >as</W>
+    <W Lpos="TO" Lhead="27" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="24" Lrel="dep" >fetch</W>
+    <ne id="ne476" AAgf="iobj" >
+     <nphead id="AAh476">
+      <W Lpos="PRP" Lhead="27" Lrel="iobj" >me</W>
+     </nphead>
+    </ne>
+    <ne id="ne477" AAgf="dobj" >
+     <W Lpos="DT" Lhead="31" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="31" Lrel="amod" >small</W>
+     <nphead id="AAh477">
+      <W Lpos="NN" Lhead="27" Lrel="dobj" >bundle</W>
+     </nphead>
+     <ne id="ne478" AAgf="nsubj" >
+      <nphead id="AAh478">
+       <W Lpos="PRP" Lhead="34" Lrel="nsubj" >I</W>
+      </nphead>
+     </ne>
+     <W Lpos="VBP" Lhead="34" Lrel="aux" >have</W>
+     <W Lpos="VBN" Lhead="31" Lrel="rcmod" >left</W>
+     <W Lpos="VBG" Lhead="34" Lrel="xcomp" >lying</W>
+     <W Lpos="IN" Lhead="35" Lrel="prep" >in</W>
+     <ne id="ne479" AAgf="pobj" >
+      <W Lpos="DT" Lhead="38" Lrel="det" >the</W>
+      <nphead id="AAh479">
+       <W Lpos="NN" Lhead="36" Lrel="pobj" >inn</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="," Lhead="24" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="24" Lrel="cc" >and</W>
+    <ne id="ne480" AAgf="nsubj" >
+     <nphead id="AAh480">
+      <W Lpos="PRP" Lhead="43" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="43" Lrel="aux" >will</W>
+    <W Lpos="VB" Lhead="24" Lrel="conj" >give</W>
+    <ne id="ne481" AAgf="iobj" >
+     <nphead id="AAh481">
+      <W Lpos="PRP" Lhead="43" Lrel="iobj" >you</W>
+     </nphead>
+    </ne>
+    <ne id="ne482" AAgf="dobj" >
+     <W Lpos="DT" Lhead="46" Lrel="det" >a</W>
+     <nphead id="AAh482">
+      <W Lpos="NN" Lhead="43" Lrel="dobj" >ducat</W>
+     </nphead>
+     <W Lpos="IN" Lhead="46" Lrel="prep" >for</W>
+     <W Lpos="VBG" Lhead="47" Lrel="pcomp" >doing</W>
+     <ne id="ne483" AAgf="dobj" >
+      <nphead id="AAh483">
+       <W Lpos="PRP" Lhead="48" Lrel="dobj" >it</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="3" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s75">
+    <ne id="ne484" AAgf="nsubj" >
+     <ne id="ne485" AAgf="poss" >
+      <nphead id="AAh484">
+       <W Lpos="PRP$" Lhead="2" Lrel="poss" >His</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh485">
+      <W Lpos="NN" Lhead="3" Lrel="nsubj" >comrade</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >ran</W>
+    <W Lpos="RB" Lhead="3" Lrel="advmod" >thither</W>
+    <W Lpos="CC" Lhead="3" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="3" Lrel="conj" >brought</W>
+    <ne id="ne486" AAgf="dobj" >
+     <nphead id="AAh486">
+      <W Lpos="PRP" Lhead="6" Lrel="dobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="WP" Lhead="10" Lrel="dobj" >what</W>
+    <ne id="ne487" AAgf="nsubj" >
+     <nphead id="AAh487">
+      <W Lpos="PRP" Lhead="10" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="6" Lrel="ccomp" >wanted</W>
+    <W Lpos="." Lhead="3" Lrel="punct" >.</W>
+   </s>
+   <s id="s76">
+    <W Lpos="RB" Lhead="2" Lrel="advmod" >As</W>
+    <W Lpos="RB" Lhead="11" Lrel="advmod" >soon</W>
+    <W Lpos="IN" Lhead="6" Lrel="mark" >as</W>
+    <ne id="ne488" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="5" Lrel="det" >the</W>
+     <nphead id="AAh488">
+      <W Lpos="NN" Lhead="6" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="2" Lrel="ccomp" >was</W>
+    <W Lpos="RB" Lhead="2" Lrel="ccomp" >alone</W>
+    <W Lpos="RB" Lhead="6" Lrel="advmod" >again</W>
+    <W Lpos="," Lhead="11" Lrel="punct" >,</W>
+    <ne id="ne489" AAgf="nsubj" >
+     <nphead id="AAh489">
+      <W Lpos="PRP" Lhead="11" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >lighted</W>
+    <ne id="ne490" AAgf="dobj" >
+     <ne id="ne491" AAgf="poss" >
+      <nphead id="AAh490">
+       <W Lpos="PRP$" Lhead="13" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh491">
+      <W Lpos="NN" Lhead="11" Lrel="dobj" >pipe</W>
+     </nphead>
+    </ne>
+    <W Lpos="CC" Lhead="11" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="11" Lrel="conj" >summoned</W>
+    <ne id="ne492" AAgf="dobj" >
+     <W Lpos="DT" Lhead="18" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="18" Lrel="amod" >black</W>
+     <nphead id="AAh492">
+      <W Lpos="NN" Lhead="15" Lrel="dobj" >manikin</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="11" Lrel="punct" >.</W>
+   </s>
+   <s id="s77">
+    <W Lpos="``" Lhead="7" Lrel="punct" >&apos;</W>
+    <W Lpos="VBP" Lhead="7" Lrel="ccomp" >Have</W>
+    <ne id="ne493" AAgf="dobj" >
+     <W Lpos="DT" Lhead="4" Lrel="det" >no</W>
+     <nphead id="AAh493">
+      <W Lpos="NN" Lhead="2" Lrel="dobj" >fear</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="7" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="7" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >said</W>
+    <ne id="ne494" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="9" Lrel="det" >the</W>
+     <nphead id="AAh494">
+      <W Lpos="JJ" Lhead="7" Lrel="nsubj" >latter</W>
+     </nphead>
+     <W Lpos="TO" Lhead="9" Lrel="prep" >to</W>
+     <ne id="ne495" AAgf="pobj" >
+      <ne id="ne496" AAgf="poss" >
+       <nphead id="AAh495">
+        <W Lpos="PRP$" Lhead="12" Lrel="poss" >his</W>
+       </nphead>
+      </ne>
+      <nphead id="AAh496">
+       <W Lpos="NN" Lhead="10" Lrel="pobj" >master</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="." Lhead="7" Lrel="punct" >.</W>
+   </s>
+   <s id="s78">
+    <W Lpos="``" Lhead="2" Lrel="punct" >&apos;</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >Go</W>
+    <W Lpos="JJR" Lhead="2" Lrel="acomp" >wheresoever</W>
+    <ne id="ne497" AAgf="nsubj" >
+     <nphead id="AAh497">
+      <W Lpos="PRP" Lhead="5" Lrel="nsubj" >they</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBP" Lhead="2" Lrel="ccomp" >take</W>
+    <ne id="ne498" AAgf="dobj" >
+     <nphead id="AAh498">
+      <W Lpos="PRP" Lhead="5" Lrel="dobj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="5" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="5" Lrel="cc" >and</W>
+    <W Lpos="VB" Lhead="5" Lrel="conj" >let</W>
+    <ne id="ne499" AAgf="nsubj" >
+     <nphead id="AAh499">
+      <W Lpos="PRP" Lhead="11" Lrel="nsubj" >them</W>
+     </nphead>
+    </ne>
+    <W Lpos="VB" Lhead="9" Lrel="ccomp" >do</W>
+    <W Lpos="WP" Lhead="14" Lrel="dobj" >what</W>
+    <ne id="ne500" AAgf="nsubj" >
+     <nphead id="AAh500">
+      <W Lpos="PRP" Lhead="14" Lrel="nsubj" >they</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="11" Lrel="ccomp" >will</W>
+    <W Lpos="," Lhead="5" Lrel="punct" >,</W>
+    <W Lpos="RB" Lhead="17" Lrel="advmod" >only</W>
+    <W Lpos="VB" Lhead="11" Lrel="ccomp" >take</W>
+    <ne id="ne501" AAgf="dobj" >
+     <W Lpos="DT" Lhead="20" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="20" Lrel="amod" >blue</W>
+     <nphead id="AAh501">
+      <W Lpos="NN" Lhead="17" Lrel="dobj" >light</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="17" Lrel="prep" >with</W>
+    <ne id="ne502" AAgf="pobj" >
+     <nphead id="AAh502">
+      <W Lpos="PRP" Lhead="21" Lrel="pobj" >you</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="2" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="2" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s79">
+    <ne id="ne503" AAgf="tmod" >
+     <W Lpos="JJ" Lhead="2" Lrel="amod" >Next</W>
+     <nphead id="AAh503">
+      <W Lpos="NN" Lhead="6" Lrel="tmod" >day</W>
+     </nphead>
+    </ne>
+    <ne id="ne504" AAgf="nsubjpass" >
+     <W Lpos="DT" Lhead="4" Lrel="det" >the</W>
+     <nphead id="AAh504">
+      <W Lpos="NN" Lhead="6" Lrel="nsubjpass" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="6" Lrel="auxpass" >was</W>
+    <W Lpos="VBN" Lhead="0" Lrel="root" >tried</W>
+    <W Lpos="," Lhead="6" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="6" Lrel="cc" >and</W>
+    <W Lpos="IN" Lhead="12" Lrel="mark" >though</W>
+    <ne id="ne505" AAgf="nsubj" >
+     <nphead id="AAh505">
+      <W Lpos="PRP" Lhead="12" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="12" Lrel="aux" >had</W>
+    <W Lpos="VBN" Lhead="18" Lrel="advcl" >done</W>
+    <ne id="ne506" AAgf="dobj" >
+     <nphead id="AAh506">
+      <W Lpos="NN" Lhead="12" Lrel="dobj" >nothing</W>
+     </nphead>
+     <W Lpos="JJ" Lhead="13" Lrel="amod" >wicked</W>
+    </ne>
+    <W Lpos="," Lhead="18" Lrel="punct" >,</W>
+    <ne id="ne507" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="17" Lrel="det" >the</W>
+     <nphead id="AAh507">
+      <W Lpos="NN" Lhead="18" Lrel="nsubj" >judge</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="6" Lrel="conj" >condemned</W>
+    <ne id="ne508" AAgf="dobj" >
+     <nphead id="AAh508">
+      <W Lpos="PRP" Lhead="18" Lrel="dobj" >him</W>
+     </nphead>
+    </ne>
+    <W Lpos="TO" Lhead="18" Lrel="prep" >to</W>
+    <ne id="ne509" AAgf="pobj" >
+     <nphead id="AAh509">
+      <W Lpos="NN" Lhead="20" Lrel="pobj" >death</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="6" Lrel="punct" >.</W>
+   </s>
+   <s id="s80">
+    <W Lpos="WRB" Lhead="4" Lrel="advmod" >When</W>
+    <ne id="ne510" AAgf="nsubjpass" >
+     <nphead id="AAh510">
+      <W Lpos="PRP" Lhead="4" Lrel="nsubjpass" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="4" Lrel="auxpass" >was</W>
+    <W Lpos="VBN" Lhead="10" Lrel="advcl" >led</W>
+    <W Lpos="RB" Lhead="4" Lrel="advmod" >forth</W>
+    <W Lpos="TO" Lhead="7" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="4" Lrel="xcomp" >die</W>
+    <W Lpos="," Lhead="10" Lrel="punct" >,</W>
+    <ne id="ne511" AAgf="nsubj" >
+     <nphead id="AAh511">
+      <W Lpos="PRP" Lhead="10" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >begged</W>
+    <ne id="ne512" AAgf="dobj" >
+     <W Lpos="DT" Lhead="13" Lrel="det" >a</W>
+     <W Lpos="JJ" Lhead="13" Lrel="amod" >last</W>
+     <nphead id="AAh512">
+      <W Lpos="NN" Lhead="10" Lrel="dobj" >favour</W>
+     </nphead>
+     <W Lpos="IN" Lhead="13" Lrel="prep" >of</W>
+     <ne id="ne513" AAgf="pobj" >
+      <W Lpos="DT" Lhead="16" Lrel="det" >the</W>
+      <nphead id="AAh513">
+       <W Lpos="NN" Lhead="14" Lrel="pobj" >king</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="." Lhead="10" Lrel="punct" >.</W>
+   </s>
+   <s id="s81">
+    <W Lpos="``" Lhead="3" Lrel="punct" >&apos;</W>
+    <W Lpos="WP" Lhead="3" Lrel="dep" >What</W>
+    <W Lpos="VBZ" Lhead="0" Lrel="root" >is</W>
+    <ne id="ne514" AAgf="nsubj" >
+     <nphead id="AAh514">
+      <W Lpos="PRP" Lhead="3" Lrel="nsubj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="3" Lrel="punct" >?</W>
+    <W Lpos="''" Lhead="3" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s82">
+    <W Lpos="VBD" Lhead="0" Lrel="root" >asked</W>
+    <ne id="ne515" AAgf="dobj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >the</W>
+     <nphead id="AAh515">
+      <W Lpos="NN" Lhead="1" Lrel="dobj" >king</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="1" Lrel="punct" >.</W>
+   </s>
+   <s id="s83">
+    <W Lpos="``" Lhead="5" Lrel="punct" >&apos;</W>
+    <W Lpos="IN" Lhead="5" Lrel="mark" >That</W>
+    <ne id="ne516" AAgf="nsubj" >
+     <nphead id="AAh516">
+      <W Lpos="PRP" Lhead="5" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="5" Lrel="aux" >may</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >smoke</W>
+    <ne id="ne517" AAgf="dobj" >
+     <W Lpos="CD" Lhead="8" Lrel="num" >one</W>
+     <W Lpos="JJR" Lhead="8" Lrel="amod" >more</W>
+     <nphead id="AAh517">
+      <W Lpos="NN" Lhead="5" Lrel="dobj" >pipe</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="5" Lrel="prep" >on</W>
+    <ne id="ne518" AAgf="pobj" >
+     <ne id="ne519" AAgf="poss" >
+      <nphead id="AAh518">
+       <W Lpos="PRP$" Lhead="11" Lrel="poss" >my</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh519">
+      <W Lpos="NN" Lhead="9" Lrel="pobj" >way</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="5" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="5" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s84">
+    <W Lpos="``" Lhead="4" Lrel="punct" >&apos;</W>
+    <ne id="ne520" AAgf="nsubj" >
+     <nphead id="AAh520">
+      <W Lpos="PRP" Lhead="4" Lrel="nsubj" >You</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="4" Lrel="aux" >may</W>
+    <W Lpos="VB" Lhead="0" Lrel="root" >smoke</W>
+    <ne id="ne521" AAgf="dobj" >
+     <nphead id="AAh521">
+      <W Lpos="CD" Lhead="4" Lrel="dobj" >three</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="4" Lrel="punct" >,</W>
+    <W Lpos="''" Lhead="8" Lrel="punct" >&apos;</W>
+    <W Lpos="VBD" Lhead="4" Lrel="dep" >answered</W>
+    <ne id="ne522" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="10" Lrel="det" >the</W>
+     <nphead id="AAh522">
+      <W Lpos="NN" Lhead="8" Lrel="nsubj" >king</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="4" Lrel="punct" >,</W>
+    <W Lpos="``" Lhead="4" Lrel="punct" >&apos;</W>
+    <W Lpos="CC" Lhead="4" Lrel="cc" >but</W>
+    <W Lpos="VBP" Lhead="16" Lrel="aux" >do</W>
+    <W Lpos="RB" Lhead="16" Lrel="neg" >not</W>
+    <W Lpos="VB" Lhead="4" Lrel="conj" >imagine</W>
+    <W Lpos="IN" Lhead="20" Lrel="mark" >that</W>
+    <ne id="ne523" AAgf="nsubj" >
+     <nphead id="AAh523">
+      <W Lpos="PRP" Lhead="20" Lrel="nsubj" >I</W>
+     </nphead>
+    </ne>
+    <W Lpos="MD" Lhead="20" Lrel="aux" >will</W>
+    <W Lpos="VB" Lhead="16" Lrel="ccomp" >spare</W>
+    <ne id="ne524" AAgf="dobj" >
+     <ne id="ne525" AAgf="poss" >
+      <nphead id="AAh524">
+       <W Lpos="PRP$" Lhead="22" Lrel="poss" >your</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh525">
+      <W Lpos="NN" Lhead="20" Lrel="dobj" >life</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="4" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="4" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s85">
+    <W Lpos="RB" Lhead="4" Lrel="advmod" >Then</W>
+    <ne id="ne526" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >the</W>
+     <nphead id="AAh526">
+      <W Lpos="NN" Lhead="4" Lrel="nsubj" >soldier</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >pulled</W>
+    <W Lpos="RP" Lhead="4" Lrel="prt" >out</W>
+    <ne id="ne527" AAgf="dobj" >
+     <ne id="ne528" AAgf="poss" >
+      <nphead id="AAh527">
+       <W Lpos="PRP$" Lhead="7" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh528">
+      <W Lpos="NN" Lhead="4" Lrel="dobj" >pipe</W>
+     </nphead>
+    </ne>
+    <W Lpos="CC" Lhead="4" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="4" Lrel="conj" >lighted</W>
+    <ne id="ne529" AAgf="dobj" >
+     <nphead id="AAh529">
+      <W Lpos="PRP" Lhead="9" Lrel="dobj" >it</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="9" Lrel="prep" >at</W>
+    <ne id="ne530" AAgf="pobj" >
+     <W Lpos="DT" Lhead="14" Lrel="det" >the</W>
+     <W Lpos="JJ" Lhead="14" Lrel="amod" >blue</W>
+     <nphead id="AAh530">
+      <W Lpos="NN" Lhead="11" Lrel="pobj" >light</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="4" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="4" Lrel="cc" >and</W>
+    <W Lpos="RB" Lhead="18" Lrel="advmod" >as</W>
+    <W Lpos="RB" Lhead="30" Lrel="advmod" >soon</W>
+    <W Lpos="IN" Lhead="26" Lrel="mark" >as</W>
+    <ne id="ne531" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="22" Lrel="det" >a</W>
+     <W Lpos="JJ" Lhead="22" Lrel="amod" >few</W>
+     <nphead id="AAh531">
+      <W Lpos="NNS" Lhead="26" Lrel="nsubj" >wreaths</W>
+     </nphead>
+     <W Lpos="IN" Lhead="22" Lrel="prep" >of</W>
+     <ne id="ne532" AAgf="pobj" >
+      <nphead id="AAh532">
+       <W Lpos="NN" Lhead="23" Lrel="pobj" >smoke</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="VBD" Lhead="26" Lrel="aux" >had</W>
+    <W Lpos="VBN" Lhead="18" Lrel="ccomp" >ascended</W>
+    <W Lpos="," Lhead="30" Lrel="punct" >,</W>
+    <ne id="ne533" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="29" Lrel="det" >the</W>
+     <nphead id="AAh533">
+      <W Lpos="NN" Lhead="30" Lrel="nsubj" >manikin</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="4" Lrel="conj" >was</W>
+    <W Lpos="RB" Lhead="30" Lrel="advmod" >there</W>
+    <W Lpos="IN" Lhead="30" Lrel="prep" >with</W>
+    <ne id="ne534" AAgf="pobj" >
+     <W Lpos="DT" Lhead="35" Lrel="det" >a</W>
+     <W Lpos="JJ" Lhead="35" Lrel="amod" >small</W>
+     <nphead id="AAh534">
+      <W Lpos="NN" Lhead="32" Lrel="pobj" >cudgel</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="30" Lrel="prep" >in</W>
+    <ne id="ne535" AAgf="pobj" >
+     <ne id="ne536" AAgf="poss" >
+      <nphead id="AAh535">
+       <W Lpos="PRP$" Lhead="38" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh536">
+      <W Lpos="NN" Lhead="36" Lrel="pobj" >hand</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="4" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="4" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="4" Lrel="conj" >said</W>
+    <W Lpos=":" Lhead="41" Lrel="punct" >:</W>
+    <W Lpos="``" Lhead="41" Lrel="punct" >&apos;</W>
+    <ne id="ne537" AAgf="ccomp" >
+     <W Lpos="WP" Lhead="48" Lrel="dobj" >What</W>
+     <W Lpos="VBZ" Lhead="48" Lrel="aux" >does</W>
+     <ne id="ne538" AAgf="poss" >
+      <nphead id="AAh537">
+       <W Lpos="PRP$" Lhead="48" Lrel="poss" >my</W>
+      </nphead>
+     </ne>
+     <W Lpos="NN" Lhead="48" Lrel="nn" >lord</W>
+     <nphead id="AAh538">
+      <W Lpos="NN" Lhead="41" Lrel="ccomp" >command</W>
+     </nphead>
+    </ne>
+    <W Lpos="." Lhead="4" Lrel="punct" >?</W>
+    <W Lpos="''" Lhead="4" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s86">
+    <W Lpos="``" Lhead="2" Lrel="punct" >&apos;</W>
+    <ne id="ne539" AAgf="root" >
+     <nphead id="AAh539">
+      <W Lpos="NN" Lhead="0" Lrel="root" >Strike</W>
+     </nphead>
+     <W Lpos="IN" Lhead="2" Lrel="prep" >down</W>
+     <W Lpos="TO" Lhead="3" Lrel="prep" >to</W>
+     <ne id="ne540" AAgf="pobj" >
+      <nphead id="AAh540">
+       <W Lpos="NN" Lhead="4" Lrel="pobj" >earth</W>
+      </nphead>
+     </ne>
+     <ne id="ne541" AAgf="dobj" >
+      <W Lpos="IN" Lhead="8" Lrel="det" >that</W>
+      <W Lpos="JJ" Lhead="8" Lrel="amod" >false</W>
+      <nphead id="AAh541">
+       <W Lpos="NN" Lhead="2" Lrel="dobj" >judge</W>
+      </nphead>
+      <W Lpos="RB" Lhead="8" Lrel="advmod" >there</W>
+      <W Lpos="," Lhead="8" Lrel="punct" >,</W>
+      <W Lpos="CC" Lhead="8" Lrel="cc" >and</W>
+      <ne id="ne542" AAgf="conj" >
+       <ne id="ne543" AAgf="poss" >
+        <nphead id="AAh542">
+         <W Lpos="PRP$" Lhead="13" Lrel="poss" >his</W>
+        </nphead>
+       </ne>
+       <nphead id="AAh543">
+        <W Lpos="NN" Lhead="2" Lrel="conj" >constable</W>
+       </nphead>
+      </ne>
+      <W Lpos="," Lhead="2" Lrel="punct" >,</W>
+      <W Lpos="CC" Lhead="9" Lrel="cc" >and</W>
+      <W Lpos="JJ" Lhead="9" Lrel="conj" >spare</W>
+     </ne>
+     <W Lpos="RB" Lhead="19" Lrel="neg" >not</W>
+     <ne id="ne544" AAgf="conj" >
+      <W Lpos="DT" Lhead="19" Lrel="det" >the</W>
+      <nphead id="AAh544">
+       <W Lpos="NN" Lhead="2" Lrel="conj" >king</W>
+      </nphead>
+      <W Lpos="WP" Lhead="22" Lrel="nsubj" >who</W>
+      <W Lpos="VBZ" Lhead="22" Lrel="aux" >has</W>
+      <W Lpos="VBN" Lhead="19" Lrel="rcmod" >treated</W>
+      <ne id="ne545" AAgf="nsubj" >
+       <nphead id="AAh545">
+        <W Lpos="PRP" Lhead="25" Lrel="nsubj" >me</W>
+       </nphead>
+      </ne>
+      <W Lpos="RB" Lhead="25" Lrel="advmod" >so</W>
+      <W Lpos="JJ" Lhead="22" Lrel="xcomp" >ill</W>
+     </ne>
+    </ne>
+    <W Lpos="." Lhead="2" Lrel="punct" >.</W>
+    <W Lpos="''" Lhead="2" Lrel="punct" >&apos;</W>
+   </s>
+   <s id="s87">
+    <W Lpos="RB" Lhead="4" Lrel="advmod" >Then</W>
+    <ne id="ne546" AAgf="nsubj" >
+     <W Lpos="DT" Lhead="3" Lrel="det" >the</W>
+     <nphead id="AAh546">
+      <W Lpos="NN" Lhead="4" Lrel="nsubj" >manikin</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="0" Lrel="root" >fell</W>
+    <W Lpos="IN" Lhead="4" Lrel="prep" >on</W>
+    <ne id="ne547" AAgf="pobj" >
+     <nphead id="AAh547">
+      <W Lpos="PRP" Lhead="5" Lrel="pobj" >them</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="4" Lrel="prep" >like</W>
+    <ne id="ne548" AAgf="pobj" >
+     <nphead id="AAh548">
+      <W Lpos="NN" Lhead="7" Lrel="pobj" >lightning</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="4" Lrel="punct" >,</W>
+    <W Lpos="VBG" Lhead="4" Lrel="xcomp" >darting</W>
+    <ne id="ne549" AAgf="dobj" >
+     <W Lpos="DT" Lhead="12" Lrel="det" >this</W>
+     <nphead id="AAh549">
+      <W Lpos="NN" Lhead="10" Lrel="dobj" >way</W>
+     </nphead>
+     <W Lpos="CC" Lhead="12" Lrel="cc" >and</W>
+     <ne id="ne550" AAgf="conj" >
+      <W Lpos="DT" Lhead="15" Lrel="det" >that</W>
+      <nphead id="AAh550">
+       <W Lpos="NN" Lhead="12" Lrel="conj" >way</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="," Lhead="4" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="4" Lrel="cc" >and</W>
+    <ne id="ne551" AAgf="nsubjpass" >
+     <nphead id="AAh551">
+      <W Lpos="NN" Lhead="23" Lrel="nsubjpass" >whosoever</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="23" Lrel="auxpass" >was</W>
+    <W Lpos="RB" Lhead="21" Lrel="advmod" >so</W>
+    <W Lpos="JJ" Lhead="4" Lrel="conj" >much</W>
+    <W Lpos="IN" Lhead="23" Lrel="mark" >as</W>
+    <W Lpos="VBN" Lhead="21" Lrel="ccomp" >touched</W>
+    <W Lpos="IN" Lhead="23" Lrel="prep" >by</W>
+    <ne id="ne552" AAgf="pobj" >
+     <ne id="ne553" AAgf="poss" >
+      <nphead id="AAh552">
+       <W Lpos="PRP$" Lhead="26" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh553">
+      <W Lpos="NN" Lhead="24" Lrel="pobj" >cudgel</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="21" Lrel="ccomp" >fell</W>
+    <W Lpos="TO" Lhead="27" Lrel="prep" >to</W>
+    <ne id="ne554" AAgf="pobj" >
+     <nphead id="AAh554">
+      <W Lpos="NN" Lhead="28" Lrel="pobj" >earth</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="23" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="23" Lrel="cc" >and</W>
+    <W Lpos="VBD" Lhead="34" Lrel="aux" >did</W>
+    <W Lpos="RB" Lhead="34" Lrel="neg" >not</W>
+    <W Lpos="VB" Lhead="23" Lrel="conj" >venture</W>
+    <W Lpos="TO" Lhead="36" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="34" Lrel="xcomp" >stir</W>
+    <W Lpos="RB" Lhead="36" Lrel="advmod" >again</W>
+    <W Lpos="." Lhead="4" Lrel="punct" >.</W>
+   </s>
+   <s id="s88">
+    <ne id="ne555" AAgf="nsubjpass" >
+     <W Lpos="DT" Lhead="2" Lrel="det" >The</W>
+     <nphead id="AAh555">
+      <W Lpos="NN" Lhead="4" Lrel="nsubjpass" >king</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="4" Lrel="auxpass" >was</W>
+    <W Lpos="VBN" Lhead="0" Lrel="root" >terrified</W>
+    <W Lpos=":" Lhead="4" Lrel="punct" >;</W>
+    <ne id="ne556" AAgf="nsubj" >
+     <nphead id="AAh556">
+      <W Lpos="PRP" Lhead="7" Lrel="nsubj" >he</W>
+     </nphead>
+    </ne>
+    <W Lpos="VBD" Lhead="4" Lrel="parataxis" >threw</W>
+    <ne id="ne557" AAgf="dobj" >
+     <nphead id="AAh557">
+      <W Lpos="PRP" Lhead="7" Lrel="dobj" >himself</W>
+     </nphead>
+    </ne>
+    <W Lpos="IN" Lhead="7" Lrel="prep" >on</W>
+    <ne id="ne558" AAgf="pobj" >
+     <ne id="ne559" AAgf="poss" >
+      <W Lpos="DT" Lhead="11" Lrel="det" >the</W>
+      <nphead id="AAh558">
+       <W Lpos="NN" Lhead="13" Lrel="poss" >soldier</W>
+      </nphead>
+      <W Lpos="POS" Lhead="11" Lrel="possessive" >&apos;s</W>
+     </ne>
+     <nphead id="AAh559">
+      <W Lpos="NN" Lhead="9" Lrel="pobj" >mercy</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="7" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="7" Lrel="cc" >and</W>
+    <W Lpos="RB" Lhead="19" Lrel="advmod" >merely</W>
+    <W Lpos="TO" Lhead="19" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="19" Lrel="auxpass" >be</W>
+    <W Lpos="VBN" Lhead="7" Lrel="conj" >allowed</W>
+    <W Lpos="TO" Lhead="21" Lrel="aux" >to</W>
+    <W Lpos="VB" Lhead="19" Lrel="xcomp" >live</W>
+    <W Lpos="IN" Lhead="21" Lrel="advmod" >at</W>
+    <ne id="ne560" AAgf="pobj" >
+     <nphead id="AAh560">
+      <W Lpos="DT" Lhead="22" Lrel="pobj" >all</W>
+     </nphead>
+    </ne>
+    <W Lpos="," Lhead="19" Lrel="punct" >,</W>
+    <W Lpos="VBD" Lhead="7" Lrel="conj" >gave</W>
+    <ne id="ne561" AAgf="iobj" >
+     <nphead id="AAh561">
+      <W Lpos="PRP" Lhead="25" Lrel="iobj" >him</W>
+     </nphead>
+    </ne>
+    <ne id="ne562" AAgf="dobj" >
+     <ne id="ne563" AAgf="poss" >
+      <nphead id="AAh562">
+       <W Lpos="PRP$" Lhead="28" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh563">
+      <W Lpos="NN" Lhead="25" Lrel="dobj" >kingdom</W>
+     </nphead>
+     <W Lpos="IN" Lhead="28" Lrel="prep" >for</W>
+     <ne id="ne564" AAgf="poss" >
+      <nphead id="AAh564">
+       <W Lpos="PRP$" Lhead="31" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <W Lpos="JJ" Lhead="29" Lrel="pobj" >own</W>
+    </ne>
+    <W Lpos="," Lhead="28" Lrel="punct" >,</W>
+    <W Lpos="CC" Lhead="28" Lrel="cc" >and</W>
+    <ne id="ne565" AAgf="conj" >
+     <ne id="ne566" AAgf="poss" >
+      <nphead id="AAh565">
+       <W Lpos="PRP$" Lhead="35" Lrel="poss" >his</W>
+      </nphead>
+     </ne>
+     <nphead id="AAh566">
+      <W Lpos="NN" Lhead="25" Lrel="conj" >daughter</W>
+     </nphead>
+     <W Lpos="TO" Lhead="35" Lrel="prep" >to</W>
+     <ne id="ne567" AAgf="pobj" >
+      <nphead id="AAh567">
+       <W Lpos="NN" Lhead="36" Lrel="pobj" >wife</W>
+      </nphead>
+     </ne>
+    </ne>
+    <W Lpos="." Lhead="4" Lrel="punct" >.</W>
+   </s>
+  </p>
+ </section>
+</body>
+</gnomedoc>
