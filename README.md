@@ -31,8 +31,8 @@ Useage: java -Xmx5g -cp dalipipeline.jar dali.main.Pipeline [Options]
 | Options | Descriptions |Default|
 | :--- | :--- | :---|
 | --help,-h | Help ||
-| -g \| -w\|-d | The type of the input document, -g: Gutenberg; -w: Wikipedia; -d:DaliDoc |-d |
-| -mate \| -dozat \|-dalitagger | the mention detector you want to use, -mate: DEP MD based on Bohnet and Nivre (2012) -dozat: DEP MD based on Dozat and Manning (2016); -dalitagger: NN MD| -dalitagger|
+| -g \| -w\| -d | The type of the input document, -g: Gutenberg; -w: Wikipedia; -d:DaliDoc |-d |
+| -mate \| -dozat \| -dalitagger | the mention detector you want to use, -mate: DEP MD based on Bohnet and Nivre (2012) -dozat: DEP MD based on Dozat and Manning (2016); -dalitagger: NN MD| -dalitagger|
 |-startFile|If you use the Dozat parser, you need to specify the location of the network.py, or if you use the NN MD this will be the path to the test_pipe.py.|DaliTagger/test_pipe.py |
 |-input \<dir\>|The directory that contains the documents to be processed; |input/|
 |-output \<dir\>	|The directory to output the processed documents; |output/| 
