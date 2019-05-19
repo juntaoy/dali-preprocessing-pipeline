@@ -4,8 +4,8 @@ This is the pre-processing pipeline for Dali (Disagreements and Language Interpr
 project. The tool contains a pre-processing pipeline and a converter developed at Queen 
 Mary University of London for the Dali project. The details of the tool is partially discripted in the section 3 of the following paper:
 
-Crowdsourcing and Aggregating Nested Markable Annotations.
-Chris Madge, Silviu Paun, Juntao Yu, Udo Kruschwitz and Massimo Poesio.
+Crowdsourcing and Aggregating Nested Markable Annotations.  
+Chris Madge, Silviu Paun, Juntao Yu, Udo Kruschwitz and Massimo Poesio.  
 In ACL 2019
 
 ## Pre-processing Pipeline
