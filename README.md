@@ -4,9 +4,9 @@ This is the pre-processing pipeline for Dali (Disagreements and Language Interpr
 project. The tool contains a pre-processing pipeline and a converter developed at Queen 
 Mary University of London for the Dali project. The details of the tool is partially discripted in the section 3 of the following paper:
 
-Crowdsourcing and Aggregating Nested Markable Annotations.  
-Chris Madge, Silviu Paun, Juntao Yu, Udo Kruschwitz and Massimo Poesio.  
-In ACL 2019
+**Crowdsourcing and Aggregating Nested Markable Annotations**  
+Chris Madge, Silviu Paun, Juntao Yu, Udo Kruschwitz and Massimo Poesio  
+In *Proceedings of the The 57th Annual Meeting of the Association for Computational Linguistics (ACL)*,2019
 
 ## Pre-processing Pipeline
 
@@ -23,6 +23,12 @@ The mention detection part of the pipeline contains two main approaches:
 The first approach is a rule-based mention extractor based on a dependency parser, we refer to as DEP MD. For choice of the parers, we support two parsers (Mate/Dozat).  The Mate parser is fully included in the dalipipeline-all-inclusive.jar pretrained models can also be downloaded from [this link](https://drive.google.com/file/d/1LZJSKt8Tgkzclv_27jjOdtqAY83naeRw/view?usp=sharing). If you'd like to use Dozat parser, please follow the instructions of [this link](https://github.com/tdozat/Parser-v1) and download the model and the word embeddings. Please test that parser first to make sure it works.
 
 The second approach based on a neural network based mention extractor (NN MD). The pretrained models can be download [here](https://drive.google.com/file/d/1eIBBvIvkfbQyjJLSMbZYExnpguztANXf/view?usp=sharing)
+
+The NN MD has also been used for mention detection in the [shared task](http://dali.eecs.qmul.ac.uk/crac18_shared_task) hosted at the First Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC). Results are presented in the following paper:
+
+**[Anaphora Resolution with the ARRAU Corpus](https://www.aclweb.org/anthology/papers/W/W18/W18-0702/)**  
+Massimo Poesio, Yulia Grishina, Varada Kolhatkar, Nafise Moosavi, Ina Roesiger, Adam Roussel, Fabian Simonjetz, Alexandra Uma, Olga Uryupina, Juntao Yu, Heike Zinsmeister  
+In *Proceedings of the First Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC)*, 2018
 
 Here is the usage of the pipeline:
 
