@@ -24,7 +24,7 @@ The mention detection part of the pipeline contains two main approaches:
 
 The first approach is a rule-based mention detector based on a dependency parser, we refer to as DEP MD. For choice of the parers, we support two parsers (Mate/Dozat).  
 
-The Mate parser is fully included in the dalipipeline-all-inclusive.jar pre-trained models can also be downloaded from [this link](). 
+The Mate parser is fully included in the dalipipeline-all-inclusive.jar pre-trained models can also be downloaded from [this link](https://www.dropbox.com/s/z3gxn3e6ydyqylw/dalipipelinemodels.zip?dl=0). 
 
 If you'd like to use Dozat parser, please follow the instructions of [this link](https://github.com/tdozat/Parser-v1) and download the model and the word embeddings. Please test that parser first to make sure it works.
 
