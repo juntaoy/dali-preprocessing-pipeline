@@ -24,12 +24,12 @@ The mention detection part of the pipeline contains two main approaches:
 
 The first approach is a rule-based mention detector based on a dependency parser, we refer to as DEP MD. For choice of the parers, we support two parsers (Mate/Dozat).  
 
-The Mate parser is fully included in the dalipipeline-all-inclusive.jar pre-trained models can also be downloaded from [this link](https://drive.google.com/file/d/1LZJSKt8Tgkzclv_27jjOdtqAY83naeRw/view?usp=sharing). 
+The Mate parser is fully included in the dalipipeline-all-inclusive.jar pre-trained models can also be downloaded from [this link](). 
 
 If you'd like to use Dozat parser, please follow the instructions of [this link](https://github.com/tdozat/Parser-v1) and download the model and the word embeddings. Please test that parser first to make sure it works.
 
 ### Neural network based mention detector
-The second approach based on a neural network based mention detector (NN MD). The pretrained models can be download [here](https://drive.google.com/file/d/1eIBBvIvkfbQyjJLSMbZYExnpguztANXf/view?usp=sharing). For more details see the README.md inside the DaliTagger folder.
+The second approach based on a neural network based mention detector (NN MD). The pretrained models can be download [here](). For more details see the [README.md](https://github.com/juntaoy/Dali-preprocessing-pipeline/tree/master/DaliTagger) inside the DaliTagger folder.
 
 The NN MD has also been used for mention detection in the [shared task](http://dali.eecs.qmul.ac.uk/crac18_shared_task) hosted at the First Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC). Results are presented in the following paper:
 
