@@ -5,7 +5,7 @@ project. The tool contains a pre-processing pipeline and a converter developed a
 Mary University of London for the Dali project. The details of the tool is partially discripted in the section 3 of the following paper:
 
 **[Crowdsourcing and Aggregating Nested Markable Annotations](https://aclweb.org/anthology/papers/P/P19/P19-1077/)**  
-Chris Madge, Silviu Paun, Juntao Yu, Udo Kruschwitz and Massimo Poesio  
+Chris Madge, Juntao Yu, Jon Chamberlain, Udo Kruschwitz, Silviu Paun and Massimo Poesio
 In *Proceedings of the The 57th Annual Meeting of the Association for Computational Linguistics (ACL)*,2019
 
 ## Pre-processing Pipeline
