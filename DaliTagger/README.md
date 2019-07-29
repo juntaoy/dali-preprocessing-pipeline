@@ -1,7 +1,7 @@
 # Dali Mention Tagger
 This folder contains the neural mention detector introduced in the following papers:
 
-**Crowdsourcing and Aggregating Nested Markable Annotations**  
+**[Crowdsourcing and Aggregating Nested Markable Annotations](https://aclweb.org/anthology/papers/P/P19/P19-1077/)**  
 Chris Madge, Silviu Paun, Juntao Yu, Udo Kruschwitz and Massimo Poesio  
 In *Proceedings of the The 57th Annual Meeting of the Association for Computational Linguistics (ACL)*, 2019
 
