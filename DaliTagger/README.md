@@ -41,7 +41,7 @@ The tagger itself is a pipeline that first predict the mentions, then assign eac
 * The **head mode** assigns each predicted mentions a mention head
 
 ## To use pre-trained models
-The pre-trained models can be download from [this link](https://www.dropbox.com/s/perxerqcteghiwn/dalinnpipelinemodels.zip?dl=0)
+The pre-trained models can be download from [this link](https://essexuniversity.box.com/s/2hsm50wa05hb13855gwi4vlmp2xxq8jw)
 
 To use the entire pipeline:
 ```
